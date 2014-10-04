@@ -7,7 +7,7 @@ List of lightweight PHP libraries.
   - [Frameworks](#frameworks)
   - [Dependency Injection](#dependency-injection)
   - [Events](#events)
-  - [Validation](#validation)
+  - [Validation and Filtering](#validation-and-filtering)
 
 ## Frameworks
 
@@ -25,6 +25,7 @@ List of lightweight PHP libraries.
 
 * [Événement](https://github.com/igorw/evenement) - Very simple event dispatching library
 
-## Validation
+## Validation and Filtering
 
 * [Valitron](https://github.com/vlucas/valitron) - A simple, elegant, stand-alone validation library
+* [Filterus](https://github.com/ircmaxell/filterus) - A simple filtering library for PHP
