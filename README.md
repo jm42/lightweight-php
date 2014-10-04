@@ -7,6 +7,7 @@ List of lightweight PHP libraries.
   - [Frameworks](#frameworks)
   - [Dependency Injection](#dependency-injection)
   - [Events](#events)
+  - [Routing](#routing)
   - [Validation and Filtering](#validation-and-filtering)
 
 ## Frameworks
@@ -24,6 +25,11 @@ List of lightweight PHP libraries.
 ## Events
 
 * [Événement](https://github.com/igorw/evenement) - Very simple event dispatching library
+
+## Routing
+
+* [FastRoute](https://github.com/nikic/FastRoute) - Fast request router for PHP
+* [Pux](https://github.com/c9s/Pux) - A high performance PHP router
 
 ## Validation and Filtering
 
