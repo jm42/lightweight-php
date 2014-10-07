@@ -94,7 +94,7 @@ class Weight
         $weight = 0;
 
         $iter = new RecursiveIteratorIterator(new \RecursiveDirectoryIterator($dirname));
-        $iter = new RegexIterator($iter, '/^.+\.php$/i', RecursiveRegexIterator::GET_MATCH);
+        $iter = new RegexIterator($iter, '/^((?!Test).)+\.php$/i', RecursiveRegexIterator::GET_MATCH);
 
         foreach ($iter as $filematch) {
             $weight += $this->weightFile($filematch[0]);
