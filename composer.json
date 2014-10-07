@@ -1,0 +1,18 @@
+{
+    "require": {
+        "shield/shield": "dev-master",
+        "pimple/pimple": "dev-master",
+        "rdlowrey/auryn": "dev-master",
+        "orno/di": "dev-master",
+        "chevron/containers": "dev-master",
+        "guide42/suda": "dev-master",
+        "evenement/evenement": "dev-master",
+        "nikic/fast-route": "dev-master",
+        "corneltek/pux": "dev-master",
+        "willdurand/negotiation": "dev-master",
+        "vlucas/valitron": "dev-master",
+        "ircmaxell/filterus": "dev-master",
+        "guide42/plan": "dev-master",
+        "samchristy/piechart": "dev-master"
+    }
+}

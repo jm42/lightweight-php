@@ -1,0 +1,702 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "1385a80e555c564ce7bb1d1e12c21ddb",
+    "packages": [
+        {
+            "name": "chevron/containers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chevronphp/containers.git",
+                "reference": "0d57718ddbeee0630976e59c9498482db26ca4a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chevronphp/containers/zipball/0d57718ddbeee0630976e59c9498482db26ca4a7",
+                "reference": "0d57718ddbeee0630976e59c9498482db26ca4a7",
+                "shasum": ""
+            },
+            "require": {
+                "chevron/objectloader": "~1.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Chevron\\Containers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jon Henderson",
+                    "homepage": "http://github.com/henderjon",
+                    "role": "Developer"
+                }
+            ],
+            "description": "an implementation of the registry pattern for fun and profit",
+            "homepage": "http://github.com/chevronphp/containers",
+            "time": "2014-09-12 03:12:50"
+        },
+        {
+            "name": "chevron/objectloader",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chevronphp/objectloader.git",
+                "reference": "b18ec0ad73cb1b8797a8e27469d1bfad7717e39c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chevronphp/objectloader/zipball/b18ec0ad73cb1b8797a8e27469d1bfad7717e39c",
+                "reference": "b18ec0ad73cb1b8797a8e27469d1bfad7717e39c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Chevron\\ObjectLoader\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jon Henderson",
+                    "homepage": "http://github.com/henderjon",
+                    "role": "Developer"
+                }
+            ],
+            "description": "populate an object by recursively loading files",
+            "homepage": "http://github.com/chevronphp/objectloader",
+            "time": "2014-08-31 04:03:27"
+        },
+        {
+            "name": "corneltek/pux",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/c9s/Pux.git",
+                "reference": "7776cfdd7e4f268fb5aaa781aee406b6d6486f8e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/c9s/Pux/zipball/7776cfdd7e4f268fb5aaa781aee406b6d6486f8e",
+                "reference": "7776cfdd7e4f268fb5aaa781aee406b6d6486f8e",
+                "shasum": ""
+            },
+            "require-dev": {
+                "corneltek/cliframework": "dev-master",
+                "corneltek/phpunit-testmore": "dev-master",
+                "corneltek/universal": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Pux": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "c9s",
+                    "email": "cornelius.howl@gmail.com"
+                }
+            ],
+            "description": "Fast PHP router",
+            "time": "2014-09-29 15:36:44"
+        },
+        {
+            "name": "evenement/evenement",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/igorw/evenement.git",
+                "reference": "35e87541d4b53c22201519fce3caaa5b38ac8164"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/igorw/evenement/zipball/35e87541d4b53c22201519fce3caaa5b38ac8164",
+                "reference": "35e87541d4b53c22201519fce3caaa5b38ac8164",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Evenement": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch",
+                    "homepage": "http://wiedler.ch/igor/"
+                }
+            ],
+            "description": "Événement is a very simple event dispatching library for PHP",
+            "keywords": [
+                "event-dispatcher",
+                "event-emitter"
+            ],
+            "time": "2014-07-09 21:08:03"
+        },
+        {
+            "name": "guide42/plan",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guide42/plan.git",
+                "reference": "e083237454ed9d7dccefaced2f3d5b1b7802b4c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guide42/plan/zipball/e083237454ed9d7dccefaced2f3d5b1b7802b4c3",
+                "reference": "e083237454ed9d7dccefaced2f3d5b1b7802b4c3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.8"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "plan.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "authors": [
+                {
+                    "name": "Juan M Martínez",
+                    "email": "plan@jm.guide42.com",
+                    "homepage": "http://jm.guide42.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Fast and Simple Validation",
+            "keywords": [
+                "validation",
+                "validator"
+            ],
+            "time": "2014-10-02 16:38:27"
+        },
+        {
+            "name": "guide42/suda",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guide42/suda.git",
+                "reference": "ad222ea6f8fee7739d0ff35f8c4972d14fd7ab52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guide42/suda/zipball/ad222ea6f8fee7739d0ff35f8c4972d14fd7ab52",
+                "reference": "ad222ea6f8fee7739d0ff35f8c4972d14fd7ab52",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Guide42\\Suda\\": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "authors": [
+                {
+                    "name": "Juan M Martínez",
+                    "email": "suda@jm.guide42.com",
+                    "homepage": "http://jm.guide42.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Registry",
+            "keywords": [
+                "container",
+                "di",
+                "registry"
+            ],
+            "time": "2014-10-04 15:45:16"
+        },
+        {
+            "name": "ircmaxell/filterus",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ircmaxell/filterus.git",
+                "reference": "fac32b1782cc66916b1da07bdbb61679a07ab479"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ircmaxell/filterus/zipball/fac32b1782cc66916b1da07bdbb61679a07ab479",
+                "reference": "fac32b1782cc66916b1da07bdbb61679a07ab479",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/Filterus/functions.php"
+                ],
+                "psr-0": {
+                    "Filterus": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anthony Ferrara",
+                    "email": "ircmaxell@php.net",
+                    "homepage": "http://blog.ircmaxell.com"
+                }
+            ],
+            "description": "A library for filtering variables in PHP",
+            "homepage": "https://github.com/ircmaxell/filterus",
+            "keywords": [
+                "filter",
+                "security"
+            ],
+            "time": "2014-07-24 18:37:40"
+        },
+        {
+            "name": "nikic/fast-route",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/FastRoute.git",
+                "reference": "88ac2888aa29d888cf3f447899753a4a1e599759"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/88ac2888aa29d888cf3f447899753a4a1e599759",
+                "reference": "88ac2888aa29d888cf3f447899753a4a1e599759",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FastRoute\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov",
+                    "email": "nikic@php.net"
+                }
+            ],
+            "description": "Fast request router for PHP",
+            "keywords": [
+                "router",
+                "routing"
+            ],
+            "time": "2014-09-30 16:53:49"
+        },
+        {
+            "name": "orno/di",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orno/di.git",
+                "reference": "169f693b8bd453d3bb57404a7c5b40315b0a4bba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orno/di/zipball/169f693b8bd453d3bb57404a7c5b40315b0a4bba",
+                "reference": "169f693b8bd453d3bb57404a7c5b40315b0a4bba",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "suggest": {
+                "orno/cache": "Enables caching of reflection based resolution",
+                "orno/config": "Allows useage of config files rather than interacting with the container directly"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Orno\\Di": "src/",
+                    "OrnoTest": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Phil Bennett",
+                    "email": "philipobenito@gmail.com"
+                }
+            ],
+            "description": "Orno Di is a small but powerful dependency injection container with automatic resolution of dependencies.",
+            "keywords": [
+                "container",
+                "dependency",
+                "di",
+                "injection",
+                "orno"
+            ],
+            "time": "2014-09-19 18:45:23"
+        },
+        {
+            "name": "pimple/pimple",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fabpot/Pimple.git",
+                "reference": "8156c13d978b98d6b1e6395b9c9f0adc8814c20a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fabpot/Pimple/zipball/8156c13d978b98d6b1e6395b9c9f0adc8814c20a",
+                "reference": "8156c13d978b98d6b1e6395b9c9f0adc8814c20a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimple": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple is a simple Dependency Injection Container for PHP 5.3",
+            "homepage": "http://pimple.sensiolabs.org",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "time": "2014-08-29 17:31:46"
+        },
+        {
+            "name": "rdlowrey/auryn",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rdlowrey/Auryn.git",
+                "reference": "4a30ef91f159d81b6cf1f130fc4db12c8f185040"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rdlowrey/Auryn/zipball/4a30ef91f159d81b6cf1f130fc4db12c8f185040",
+                "reference": "4a30ef91f159d81b6cf1f130fc4db12c8f185040",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Auryn\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dan Ackroyd",
+                    "email": "Danack@basereality.com",
+                    "homepage": "http://www.basereality.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Daniel Lowrey",
+                    "email": "rdlowrey@gmail.com",
+                    "role": "Creator / Main Developer"
+                },
+                {
+                    "name": "Levi Morrison",
+                    "email": "levim@php.net",
+                    "homepage": "http://morrisonlevi.github.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Auryn is a dependency injector for bootstrapping object-oriented PHP applications.",
+            "homepage": "https://github.com/rdlowrey/Auryn",
+            "keywords": [
+                "dependency injection",
+                "dic",
+                "ioc"
+            ],
+            "time": "2014-08-11 13:28:33"
+        },
+        {
+            "name": "samchristy/piechart",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SamChristy/PieChart.git",
+                "reference": "e9010a82d2e6086dc58eacd68a35c8b83249b497"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SamChristy/PieChart/zipball/e9010a82d2e6086dc58eacd68a35c8b83249b497",
+                "reference": "e9010a82d2e6086dc58eacd68a35c8b83249b497",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SamChristy\\PieChart\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Sam Christy",
+                    "email": "sam_christy@hotmail.co.uk",
+                    "homepage": "https://github.com/SamChristy"
+                }
+            ],
+            "description": "A simple class for drawing pie charts with ImageMagick or GD in PHP.",
+            "homepage": "https://github.com/SamChristy/PieChart",
+            "keywords": [
+                "chart",
+                "graphics",
+                "pie"
+            ],
+            "time": "2014-01-25 22:44:04"
+        },
+        {
+            "name": "shield/shield",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/enygma/shieldframework.git",
+                "reference": "c7ffc06779974b60c2671f739934df00cbd8ffc6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/enygma/shieldframework/zipball/c7ffc06779974b60c2671f739934df00cbd8ffc6",
+                "reference": "c7ffc06779974b60c2671f739934df00cbd8ffc6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Shield": "Shield/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Cornutt",
+                    "email": "ccornutt@phpdeveloper.org",
+                    "homepage": "http://www.phpdeveloper.org/"
+                }
+            ],
+            "description": "Shield : Microframework, Major Security",
+            "homepage": "https://github.com/enygma/shieldframework.git",
+            "keywords": [
+                "microframework",
+                "rest",
+                "router"
+            ],
+            "time": "2012-11-02 19:11:17"
+        },
+        {
+            "name": "vlucas/valitron",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/valitron.git",
+                "reference": "f7c11ca0abeec5778dc8185b7d96aec32577b715"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/valitron/zipball/f7c11ca0abeec5778dc8185b7d96aec32577b715",
+                "reference": "f7c11ca0abeec5778dc8185b7d96aec32577b715",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "@stable"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Valitron": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "http://www.vancelucas.com"
+                }
+            ],
+            "description": "Simple, elegant, stand-alone validation library with NO dependencies",
+            "homepage": "http://github.com/vlucas/valitron",
+            "keywords": [
+                "valid",
+                "validation",
+                "validator"
+            ],
+            "time": "2014-09-19 14:06:20"
+        },
+        {
+            "name": "willdurand/negotiation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/willdurand/Negotiation.git",
+                "reference": "65bd9471d9f4f5cd856a3acd34f44f87b911d60d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/65bd9471d9f4f5cd856a3acd34f44f87b911d60d",
+                "reference": "65bd9471d9f4f5cd856a3acd34f44f87b911d60d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Negotiation": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "William Durand",
+                    "email": "william.durand1@gmail.com"
+                }
+            ],
+            "description": "Content Negotiation tools for PHP provided as a standalone library.",
+            "homepage": "http://williamdurand.fr/Negotiation/",
+            "keywords": [
+                "accept",
+                "content",
+                "format",
+                "header",
+                "negotiation"
+            ],
+            "time": "2014-10-03 07:35:29"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "shield/shield": 20,
+        "pimple/pimple": 20,
+        "rdlowrey/auryn": 20,
+        "orno/di": 20,
+        "chevron/containers": 20,
+        "guide42/suda": 20,
+        "evenement/evenement": 20,
+        "nikic/fast-route": 20,
+        "corneltek/pux": 20,
+        "willdurand/negotiation": 20,
+        "vlucas/valitron": 20,
+        "ircmaxell/filterus": 20,
+        "guide42/plan": 20,
+        "samchristy/piechart": 20
+    },
+    "prefer-stable": false,
+    "platform": [],
+    "platform-dev": []
+}
