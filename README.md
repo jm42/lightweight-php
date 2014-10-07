@@ -1,6 +1,8 @@
 Lightweight PHP
 ===============
 
+![Lightweight PHP](weight.png)
+
 List of lightweight PHP libraries.
 
 - [Lightweight PHP](#lightweight-php)
