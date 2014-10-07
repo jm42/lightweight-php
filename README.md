@@ -10,6 +10,7 @@ List of lightweight PHP libraries.
   - [Routing](#routing)
   - [HTTP](#http)
   - [Validation and Filtering](#validation-and-filtering)
+  - [Graphics](#graphics)
 
 ## Frameworks
 
@@ -40,3 +41,7 @@ List of lightweight PHP libraries.
 
 * [Valitron](https://github.com/vlucas/valitron) - A simple, elegant, stand-alone validation library
 * [Filterus](https://github.com/ircmaxell/filterus) - A simple filtering library for PHP
+
+## Graphics
+
+* [PieChart](https://github.com/SamChristy/PieChart) - A simple class for drawing pie charts
