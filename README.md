@@ -15,7 +15,6 @@ List of lightweight PHP libraries.
 ## Frameworks
 
 * [Shield](https://github.com/enygma/shieldframework) - A security minded microframework
-* [Slim](https://github.com/codeguy/Slim) - A PHP micro framework
 
 ## Dependency Injection
 
