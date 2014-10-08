@@ -24,6 +24,7 @@ List of lightweight PHP libraries.
 * [Auryn](https://github.com/rdlowrey/Auryn) - IoC dependency injector
 * [Orno\Di](https://github.com/orno/di) - A fast and powerful dependency injection container
 * [Containers](https://github.com/chevronphp/containers) - An implementation of the registry pattern
+* [Suda](https://github.com/guide42/suda) - A lightweight container for your services
 
 ## Events
 
@@ -43,6 +44,7 @@ List of lightweight PHP libraries.
 
 * [Valitron](https://github.com/vlucas/valitron) - A simple, elegant, stand-alone validation library
 * [Filterus](https://github.com/ircmaxell/filterus) - A simple filtering library for PHP
+* [Plan](https://github.com/guide42/plan) - Fast and simple validation for PHP
 
 ## Graphics
 
