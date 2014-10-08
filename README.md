@@ -36,6 +36,7 @@ List of lightweight PHP libraries.
 
 ## HTTP
 
+* [Httpful](https://github.com/nategood/httpful) - A chainable, REST friendly, PHP HTTP client
 * [Negotiation](https://github.com/willdurand/Negotiation) - Content negotiation tools for PHP
 
 ## Validation and Filtering
