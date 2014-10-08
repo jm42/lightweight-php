@@ -49,6 +49,10 @@ class Weight
 
     protected function weightPackage($name)
     {
+        if (substr($name, 0, 4) === 'ext-') {
+            return 0;
+        }
+
         if (isset($this->weight[$name])) {
             return $this->weight[$name];
         }
