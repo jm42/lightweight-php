@@ -4,8 +4,49 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "24003e1fec1ce420b95ebafc890a69e2",
+    "hash": "b11efac01549a93b1caf76cb83f7e0d0",
     "packages": [
+        {
+            "name": "bento/bento",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nramenta/bento.git",
+                "reference": "42b0083650e1a7ad59abde38b2dbd36e7e5337d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nramenta/bento/zipball/42b0083650e1a7ad59abde38b2dbd36e7e5337d2",
+                "reference": "42b0083650e1a7ad59abde38b2dbd36e7e5337d2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/bento.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nofriandi Ramenta",
+                    "email": "nramenta@gmail.com"
+                }
+            ],
+            "description": "Simple micro-framework",
+            "keywords": [
+                "framework",
+                "microframework",
+                "router"
+            ],
+            "time": "2014-10-02 14:28:27"
+        },
         {
             "name": "chevron/containers",
             "version": "dev-master",
@@ -818,6 +859,7 @@
         "shield/shield": 20,
         "silica/silica": 20,
         "lime/lime": 20,
+        "bento/bento": 20,
         "pimple/pimple": 20,
         "rdlowrey/auryn": 20,
         "orno/di": 20,
