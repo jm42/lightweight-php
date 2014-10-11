@@ -12,6 +12,7 @@
         "chevron/containers": "dev-master",
         "guide42/suda": "dev-master",
         "evenement/evenement": "dev-master",
+        "sabre/event": "dev-master",
         "nikic/fast-route": "dev-master",
         "corneltek/pux": "dev-master",
         "nategood/httpful": "dev-master",

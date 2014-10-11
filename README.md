@@ -33,6 +33,7 @@ List of lightweight PHP libraries.
 ## Events
 
 * [Événement](https://github.com/igorw/evenement) - Very simple event dispatching library
+* [Sabre Event](https://github.com/fruux/sabre-event) - A library for lightweight event-based programming
 
 ## Routing
 
