@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "727f5d761e44c3a85221a534dc50a637",
+    "hash": "893671c7bb3d87e945a749e9391fa8df",
     "packages": [
         {
             "name": "bento/bento",
@@ -380,6 +380,45 @@
                 "microframework"
             ],
             "time": "2014-09-05 21:24:47"
+        },
+        {
+            "name": "maverick/maverick",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gunnar94/Maverick.git",
+                "reference": "3512fb65ec0b3195fd652c9e3522f2f433784373"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gunnar94/Maverick/zipball/3512fb65ec0b3195fd652c9e3522f2f433784373",
+                "reference": "3512fb65ec0b3195fd652c9e3522f2f433784373",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Maverick": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alec Carpenter",
+                    "email": "gunnar94@me.com"
+                }
+            ],
+            "description": "A micro framework for PHP",
+            "time": "2014-09-01 15:38:07"
         },
         {
             "name": "nategood/httpful",
@@ -860,6 +899,7 @@
         "silica/silica": 20,
         "lime/lime": 20,
         "bento/bento": 20,
+        "maverick/maverick": 20,
         "pimple/pimple": 20,
         "rdlowrey/auryn": 20,
         "orno/di": 20,

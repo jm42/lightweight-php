@@ -20,6 +20,7 @@ List of lightweight PHP libraries.
 * [Silica](https://github.com/changloong/Silica) - Micro framework inspired by Silex
 * [Lime](https://github.com/aheinze/Lime) - Micro framework for quickly creating web applications with minimal effort
 * [Bento](https://github.com/nramenta/bento) - Simple PHP micro framework
+* [Maverick](https://github.com/gunnar94/Maverick) - A lightweight framework for PHP
 
 ## Dependency Injection
 

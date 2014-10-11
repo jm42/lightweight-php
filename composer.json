@@ -5,6 +5,7 @@
         "silica/silica": "dev-master",
         "lime/lime": "dev-master",
         "bento/bento": "dev-master",
+        "maverick/maverick": "dev-master",
         "pimple/pimple": "dev-master",
         "rdlowrey/auryn": "dev-master",
         "orno/di": "dev-master",
