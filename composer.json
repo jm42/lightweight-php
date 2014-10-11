@@ -1,4 +1,5 @@
 {
+    "minimum-stability": "dev",
     "require": {
         "shield/shield": "dev-master",
         "silica/silica": "dev-master",

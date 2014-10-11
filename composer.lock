@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b11efac01549a93b1caf76cb83f7e0d0",
+    "hash": "727f5d761e44c3a85221a534dc50a637",
     "packages": [
         {
             "name": "bento/bento",
@@ -854,7 +854,7 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "shield/shield": 20,
         "silica/silica": 20,
