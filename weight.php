@@ -49,7 +49,7 @@ class Weight
 
     protected function weightPackage($name)
     {
-        if (substr($name, 0, 4) === 'ext-') {
+        if (substr($name, 0, 4) === 'ext-' || substr($name, 0, 4) === 'lib-') {
             return 0;
         }
 
