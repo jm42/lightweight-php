@@ -97,6 +97,10 @@ class Weight
     {
         $weight = 0;
 
+        if (!is_dir($dirname)) {
+            return $weight;
+        }
+
         $iter = new RecursiveIteratorIterator(new \RecursiveDirectoryIterator($dirname));
         $iter = new RegexIterator($iter, '/^((?!Test).)+\.php$/i', RecursiveRegexIterator::GET_MATCH);
 
