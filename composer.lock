@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "35e15e5cdc446cbb8dd870c689057099",
+    "hash": "24003e1fec1ce420b95ebafc890a69e2",
     "packages": [
         {
             "name": "chevron/containers",
@@ -299,6 +299,46 @@
                 "security"
             ],
             "time": "2014-07-24 18:37:40"
+        },
+        {
+            "name": "lime/lime",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aheinze/Lime.git",
+                "reference": "1bc67c42b63ecdbc37a464c675bdcf5c3e03d976"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aheinze/Lime/zipball/1bc67c42b63ecdbc37a464c675bdcf5c3e03d976",
+                "reference": "1bc67c42b63ecdbc37a464c675bdcf5c3e03d976",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Lime": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Artur Heinze",
+                    "email": "faulancer@gmail.com"
+                }
+            ],
+            "description": "The PHP micro-framework",
+            "homepage": "https://github.com/aheinze/Lime",
+            "keywords": [
+                "microframework"
+            ],
+            "time": "2014-09-05 21:24:47"
         },
         {
             "name": "nategood/httpful",
@@ -777,6 +817,7 @@
     "stability-flags": {
         "shield/shield": 20,
         "silica/silica": 20,
+        "lime/lime": 20,
         "pimple/pimple": 20,
         "rdlowrey/auryn": 20,
         "orno/di": 20,
