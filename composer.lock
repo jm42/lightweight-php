@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f39b56e60800e072059c6d564157f4dd",
+    "hash": "35e15e5cdc446cbb8dd870c689057099",
     "packages": [
         {
             "name": "chevron/containers",
@@ -176,12 +176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guide42/plan.git",
-                "reference": "e083237454ed9d7dccefaced2f3d5b1b7802b4c3"
+                "reference": "63dcffc30828327fd4c2c5703b2477e625cd9fd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guide42/plan/zipball/e083237454ed9d7dccefaced2f3d5b1b7802b4c3",
-                "reference": "e083237454ed9d7dccefaced2f3d5b1b7802b4c3",
+                "url": "https://api.github.com/repos/guide42/plan/zipball/63dcffc30828327fd4c2c5703b2477e625cd9fd3",
+                "reference": "63dcffc30828327fd4c2c5703b2477e625cd9fd3",
                 "shasum": ""
             },
             "require": {
@@ -210,7 +210,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2014-10-02 16:38:27"
+            "time": "2014-10-10 00:50:41"
         },
         {
             "name": "guide42/suda",
@@ -218,12 +218,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guide42/suda.git",
-                "reference": "ad222ea6f8fee7739d0ff35f8c4972d14fd7ab52"
+                "reference": "225281b687589d810c2e1dd6de07b4571c19de91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guide42/suda/zipball/ad222ea6f8fee7739d0ff35f8c4972d14fd7ab52",
-                "reference": "ad222ea6f8fee7739d0ff35f8c4972d14fd7ab52",
+                "url": "https://api.github.com/repos/guide42/suda/zipball/225281b687589d810c2e1dd6de07b4571c19de91",
+                "reference": "225281b687589d810c2e1dd6de07b4571c19de91",
                 "shasum": ""
             },
             "require": {
@@ -253,7 +253,7 @@
                 "di",
                 "registry"
             ],
-            "time": "2014-10-04 15:45:16"
+            "time": "2014-10-10 15:20:28"
         },
         {
             "name": "ircmaxell/filterus",
@@ -632,6 +632,50 @@
             "time": "2012-11-02 19:11:17"
         },
         {
+            "name": "silica/silica",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/changloong/Silica.git",
+                "reference": "5c6adb3dc7aec499dcaf7bbdc799b42f774fb144"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/changloong/Silica/zipball/5c6adb3dc7aec499dcaf7bbdc799b42f774fb144",
+                "reference": "5c6adb3dc7aec499dcaf7bbdc799b42f774fb144",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "monolog/monolog": "~1.4,>=1.4.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Silica": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chang Long",
+                    "email": "changlon@gmail.com"
+                }
+            ],
+            "description": "The PHP micro-framework inspired by Silex",
+            "homepage": "https://github.com/changloong/Silica",
+            "keywords": [
+                "microframework",
+                "silex"
+            ],
+            "time": "2013-05-08 09:08:02"
+        },
+        {
             "name": "vlucas/valitron",
             "version": "dev-master",
             "source": {
@@ -732,6 +776,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "shield/shield": 20,
+        "silica/silica": 20,
         "pimple/pimple": 20,
         "rdlowrey/auryn": 20,
         "orno/di": 20,
