@@ -259,12 +259,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guide42/suda.git",
-                "reference": "225281b687589d810c2e1dd6de07b4571c19de91"
+                "reference": "0f556900dc1e10934677ab77cdcaecfb5a7bdfcc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guide42/suda/zipball/225281b687589d810c2e1dd6de07b4571c19de91",
-                "reference": "225281b687589d810c2e1dd6de07b4571c19de91",
+                "url": "https://api.github.com/repos/guide42/suda/zipball/0f556900dc1e10934677ab77cdcaecfb5a7bdfcc",
+                "reference": "0f556900dc1e10934677ab77cdcaecfb5a7bdfcc",
                 "shasum": ""
             },
             "require": {
@@ -294,7 +294,7 @@
                 "di",
                 "registry"
             ],
-            "time": "2014-10-10 15:20:28"
+            "time": "2014-10-14 03:35:16"
         },
         {
             "name": "ircmaxell/filterus",
@@ -851,19 +851,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/valitron.git",
-                "reference": "f7c11ca0abeec5778dc8185b7d96aec32577b715"
+                "reference": "decdb01a8df5b2ed60d5bf53e2eaf282d495012e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/valitron/zipball/f7c11ca0abeec5778dc8185b7d96aec32577b715",
-                "reference": "f7c11ca0abeec5778dc8185b7d96aec32577b715",
+                "url": "https://api.github.com/repos/vlucas/valitron/zipball/decdb01a8df5b2ed60d5bf53e2eaf282d495012e",
+                "reference": "decdb01a8df5b2ed60d5bf53e2eaf282d495012e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "@stable"
+                "phpunit/phpunit": "~4.0"
             },
             "type": "library",
             "autoload": {
@@ -889,7 +889,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2014-09-19 14:06:20"
+            "time": "2014-10-13 20:51:14"
         },
         {
             "name": "willdurand/negotiation",
