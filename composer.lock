@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bd50426af80507a039f719b05d191e09",
+    "hash": "f6928fe45c9f733aba3e3eb776f847e9",
     "packages": [
         {
             "name": "bento/bento",
@@ -514,54 +514,6 @@
             "time": "2014-09-30 16:53:49"
         },
         {
-            "name": "orno/di",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/orno/di.git",
-                "reference": "169f693b8bd453d3bb57404a7c5b40315b0a4bba"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/orno/di/zipball/169f693b8bd453d3bb57404a7c5b40315b0a4bba",
-                "reference": "169f693b8bd453d3bb57404a7c5b40315b0a4bba",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4"
-            },
-            "suggest": {
-                "orno/cache": "Enables caching of reflection based resolution",
-                "orno/config": "Allows useage of config files rather than interacting with the container directly"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Orno\\Di": "src/",
-                    "OrnoTest": "tests/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Phil Bennett",
-                    "email": "philipobenito@gmail.com"
-                }
-            ],
-            "description": "Orno Di is a small but powerful dependency injection container with automatic resolution of dependencies.",
-            "keywords": [
-                "container",
-                "dependency",
-                "di",
-                "injection",
-                "orno"
-            ],
-            "time": "2014-09-19 18:45:23"
-        },
-        {
             "name": "pimple/pimple",
             "version": "dev-master",
             "source": {
@@ -952,7 +904,6 @@
         "maverick/maverick": 20,
         "pimple/pimple": 20,
         "rdlowrey/auryn": 20,
-        "orno/di": 20,
         "chevron/containers": 20,
         "guide42/suda": 20,
         "evenement/evenement": 20,
