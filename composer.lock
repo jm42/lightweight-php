@@ -259,12 +259,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guide42/suda.git",
-                "reference": "0f556900dc1e10934677ab77cdcaecfb5a7bdfcc"
+                "reference": "29ce335e1ff9c2e78daf92d598ab9aaa0ee04ae0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guide42/suda/zipball/0f556900dc1e10934677ab77cdcaecfb5a7bdfcc",
-                "reference": "0f556900dc1e10934677ab77cdcaecfb5a7bdfcc",
+                "url": "https://api.github.com/repos/guide42/suda/zipball/29ce335e1ff9c2e78daf92d598ab9aaa0ee04ae0",
+                "reference": "29ce335e1ff9c2e78daf92d598ab9aaa0ee04ae0",
                 "shasum": ""
             },
             "require": {
@@ -294,7 +294,7 @@
                 "di",
                 "registry"
             ],
-            "time": "2014-10-14 03:35:16"
+            "time": "2014-10-15 17:20:49"
         },
         {
             "name": "ircmaxell/filterus",
