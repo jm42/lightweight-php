@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f6928fe45c9f733aba3e3eb776f847e9",
+    "hash": "5f660f66d62111c81d1764a6de329127",
     "packages": [
         {
             "name": "bento/bento",
@@ -514,6 +514,58 @@
             "time": "2014-09-30 16:53:49"
         },
         {
+            "name": "phly/http",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phly/http.git",
+                "reference": "2ad4c0eddd01646bbdaaa6bffafc28c5ed947e8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phly/http/zipball/2ad4c0eddd01646bbdaaa6bffafc28c5ed947e8d",
+                "reference": "2ad4c0eddd01646bbdaaa6bffafc28c5ed947e8d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.8",
+                "psr/http-message": "~0.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "squizlabs/php_codesniffer": "1.5.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev",
+                    "dev-develop": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Phly\\Http\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew Weier O'Phinney",
+                    "email": "matthew@weierophinney.net",
+                    "homepage": "http://mwop.net"
+                }
+            ],
+            "description": "PSR HTTP Message implementations",
+            "homepage": "https://github.com/phly/http",
+            "keywords": [
+                "http"
+            ],
+            "time": "2014-10-13 20:52:39"
+        },
+        {
             "name": "pimple/pimple",
             "version": "dev-master",
             "source": {
@@ -558,6 +610,52 @@
                 "dependency injection"
             ],
             "time": "2014-08-29 17:31:46"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "69271a585d8f5fc210a55cb5aa9bac86380d0521"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/69271a585d8f5fc210a55cb5aa9bac86380d0521",
+                "reference": "69271a585d8f5fc210a55cb5aa9bac86380d0521",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2014-10-13 16:47:50"
         },
         {
             "name": "rdlowrey/auryn",
@@ -910,6 +1008,7 @@
         "sabre/event": 20,
         "nikic/fast-route": 20,
         "corneltek/pux": 20,
+        "phly/http": 20,
         "nategood/httpful": 20,
         "willdurand/negotiation": 20,
         "vlucas/valitron": 20,

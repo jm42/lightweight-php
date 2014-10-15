@@ -42,6 +42,7 @@ List of lightweight PHP libraries.
 
 ## HTTP
 
+* [phly/http](https://github.com/phly/http) - PSR HTTP message implementations
 * [Httpful](https://github.com/nategood/httpful) - A chainable, REST friendly, PHP HTTP client
 * [Negotiation](https://github.com/willdurand/Negotiation) - Content negotiation tools for PHP
 
