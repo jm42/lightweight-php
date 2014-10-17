@@ -131,6 +131,33 @@
             "time": "2014-08-31 04:03:27"
         },
         {
+            "name": "container-interop/container-interop",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/container-interop/container-interop.git",
+                "reference": "b4274c871bfd1ae8d8e527ba11734f4df1573e48"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/container-interop/container-interop/zipball/b4274c871bfd1ae8d8e527ba11734f4df1573e48",
+                "reference": "b4274c871bfd1ae8d8e527ba11734f4df1573e48",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Interop\\Container\\": "src/Interop/Container/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
+            "time": "2014-03-16 14:50:05"
+        },
+        {
             "name": "corneltek/pux",
             "version": "dev-master",
             "source": {
@@ -259,16 +286,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guide42/suda.git",
-                "reference": "29ce335e1ff9c2e78daf92d598ab9aaa0ee04ae0"
+                "reference": "d21467efc0c7bae3f23f5787136f33c286997e96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guide42/suda/zipball/29ce335e1ff9c2e78daf92d598ab9aaa0ee04ae0",
-                "reference": "29ce335e1ff9c2e78daf92d598ab9aaa0ee04ae0",
+                "url": "https://api.github.com/repos/guide42/suda/zipball/d21467efc0c7bae3f23f5787136f33c286997e96",
+                "reference": "d21467efc0c7bae3f23f5787136f33c286997e96",
                 "shasum": ""
             },
             "require": {
+                "container-interop/container-interop": "~1.0",
                 "php": ">=5.3"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "@stable"
             },
             "type": "library",
             "autoload": {
@@ -294,7 +325,7 @@
                 "di",
                 "registry"
             ],
-            "time": "2014-10-15 17:20:49"
+            "time": "2014-10-17 19:16:27"
         },
         {
             "name": "ircmaxell/filterus",
