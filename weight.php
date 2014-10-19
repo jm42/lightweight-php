@@ -128,7 +128,7 @@ class Weight
     protected function weightFile($filename)
     {
         $buffer = file_get_contents($filename);
-        $weight = substr_count($buffer, ';');
+        $weight = substr_count($buffer, ';') + substr_count($buffer, '{');
 
         return $weight;
     }
