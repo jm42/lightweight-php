@@ -5,9 +5,16 @@ main($argv);
 function main(array $argv)
 {
     if (count($argv) > 1) {
-        $dir = realpath(dirname($argv[1]));
+        $dir = realpath($argv[1]);
     } else {
         $dir = getcwd();
+    }
+
+    if (!file_exists($dir . '/composer.json') ||
+        !file_exists($dir . '/composer.lock')
+    ) {
+        echo "Directory does not contain composer.json and composer.lock\n";
+        exit(1);
     }
 
     $weight = new Weight($dir);
