@@ -56,7 +56,9 @@ class Weight
 
     protected function weightPackage($name)
     {
-        if (substr($name, 0, 4) === 'ext-' || substr($name, 0, 4) === 'lib-') {
+        if (substr(strtolower($name), 0, 4) === 'ext-' ||
+            substr(strtolower($name), 0, 4) === 'lib-'
+        ) {
             return 0;
         }
 
@@ -102,14 +104,19 @@ class Weight
 
     protected function weightDir($dirname)
     {
-        $weight = 0;
-
         if (!is_dir($dirname)) {
-            return $weight;
+            return 0;
         }
 
-        $iter = new RecursiveIteratorIterator(new \RecursiveDirectoryIterator($dirname));
-        $iter = new RegexIterator($iter, '/^((?!Test).)+\.php$/i', RecursiveRegexIterator::GET_MATCH);
+        $weight = 0;
+
+        $iter = new RegexIterator(
+            new RecursiveIteratorIterator(
+                new RecursiveDirectoryIterator($dirname)
+            ),
+            '/^((?!Test).)+\.php$/i',
+            RecursiveRegexIterator::GET_MATCH
+        );
 
         foreach ($iter as $filematch) {
             $weight += $this->weightFile($filematch[0]);
@@ -129,8 +136,8 @@ class Weight
     public function run()
     {
         $package = $this->parse($this->root);
-
         $weight = array();
+
         foreach ($package['require'] as $name => $version) {
             $weight[$name] = $this->weightPackage($name);
         }
