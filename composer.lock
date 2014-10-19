@@ -244,12 +244,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guide42/plan.git",
-                "reference": "63dcffc30828327fd4c2c5703b2477e625cd9fd3"
+                "reference": "1a40cb760d56d226b74342c01b2b154683d1200e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guide42/plan/zipball/63dcffc30828327fd4c2c5703b2477e625cd9fd3",
-                "reference": "63dcffc30828327fd4c2c5703b2477e625cd9fd3",
+                "url": "https://api.github.com/repos/guide42/plan/zipball/1a40cb760d56d226b74342c01b2b154683d1200e",
+                "reference": "1a40cb760d56d226b74342c01b2b154683d1200e",
                 "shasum": ""
             },
             "require": {
@@ -278,7 +278,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2014-10-10 00:50:41"
+            "time": "2014-10-19 03:26:54"
         },
         {
             "name": "guide42/suda",
@@ -550,17 +550,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phly/http.git",
-                "reference": "2ad4c0eddd01646bbdaaa6bffafc28c5ed947e8d"
+                "reference": "33f478ec2fbd9f5cf97c6aa46049ad9e5fd400c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phly/http/zipball/2ad4c0eddd01646bbdaaa6bffafc28c5ed947e8d",
-                "reference": "2ad4c0eddd01646bbdaaa6bffafc28c5ed947e8d",
+                "url": "https://api.github.com/repos/phly/http/zipball/33f478ec2fbd9f5cf97c6aa46049ad9e5fd400c9",
+                "reference": "33f478ec2fbd9f5cf97c6aa46049ad9e5fd400c9",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.8",
-                "psr/http-message": "~0.3.0"
+                "psr/http-message": "~0.4.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "3.7.*",
@@ -594,7 +594,7 @@
             "keywords": [
                 "http"
             ],
-            "time": "2014-10-13 20:52:39"
+            "time": "2014-10-17 22:34:06"
         },
         {
             "name": "pimple/pimple",
@@ -644,16 +644,16 @@
         },
         {
             "name": "psr/http-message",
-            "version": "0.3.0",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
-                "reference": "69271a585d8f5fc210a55cb5aa9bac86380d0521"
+                "reference": "05f67fe3f44fa213b543160452cfc202304a7e06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/69271a585d8f5fc210a55cb5aa9bac86380d0521",
-                "reference": "69271a585d8f5fc210a55cb5aa9bac86380d0521",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/05f67fe3f44fa213b543160452cfc202304a7e06",
+                "reference": "05f67fe3f44fa213b543160452cfc202304a7e06",
                 "shasum": ""
             },
             "type": "library",
@@ -686,7 +686,7 @@
                 "request",
                 "response"
             ],
-            "time": "2014-10-13 16:47:50"
+            "time": "2014-10-17 16:13:56"
         },
         {
             "name": "rdlowrey/auryn",
