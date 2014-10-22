@@ -244,12 +244,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guide42/plan.git",
-                "reference": "1a40cb760d56d226b74342c01b2b154683d1200e"
+                "reference": "997c1a42cb2377efd2309368a88981d42e8e7288"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guide42/plan/zipball/1a40cb760d56d226b74342c01b2b154683d1200e",
-                "reference": "1a40cb760d56d226b74342c01b2b154683d1200e",
+                "url": "https://api.github.com/repos/guide42/plan/zipball/997c1a42cb2377efd2309368a88981d42e8e7288",
+                "reference": "997c1a42cb2377efd2309368a88981d42e8e7288",
                 "shasum": ""
             },
             "require": {
@@ -275,10 +275,12 @@
             ],
             "description": "Fast and Simple Validation",
             "keywords": [
+                "filter",
+                "security",
                 "validation",
                 "validator"
             ],
-            "time": "2014-10-19 03:26:54"
+            "time": "2014-10-19 04:22:35"
         },
         {
             "name": "guide42/suda",
@@ -286,12 +288,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guide42/suda.git",
-                "reference": "d21467efc0c7bae3f23f5787136f33c286997e96"
+                "reference": "5b0a4c623939dc7e480e5bc975da1a5d2a47086e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guide42/suda/zipball/d21467efc0c7bae3f23f5787136f33c286997e96",
-                "reference": "d21467efc0c7bae3f23f5787136f33c286997e96",
+                "url": "https://api.github.com/repos/guide42/suda/zipball/5b0a4c623939dc7e480e5bc975da1a5d2a47086e",
+                "reference": "5b0a4c623939dc7e480e5bc975da1a5d2a47086e",
                 "shasum": ""
             },
             "require": {
@@ -322,10 +324,11 @@
             "description": "PHP Registry",
             "keywords": [
                 "container",
+                "dependency injection",
                 "di",
                 "registry"
             ],
-            "time": "2014-10-17 19:16:27"
+            "time": "2014-10-19 23:53:39"
         },
         {
             "name": "ircmaxell/filterus",
@@ -457,12 +460,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nategood/httpful.git",
-                "reference": "7beda470b57250f60ce1b0179c5551620c3e43e6"
+                "reference": "41bc3e22fbce6a01919657c9ed3d65d338afa77a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nategood/httpful/zipball/7beda470b57250f60ce1b0179c5551620c3e43e6",
-                "reference": "7beda470b57250f60ce1b0179c5551620c3e43e6",
+                "url": "https://api.github.com/repos/nategood/httpful/zipball/41bc3e22fbce6a01919657c9ed3d65d338afa77a",
+                "reference": "41bc3e22fbce6a01919657c9ed3d65d338afa77a",
                 "shasum": ""
             },
             "require": {
@@ -499,7 +502,7 @@
                 "rest",
                 "restful"
             ],
-            "time": "2014-08-24 21:57:36"
+            "time": "2014-10-21 19:31:44"
         },
         {
             "name": "nikic/fast-route",
