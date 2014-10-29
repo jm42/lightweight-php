@@ -163,12 +163,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/c9s/Pux.git",
-                "reference": "7776cfdd7e4f268fb5aaa781aee406b6d6486f8e"
+                "reference": "91ebec0c1a06464dcaefa03f63cbb055550ab1f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/c9s/Pux/zipball/7776cfdd7e4f268fb5aaa781aee406b6d6486f8e",
-                "reference": "7776cfdd7e4f268fb5aaa781aee406b6d6486f8e",
+                "url": "https://api.github.com/repos/c9s/Pux/zipball/91ebec0c1a06464dcaefa03f63cbb055550ab1f0",
+                "reference": "91ebec0c1a06464dcaefa03f63cbb055550ab1f0",
                 "shasum": ""
             },
             "require-dev": {
@@ -190,7 +190,7 @@
                 }
             ],
             "description": "Fast PHP router",
-            "time": "2014-09-29 15:36:44"
+            "time": "2014-10-23 15:29:44"
         },
         {
             "name": "evenement/evenement",
@@ -288,12 +288,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guide42/suda.git",
-                "reference": "5b0a4c623939dc7e480e5bc975da1a5d2a47086e"
+                "reference": "97e6b8cc7f9d7ed5114702d6d01aab9a2a80533f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guide42/suda/zipball/5b0a4c623939dc7e480e5bc975da1a5d2a47086e",
-                "reference": "5b0a4c623939dc7e480e5bc975da1a5d2a47086e",
+                "url": "https://api.github.com/repos/guide42/suda/zipball/97e6b8cc7f9d7ed5114702d6d01aab9a2a80533f",
+                "reference": "97e6b8cc7f9d7ed5114702d6d01aab9a2a80533f",
                 "shasum": ""
             },
             "require": {
@@ -328,7 +328,7 @@
                 "di",
                 "registry"
             ],
-            "time": "2014-10-19 23:53:39"
+            "time": "2014-10-27 06:08:00"
         },
         {
             "name": "ircmaxell/filterus",
@@ -697,12 +697,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rdlowrey/Auryn.git",
-                "reference": "4a30ef91f159d81b6cf1f130fc4db12c8f185040"
+                "reference": "bfee56a9e0d2e71b04f04236cb8eff2f8cb1c4fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rdlowrey/Auryn/zipball/4a30ef91f159d81b6cf1f130fc4db12c8f185040",
-                "reference": "4a30ef91f159d81b6cf1f130fc4db12c8f185040",
+                "url": "https://api.github.com/repos/rdlowrey/Auryn/zipball/bfee56a9e0d2e71b04f04236cb8eff2f8cb1c4fa",
+                "reference": "bfee56a9e0d2e71b04f04236cb8eff2f8cb1c4fa",
                 "shasum": ""
             },
             "require": {
@@ -747,7 +747,7 @@
                 "dic",
                 "ioc"
             ],
-            "time": "2014-08-11 13:28:33"
+            "time": "2014-10-27 15:01:04"
         },
         {
             "name": "sabre/event",
@@ -935,12 +935,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/valitron.git",
-                "reference": "decdb01a8df5b2ed60d5bf53e2eaf282d495012e"
+                "reference": "0b2ebb93971260c7888badfe0ceae2b62e15f2af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/valitron/zipball/decdb01a8df5b2ed60d5bf53e2eaf282d495012e",
-                "reference": "decdb01a8df5b2ed60d5bf53e2eaf282d495012e",
+                "url": "https://api.github.com/repos/vlucas/valitron/zipball/0b2ebb93971260c7888badfe0ceae2b62e15f2af",
+                "reference": "0b2ebb93971260c7888badfe0ceae2b62e15f2af",
                 "shasum": ""
             },
             "require": {
@@ -973,7 +973,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2014-10-13 20:51:14"
+            "time": "2014-10-27 15:06:43"
         },
         {
             "name": "willdurand/negotiation",
@@ -981,12 +981,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/willdurand/Negotiation.git",
-                "reference": "65bd9471d9f4f5cd856a3acd34f44f87b911d60d"
+                "reference": "a317ef476ece3da9f73ff429a5891d0b9a52a531"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/65bd9471d9f4f5cd856a3acd34f44f87b911d60d",
-                "reference": "65bd9471d9f4f5cd856a3acd34f44f87b911d60d",
+                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/a317ef476ece3da9f73ff429a5891d0b9a52a531",
+                "reference": "a317ef476ece3da9f73ff429a5891d0b9a52a531",
                 "shasum": ""
             },
             "require": {
@@ -1022,7 +1022,7 @@
                 "header",
                 "negotiation"
             ],
-            "time": "2014-10-03 07:35:29"
+            "time": "2014-10-28 14:30:32"
         }
     ],
     "packages-dev": [],
