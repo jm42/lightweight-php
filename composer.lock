@@ -755,12 +755,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fruux/sabre-event.git",
-                "reference": "d037e0df5239258b633bbf5e439c5259755de352"
+                "reference": "d3f62806f9d85d2856dd31b870627a5bdf8ca8c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fruux/sabre-event/zipball/d037e0df5239258b633bbf5e439c5259755de352",
-                "reference": "d037e0df5239258b633bbf5e439c5259755de352",
+                "url": "https://api.github.com/repos/fruux/sabre-event/zipball/d3f62806f9d85d2856dd31b870627a5bdf8ca8c0",
+                "reference": "d3f62806f9d85d2856dd31b870627a5bdf8ca8c0",
                 "shasum": ""
             },
             "require": {
@@ -797,7 +797,7 @@
                 "promise",
                 "signal"
             ],
-            "time": "2014-10-31 00:26:00"
+            "time": "2014-11-03 15:27:40"
         },
         {
             "name": "samchristy/piechart",
