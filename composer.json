@@ -9,6 +9,7 @@
         "pimple/pimple": "dev-master",
         "rdlowrey/auryn": "dev-master",
         "chevron/containers": "dev-master",
+        "tombzombie/dice": "dev-master",
         "guide42/suda": "dev-master",
         "evenement/evenement": "dev-master",
         "sabre/event": "dev-master",

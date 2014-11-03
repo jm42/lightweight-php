@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5f660f66d62111c81d1764a6de329127",
+    "hash": "a8715d796e84f999966fc9ef689c7b0c",
     "packages": [
         {
             "name": "bento/bento",
@@ -930,6 +930,50 @@
             "time": "2013-05-08 09:08:02"
         },
         {
+            "name": "tombzombie/dice",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TomBZombie/Dice.git",
+                "reference": "c10a52c9d645f88977137c6ddb0a6bf98f139a80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TomBZombie/Dice/zipball/c10a52c9d645f88977137c6ddb0a6bf98f139a80",
+                "reference": "c10a52c9d645f88977137c6ddb0a6bf98f139a80",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "loader/",
+                    "dice.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Tom Butler",
+                    "email": "tom@r.je"
+                }
+            ],
+            "description": "A minimalist Dependency injection container (DIC) for PHP. Please note: This branch is only compatible with PHP5.4. A 5.3 compatible version is available as a separate branch on github. ",
+            "homepage": "http://r.je/dice.html",
+            "keywords": [
+                "dependency injection",
+                "dependency injection container",
+                "di",
+                "ioc"
+            ],
+            "time": "2014-10-31 09:04:38"
+        },
+        {
             "name": "vlucas/valitron",
             "version": "dev-master",
             "source": {
@@ -1037,6 +1081,7 @@
         "pimple/pimple": 20,
         "rdlowrey/auryn": 20,
         "chevron/containers": 20,
+        "tombzombie/dice": 20,
         "guide42/suda": 20,
         "evenement/evenement": 20,
         "sabre/event": 20,
