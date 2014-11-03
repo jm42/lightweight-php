@@ -15,6 +15,7 @@
         "sabre/event": "dev-master",
         "nikic/fast-route": "dev-master",
         "corneltek/pux": "dev-master",
+        "mindplay/walkway": "dev-master",
         "phly/http": "dev-master",
         "nategood/httpful": "dev-master",
         "willdurand/negotiation": "dev-master",

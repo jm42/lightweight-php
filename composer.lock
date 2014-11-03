@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a8715d796e84f999966fc9ef689c7b0c",
+    "hash": "0f2b09ce809735ac5efc5d593f7e552a",
     "packages": [
         {
             "name": "bento/bento",
@@ -453,6 +453,44 @@
             ],
             "description": "A micro framework for PHP",
             "time": "2014-09-01 15:38:07"
+        },
+        {
+            "name": "mindplay/walkway",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mindplay-dk/walkway.git",
+                "reference": "dba4e5f8701c7c4b7f94dcd2a3e8eff01f8e828c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mindplay-dk/walkway/zipball/dba4e5f8701c7c4b7f94dcd2a3e8eff01f8e828c",
+                "reference": "dba4e5f8701c7c4b7f94dcd2a3e8eff01f8e828c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "mindplay\\walkway": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Rasmus Schultz",
+                    "email": "rasmus@mindplay.dk",
+                    "homepage": "http://blog.mindplay.dk/",
+                    "role": "PHP port"
+                }
+            ],
+            "description": "Elegant, modular router for PHP",
+            "time": "2014-02-24 18:18:51"
         },
         {
             "name": "nategood/httpful",
@@ -1087,6 +1125,7 @@
         "sabre/event": 20,
         "nikic/fast-route": 20,
         "corneltek/pux": 20,
+        "mindplay/walkway": 20,
         "phly/http": 20,
         "nategood/httpful": 20,
         "willdurand/negotiation": 20,
