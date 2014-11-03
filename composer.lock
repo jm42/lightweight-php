@@ -53,12 +53,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chevronphp/containers.git",
-                "reference": "0d57718ddbeee0630976e59c9498482db26ca4a7"
+                "reference": "fe603514958d48a48805373ffb7714c6cda9794f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chevronphp/containers/zipball/0d57718ddbeee0630976e59c9498482db26ca4a7",
-                "reference": "0d57718ddbeee0630976e59c9498482db26ca4a7",
+                "url": "https://api.github.com/repos/chevronphp/containers/zipball/fe603514958d48a48805373ffb7714c6cda9794f",
+                "reference": "fe603514958d48a48805373ffb7714c6cda9794f",
                 "shasum": ""
             },
             "require": {
@@ -87,7 +87,7 @@
             ],
             "description": "an implementation of the registry pattern for fun and profit",
             "homepage": "http://github.com/chevronphp/containers",
-            "time": "2014-09-12 03:12:50"
+            "time": "2014-10-31 03:16:15"
         },
         {
             "name": "chevron/objectloader",
@@ -163,12 +163,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/c9s/Pux.git",
-                "reference": "91ebec0c1a06464dcaefa03f63cbb055550ab1f0"
+                "reference": "516e858b7c705fb2ab19e570174fc97492ded814"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/c9s/Pux/zipball/91ebec0c1a06464dcaefa03f63cbb055550ab1f0",
-                "reference": "91ebec0c1a06464dcaefa03f63cbb055550ab1f0",
+                "url": "https://api.github.com/repos/c9s/Pux/zipball/516e858b7c705fb2ab19e570174fc97492ded814",
+                "reference": "516e858b7c705fb2ab19e570174fc97492ded814",
                 "shasum": ""
             },
             "require-dev": {
@@ -190,7 +190,7 @@
                 }
             ],
             "description": "Fast PHP router",
-            "time": "2014-10-23 15:29:44"
+            "time": "2014-11-02 05:25:57"
         },
         {
             "name": "evenement/evenement",
@@ -697,12 +697,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rdlowrey/Auryn.git",
-                "reference": "bfee56a9e0d2e71b04f04236cb8eff2f8cb1c4fa"
+                "reference": "6ddc46074fc89978c328d5444c198249ad4ffd3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rdlowrey/Auryn/zipball/bfee56a9e0d2e71b04f04236cb8eff2f8cb1c4fa",
-                "reference": "bfee56a9e0d2e71b04f04236cb8eff2f8cb1c4fa",
+                "url": "https://api.github.com/repos/rdlowrey/Auryn/zipball/6ddc46074fc89978c328d5444c198249ad4ffd3a",
+                "reference": "6ddc46074fc89978c328d5444c198249ad4ffd3a",
                 "shasum": ""
             },
             "require": {
@@ -747,7 +747,7 @@
                 "dic",
                 "ioc"
             ],
-            "time": "2014-10-27 15:01:04"
+            "time": "2014-10-30 14:18:07"
         },
         {
             "name": "sabre/event",
@@ -755,12 +755,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fruux/sabre-event.git",
-                "reference": "97f9b8d28625cd78cd9ee6c0e92592c5d3a24b97"
+                "reference": "d037e0df5239258b633bbf5e439c5259755de352"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fruux/sabre-event/zipball/97f9b8d28625cd78cd9ee6c0e92592c5d3a24b97",
-                "reference": "97f9b8d28625cd78cd9ee6c0e92592c5d3a24b97",
+                "url": "https://api.github.com/repos/fruux/sabre-event/zipball/d037e0df5239258b633bbf5e439c5259755de352",
+                "reference": "d037e0df5239258b633bbf5e439c5259755de352",
                 "shasum": ""
             },
             "require": {
@@ -797,7 +797,7 @@
                 "promise",
                 "signal"
             ],
-            "time": "2014-10-06 23:26:53"
+            "time": "2014-10-31 00:26:00"
         },
         {
             "name": "samchristy/piechart",
@@ -981,12 +981,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/willdurand/Negotiation.git",
-                "reference": "a317ef476ece3da9f73ff429a5891d0b9a52a531"
+                "reference": "17b357c97175840200699012c8c536b4f6d43034"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/a317ef476ece3da9f73ff429a5891d0b9a52a531",
-                "reference": "a317ef476ece3da9f73ff429a5891d0b9a52a531",
+                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/17b357c97175840200699012c8c536b4f6d43034",
+                "reference": "17b357c97175840200699012c8c536b4f6d43034",
                 "shasum": ""
             },
             "require": {
@@ -1022,7 +1022,7 @@
                 "header",
                 "negotiation"
             ],
-            "time": "2014-10-28 14:30:32"
+            "time": "2014-10-29 23:21:49"
         }
     ],
     "packages-dev": [],
