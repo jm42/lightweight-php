@@ -591,17 +591,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phly/http.git",
-                "reference": "33f478ec2fbd9f5cf97c6aa46049ad9e5fd400c9"
+                "reference": "eacd0c2a075ec3db365d174b9923320dc0786ac7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phly/http/zipball/33f478ec2fbd9f5cf97c6aa46049ad9e5fd400c9",
-                "reference": "33f478ec2fbd9f5cf97c6aa46049ad9e5fd400c9",
+                "url": "https://api.github.com/repos/phly/http/zipball/eacd0c2a075ec3db365d174b9923320dc0786ac7",
+                "reference": "eacd0c2a075ec3db365d174b9923320dc0786ac7",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.8",
-                "psr/http-message": "~0.4.0"
+                "psr/http-message": "~0.5.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "3.7.*",
@@ -635,7 +635,7 @@
             "keywords": [
                 "http"
             ],
-            "time": "2014-10-17 22:34:06"
+            "time": "2014-11-04 15:06:47"
         },
         {
             "name": "pimple/pimple",
@@ -685,16 +685,16 @@
         },
         {
             "name": "psr/http-message",
-            "version": "0.4.0",
+            "version": "0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
-                "reference": "05f67fe3f44fa213b543160452cfc202304a7e06"
+                "reference": "18619eee10ecf266bafe048e5a2922fa20938498"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/05f67fe3f44fa213b543160452cfc202304a7e06",
-                "reference": "05f67fe3f44fa213b543160452cfc202304a7e06",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/18619eee10ecf266bafe048e5a2922fa20938498",
+                "reference": "18619eee10ecf266bafe048e5a2922fa20938498",
                 "shasum": ""
             },
             "type": "library",
@@ -727,7 +727,7 @@
                 "request",
                 "response"
             ],
-            "time": "2014-10-17 16:13:56"
+            "time": "2014-11-04 14:03:01"
         },
         {
             "name": "rdlowrey/auryn",
@@ -793,12 +793,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fruux/sabre-event.git",
-                "reference": "d3f62806f9d85d2856dd31b870627a5bdf8ca8c0"
+                "reference": "3be8ab8c44709913a35f97b13a36b09bcd2bb2ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fruux/sabre-event/zipball/d3f62806f9d85d2856dd31b870627a5bdf8ca8c0",
-                "reference": "d3f62806f9d85d2856dd31b870627a5bdf8ca8c0",
+                "url": "https://api.github.com/repos/fruux/sabre-event/zipball/3be8ab8c44709913a35f97b13a36b09bcd2bb2ff",
+                "reference": "3be8ab8c44709913a35f97b13a36b09bcd2bb2ff",
                 "shasum": ""
             },
             "require": {
@@ -835,7 +835,7 @@
                 "promise",
                 "signal"
             ],
-            "time": "2014-11-03 15:27:40"
+            "time": "2014-11-04 16:59:55"
         },
         {
             "name": "samchristy/piechart",
