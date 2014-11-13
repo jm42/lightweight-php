@@ -53,12 +53,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chevronphp/containers.git",
-                "reference": "fe603514958d48a48805373ffb7714c6cda9794f"
+                "reference": "d6ce540060d3c18f067289d676610e1af1ae3bdc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chevronphp/containers/zipball/fe603514958d48a48805373ffb7714c6cda9794f",
-                "reference": "fe603514958d48a48805373ffb7714c6cda9794f",
+                "url": "https://api.github.com/repos/chevronphp/containers/zipball/d6ce540060d3c18f067289d676610e1af1ae3bdc",
+                "reference": "d6ce540060d3c18f067289d676610e1af1ae3bdc",
                 "shasum": ""
             },
             "require": {
@@ -87,7 +87,7 @@
             ],
             "description": "an implementation of the registry pattern for fun and profit",
             "homepage": "http://github.com/chevronphp/containers",
-            "time": "2014-10-31 03:16:15"
+            "time": "2014-11-05 18:49:26"
         },
         {
             "name": "chevron/objectloader",
@@ -163,12 +163,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/c9s/Pux.git",
-                "reference": "516e858b7c705fb2ab19e570174fc97492ded814"
+                "reference": "a3eb142dfaad57821eab913f181447193ae8ce9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/c9s/Pux/zipball/516e858b7c705fb2ab19e570174fc97492ded814",
-                "reference": "516e858b7c705fb2ab19e570174fc97492ded814",
+                "url": "https://api.github.com/repos/c9s/Pux/zipball/a3eb142dfaad57821eab913f181447193ae8ce9b",
+                "reference": "a3eb142dfaad57821eab913f181447193ae8ce9b",
                 "shasum": ""
             },
             "require-dev": {
@@ -190,7 +190,7 @@
                 }
             ],
             "description": "Fast PHP router",
-            "time": "2014-11-02 05:25:57"
+            "time": "2014-11-07 14:58:11"
         },
         {
             "name": "evenement/evenement",
@@ -591,12 +591,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phly/http.git",
-                "reference": "eacd0c2a075ec3db365d174b9923320dc0786ac7"
+                "reference": "6ec462fa192645dcfc29b082ce9c3da82ecd15dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phly/http/zipball/eacd0c2a075ec3db365d174b9923320dc0786ac7",
-                "reference": "eacd0c2a075ec3db365d174b9923320dc0786ac7",
+                "url": "https://api.github.com/repos/phly/http/zipball/6ec462fa192645dcfc29b082ce9c3da82ecd15dc",
+                "reference": "6ec462fa192645dcfc29b082ce9c3da82ecd15dc",
                 "shasum": ""
             },
             "require": {
@@ -635,20 +635,20 @@
             "keywords": [
                 "http"
             ],
-            "time": "2014-11-04 15:06:47"
+            "time": "2014-11-10 17:49:38"
         },
         {
             "name": "pimple/pimple",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fabpot/Pimple.git",
-                "reference": "8156c13d978b98d6b1e6395b9c9f0adc8814c20a"
+                "url": "https://github.com/silexphp/Pimple.git",
+                "reference": "08502c02fc490678847f733e0a0b784628033b3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Pimple/zipball/8156c13d978b98d6b1e6395b9c9f0adc8814c20a",
-                "reference": "8156c13d978b98d6b1e6395b9c9f0adc8814c20a",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/08502c02fc490678847f733e0a0b784628033b3a",
+                "reference": "08502c02fc490678847f733e0a0b784628033b3a",
                 "shasum": ""
             },
             "require": {
@@ -681,7 +681,7 @@
                 "container",
                 "dependency injection"
             ],
-            "time": "2014-08-29 17:31:46"
+            "time": "2014-11-09 08:04:37"
         },
         {
             "name": "psr/http-message",
@@ -793,12 +793,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fruux/sabre-event.git",
-                "reference": "3be8ab8c44709913a35f97b13a36b09bcd2bb2ff"
+                "reference": "685e23b0545bad16cf1c264d3721b5806e9a1b99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fruux/sabre-event/zipball/3be8ab8c44709913a35f97b13a36b09bcd2bb2ff",
-                "reference": "3be8ab8c44709913a35f97b13a36b09bcd2bb2ff",
+                "url": "https://api.github.com/repos/fruux/sabre-event/zipball/685e23b0545bad16cf1c264d3721b5806e9a1b99",
+                "reference": "685e23b0545bad16cf1c264d3721b5806e9a1b99",
                 "shasum": ""
             },
             "require": {
@@ -835,7 +835,7 @@
                 "promise",
                 "signal"
             ],
-            "time": "2014-11-04 16:59:55"
+            "time": "2014-11-06 16:16:42"
         },
         {
             "name": "samchristy/piechart",
