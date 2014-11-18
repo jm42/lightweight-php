@@ -460,21 +460,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mindplay-dk/walkway.git",
-                "reference": "dba4e5f8701c7c4b7f94dcd2a3e8eff01f8e828c"
+                "reference": "1223f14c9083d69345149d45cb365585c893bea7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mindplay-dk/walkway/zipball/dba4e5f8701c7c4b7f94dcd2a3e8eff01f8e828c",
-                "reference": "dba4e5f8701c7c4b7f94dcd2a3e8eff01f8e828c",
+                "url": "https://api.github.com/repos/mindplay-dk/walkway/zipball/1223f14c9083d69345149d45cb365585c893bea7",
+                "reference": "1223f14c9083d69345149d45cb365585c893bea7",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
+            "require-dev": {
+                "phpunit/php-code-coverage": "3.0.*@dev"
+            },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "mindplay\\walkway": ""
+                "psr-4": {
+                    "mindplay\\walkway\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -484,13 +487,11 @@
             "authors": [
                 {
                     "name": "Rasmus Schultz",
-                    "email": "rasmus@mindplay.dk",
-                    "homepage": "http://blog.mindplay.dk/",
-                    "role": "PHP port"
+                    "email": "rasmus@mindplay.dk"
                 }
             ],
             "description": "Elegant, modular router for PHP",
-            "time": "2014-02-24 18:18:51"
+            "time": "2014-11-17 21:29:22"
         },
         {
             "name": "nategood/httpful",
@@ -973,12 +974,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/TomBZombie/Dice.git",
-                "reference": "c10a52c9d645f88977137c6ddb0a6bf98f139a80"
+                "reference": "78befa9d4441a4d06b43f178e1ce8d99099efad6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TomBZombie/Dice/zipball/c10a52c9d645f88977137c6ddb0a6bf98f139a80",
-                "reference": "c10a52c9d645f88977137c6ddb0a6bf98f139a80",
+                "url": "https://api.github.com/repos/TomBZombie/Dice/zipball/78befa9d4441a4d06b43f178e1ce8d99099efad6",
+                "reference": "78befa9d4441a4d06b43f178e1ce8d99099efad6",
                 "shasum": ""
             },
             "require": {
@@ -1009,7 +1010,7 @@
                 "di",
                 "ioc"
             ],
-            "time": "2014-10-31 09:04:38"
+            "time": "2014-11-17 17:50:58"
         },
         {
             "name": "vlucas/valitron",
@@ -1017,12 +1018,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/valitron.git",
-                "reference": "0b2ebb93971260c7888badfe0ceae2b62e15f2af"
+                "reference": "e83cd2934c92461243fa0aa480c4dc3c0cbabb16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/valitron/zipball/0b2ebb93971260c7888badfe0ceae2b62e15f2af",
-                "reference": "0b2ebb93971260c7888badfe0ceae2b62e15f2af",
+                "url": "https://api.github.com/repos/vlucas/valitron/zipball/e83cd2934c92461243fa0aa480c4dc3c0cbabb16",
+                "reference": "e83cd2934c92461243fa0aa480c4dc3c0cbabb16",
                 "shasum": ""
             },
             "require": {
@@ -1055,7 +1056,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2014-10-27 15:06:43"
+            "time": "2014-11-14 21:37:19"
         },
         {
             "name": "willdurand/negotiation",
