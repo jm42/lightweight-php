@@ -148,6 +148,8 @@ class Weight
 
 class Chart
 {
+    const LIGHTWEIGHT = 2000;
+
     protected $data;
     protected $title;
     protected $image;
@@ -232,6 +234,11 @@ class Chart
 
         $barMaxWidth = $width - $padding - $x;
 
+        if ($barMaxValue > self::LIGHTWEIGHT) {
+            $xmicro = $x + self::LIGHTWEIGHT * $barMaxWidth / $barMaxValue;
+            $ymicro = $y;
+        }
+
         $i = 0;
         foreach ($this->data as $key => $value) {
             $tmpY1 = $y + $barHeight * $i;
@@ -251,6 +258,10 @@ class Chart
             imageString($this->image, $font, $tmpX, $tmpY, $value, $color);
 
             $i++;
+        }
+
+        if ($barMaxValue > self::LIGHTWEIGHT) {
+            imageDashedLine($this->image, $xmicro, $y, $xmicro, $y + $chartHeight, $color);
         }
     }
 
