@@ -132,16 +132,16 @@
         },
         {
             "name": "container-interop/container-interop",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/container-interop/container-interop.git",
-                "reference": "b4274c871bfd1ae8d8e527ba11734f4df1573e48"
+                "reference": "fc08354828f8fd3245f77a66b9e23a6bca48297e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/container-interop/container-interop/zipball/b4274c871bfd1ae8d8e527ba11734f4df1573e48",
-                "reference": "b4274c871bfd1ae8d8e527ba11734f4df1573e48",
+                "url": "https://api.github.com/repos/container-interop/container-interop/zipball/fc08354828f8fd3245f77a66b9e23a6bca48297e",
+                "reference": "fc08354828f8fd3245f77a66b9e23a6bca48297e",
                 "shasum": ""
             },
             "type": "library",
@@ -155,7 +155,7 @@
                 "MIT"
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
-            "time": "2014-03-16 14:50:05"
+            "time": "2014-12-30 15:22:37"
         },
         {
             "name": "corneltek/pux",
@@ -421,12 +421,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gunnar94/Maverick.git",
-                "reference": "3512fb65ec0b3195fd652c9e3522f2f433784373"
+                "reference": "1646c508b8e2c3630cdc9ae240b28a02770f962f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gunnar94/Maverick/zipball/3512fb65ec0b3195fd652c9e3522f2f433784373",
-                "reference": "3512fb65ec0b3195fd652c9e3522f2f433784373",
+                "url": "https://api.github.com/repos/gunnar94/Maverick/zipball/1646c508b8e2c3630cdc9ae240b28a02770f962f",
+                "reference": "1646c508b8e2c3630cdc9ae240b28a02770f962f",
                 "shasum": ""
             },
             "require": {
@@ -452,7 +452,7 @@
                 }
             ],
             "description": "A micro framework for PHP",
-            "time": "2014-09-01 15:38:07"
+            "time": "2015-01-04 03:11:19"
         },
         {
             "name": "mindplay/walkway",
@@ -460,19 +460,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mindplay-dk/walkway.git",
-                "reference": "1223f14c9083d69345149d45cb365585c893bea7"
+                "reference": "afc0cd4cfd390886f230591109eb5eb428ad64f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mindplay-dk/walkway/zipball/1223f14c9083d69345149d45cb365585c893bea7",
-                "reference": "1223f14c9083d69345149d45cb365585c893bea7",
+                "url": "https://api.github.com/repos/mindplay-dk/walkway/zipball/afc0cd4cfd390886f230591109eb5eb428ad64f9",
+                "reference": "afc0cd4cfd390886f230591109eb5eb428ad64f9",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
             "require-dev": {
-                "phpunit/php-code-coverage": "3.0.*@dev"
+                "phpunit/php-code-coverage": "2.*@dev"
             },
             "type": "library",
             "autoload": {
@@ -491,7 +491,7 @@
                 }
             ],
             "description": "Elegant, modular router for PHP",
-            "time": "2014-11-17 21:29:22"
+            "time": "2015-01-13 22:39:20"
         },
         {
             "name": "nategood/httpful",
@@ -499,12 +499,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nategood/httpful.git",
-                "reference": "41bc3e22fbce6a01919657c9ed3d65d338afa77a"
+                "reference": "437a3c57858b3e06f8a01bfb2c0e59651f3cc590"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nategood/httpful/zipball/41bc3e22fbce6a01919657c9ed3d65d338afa77a",
-                "reference": "41bc3e22fbce6a01919657c9ed3d65d338afa77a",
+                "url": "https://api.github.com/repos/nategood/httpful/zipball/437a3c57858b3e06f8a01bfb2c0e59651f3cc590",
+                "reference": "437a3c57858b3e06f8a01bfb2c0e59651f3cc590",
                 "shasum": ""
             },
             "require": {
@@ -541,7 +541,7 @@
                 "rest",
                 "restful"
             ],
-            "time": "2014-10-21 19:31:44"
+            "time": "2014-12-19 16:36:51"
         },
         {
             "name": "nikic/fast-route",
@@ -549,12 +549,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/FastRoute.git",
-                "reference": "88ac2888aa29d888cf3f447899753a4a1e599759"
+                "reference": "5460d7875f07e1bb6af8f07b7ed8d061a7604494"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/88ac2888aa29d888cf3f447899753a4a1e599759",
-                "reference": "88ac2888aa29d888cf3f447899753a4a1e599759",
+                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/5460d7875f07e1bb6af8f07b7ed8d061a7604494",
+                "reference": "5460d7875f07e1bb6af8f07b7ed8d061a7604494",
                 "shasum": ""
             },
             "require": {
@@ -584,7 +584,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2014-09-30 16:53:49"
+            "time": "2014-12-25 14:31:57"
         },
         {
             "name": "phly/http",
@@ -592,17 +592,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phly/http.git",
-                "reference": "6ec462fa192645dcfc29b082ce9c3da82ecd15dc"
+                "reference": "5138f5c05ab75a54cdd147218d5d1479e54f1332"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phly/http/zipball/6ec462fa192645dcfc29b082ce9c3da82ecd15dc",
-                "reference": "6ec462fa192645dcfc29b082ce9c3da82ecd15dc",
+                "url": "https://api.github.com/repos/phly/http/zipball/5138f5c05ab75a54cdd147218d5d1479e54f1332",
+                "reference": "5138f5c05ab75a54cdd147218d5d1479e54f1332",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.8",
-                "psr/http-message": "~0.5.1"
+                "psr/http-message": "~0.6.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "3.7.*",
@@ -636,7 +636,7 @@
             "keywords": [
                 "http"
             ],
-            "time": "2014-11-10 17:49:38"
+            "time": "2015-01-19 01:16:34"
         },
         {
             "name": "pimple/pimple",
@@ -644,12 +644,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silexphp/Pimple.git",
-                "reference": "08502c02fc490678847f733e0a0b784628033b3a"
+                "reference": "718d503a0047ccaa724d6ee4804a6de8b774fdad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/08502c02fc490678847f733e0a0b784628033b3a",
-                "reference": "08502c02fc490678847f733e0a0b784628033b3a",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/718d503a0047ccaa724d6ee4804a6de8b774fdad",
+                "reference": "718d503a0047ccaa724d6ee4804a6de8b774fdad",
                 "shasum": ""
             },
             "require": {
@@ -682,20 +682,20 @@
                 "container",
                 "dependency injection"
             ],
-            "time": "2014-11-09 08:04:37"
+            "time": "2015-01-16 14:35:03"
         },
         {
             "name": "psr/http-message",
-            "version": "0.5.1",
+            "version": "0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
-                "reference": "18619eee10ecf266bafe048e5a2922fa20938498"
+                "reference": "70d7c442866f109cbda7f9dea8938e47fc3cc20c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/18619eee10ecf266bafe048e5a2922fa20938498",
-                "reference": "18619eee10ecf266bafe048e5a2922fa20938498",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/70d7c442866f109cbda7f9dea8938e47fc3cc20c",
+                "reference": "70d7c442866f109cbda7f9dea8938e47fc3cc20c",
                 "shasum": ""
             },
             "type": "library",
@@ -728,7 +728,7 @@
                 "request",
                 "response"
             ],
-            "time": "2014-11-04 14:03:01"
+            "time": "2015-01-18 23:26:37"
         },
         {
             "name": "rdlowrey/auryn",
@@ -794,12 +794,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fruux/sabre-event.git",
-                "reference": "09cb0e8137456d3eddc55e296807701e16516ab7"
+                "reference": "a973303f4341b65358ede4ee12f8e21c95a0391c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fruux/sabre-event/zipball/09cb0e8137456d3eddc55e296807701e16516ab7",
-                "reference": "09cb0e8137456d3eddc55e296807701e16516ab7",
+                "url": "https://api.github.com/repos/fruux/sabre-event/zipball/a973303f4341b65358ede4ee12f8e21c95a0391c",
+                "reference": "a973303f4341b65358ede4ee12f8e21c95a0391c",
                 "shasum": ""
             },
             "require": {
@@ -836,7 +836,7 @@
                 "promise",
                 "signal"
             ],
-            "time": "2014-11-25 21:33:15"
+            "time": "2015-01-02 23:51:02"
         },
         {
             "name": "samchristy/piechart",
@@ -974,12 +974,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/TomBZombie/Dice.git",
-                "reference": "3823e2a0e696eca049dfc2acf32eb66c6b16f977"
+                "reference": "a5bab80f5354bf4bc1b9ac088a18a19369a68931"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TomBZombie/Dice/zipball/3823e2a0e696eca049dfc2acf32eb66c6b16f977",
-                "reference": "3823e2a0e696eca049dfc2acf32eb66c6b16f977",
+                "url": "https://api.github.com/repos/TomBZombie/Dice/zipball/a5bab80f5354bf4bc1b9ac088a18a19369a68931",
+                "reference": "a5bab80f5354bf4bc1b9ac088a18a19369a68931",
                 "shasum": ""
             },
             "require": {
@@ -1002,7 +1002,7 @@
                     "email": "tom@r.je"
                 }
             ],
-            "description": "A minimalist Dependency injection container (DIC) for PHP. Please note: This branch is only compatible with PHP5.4. A 5.3 compatible version is available as a separate branch on github. ",
+            "description": "A minimalist Dependency injection container (DIC) for PHP. Please note: This branch is only compatible with PHP5.6. 5.5, 5.4 and 5.3 compatible version is available as a separate branch on github. ",
             "homepage": "http://r.je/dice.html",
             "keywords": [
                 "dependency injection",
@@ -1010,7 +1010,7 @@
                 "di",
                 "ioc"
             ],
-            "time": "2014-11-24 09:36:15"
+            "time": "2015-01-14 10:33:27"
         },
         {
             "name": "vlucas/valitron",
@@ -1018,12 +1018,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/valitron.git",
-                "reference": "c7342e025a95b2e400153bc10b059b16018220fe"
+                "reference": "d09596881bab793736deee668c872df0856342dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/valitron/zipball/c7342e025a95b2e400153bc10b059b16018220fe",
-                "reference": "c7342e025a95b2e400153bc10b059b16018220fe",
+                "url": "https://api.github.com/repos/vlucas/valitron/zipball/d09596881bab793736deee668c872df0856342dd",
+                "reference": "d09596881bab793736deee668c872df0856342dd",
                 "shasum": ""
             },
             "require": {
@@ -1056,7 +1056,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2014-11-20 15:24:40"
+            "time": "2014-12-27 16:32:29"
         },
         {
             "name": "willdurand/negotiation",
