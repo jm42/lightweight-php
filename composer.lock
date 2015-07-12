@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "hash": "0f2b09ce809735ac5efc5d593f7e552a",
@@ -163,12 +163,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/c9s/Pux.git",
-                "reference": "a3eb142dfaad57821eab913f181447193ae8ce9b"
+                "reference": "b0272b60d0e018ab27d61d01edb35a4a66f69bc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/c9s/Pux/zipball/a3eb142dfaad57821eab913f181447193ae8ce9b",
-                "reference": "a3eb142dfaad57821eab913f181447193ae8ce9b",
+                "url": "https://api.github.com/repos/c9s/Pux/zipball/b0272b60d0e018ab27d61d01edb35a4a66f69bc3",
+                "reference": "b0272b60d0e018ab27d61d01edb35a4a66f69bc3",
                 "shasum": ""
             },
             "require-dev": {
@@ -190,7 +190,7 @@
                 }
             ],
             "description": "Fast PHP router",
-            "time": "2014-11-07 14:58:11"
+            "time": "2015-04-06 03:09:33"
         },
         {
             "name": "evenement/evenement",
@@ -336,12 +336,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ircmaxell/filterus.git",
-                "reference": "fac32b1782cc66916b1da07bdbb61679a07ab479"
+                "reference": "1f2df5ded0b4cf36635899ccd6dc0798c6b51b42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ircmaxell/filterus/zipball/fac32b1782cc66916b1da07bdbb61679a07ab479",
-                "reference": "fac32b1782cc66916b1da07bdbb61679a07ab479",
+                "url": "https://api.github.com/repos/ircmaxell/filterus/zipball/1f2df5ded0b4cf36635899ccd6dc0798c6b51b42",
+                "reference": "1f2df5ded0b4cf36635899ccd6dc0798c6b51b42",
                 "shasum": ""
             },
             "require": {
@@ -373,7 +373,7 @@
                 "filter",
                 "security"
             ],
-            "time": "2014-07-24 18:37:40"
+            "time": "2015-02-20 20:12:05"
         },
         {
             "name": "lime/lime",
@@ -460,12 +460,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mindplay-dk/walkway.git",
-                "reference": "afc0cd4cfd390886f230591109eb5eb428ad64f9"
+                "reference": "b8c33a3f88744cea3953537613e9f640fc3e57b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mindplay-dk/walkway/zipball/afc0cd4cfd390886f230591109eb5eb428ad64f9",
-                "reference": "afc0cd4cfd390886f230591109eb5eb428ad64f9",
+                "url": "https://api.github.com/repos/mindplay-dk/walkway/zipball/b8c33a3f88744cea3953537613e9f640fc3e57b9",
+                "reference": "b8c33a3f88744cea3953537613e9f640fc3e57b9",
                 "shasum": ""
             },
             "require": {
@@ -491,7 +491,7 @@
                 }
             ],
             "description": "Elegant, modular router for PHP",
-            "time": "2015-01-13 22:39:20"
+            "time": "2015-05-16 10:37:35"
         },
         {
             "name": "nategood/httpful",
@@ -499,12 +499,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nategood/httpful.git",
-                "reference": "437a3c57858b3e06f8a01bfb2c0e59651f3cc590"
+                "reference": "56c45758cf21100c432ae478c61307a1e412fed7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nategood/httpful/zipball/437a3c57858b3e06f8a01bfb2c0e59651f3cc590",
-                "reference": "437a3c57858b3e06f8a01bfb2c0e59651f3cc590",
+                "url": "https://api.github.com/repos/nategood/httpful/zipball/56c45758cf21100c432ae478c61307a1e412fed7",
+                "reference": "56c45758cf21100c432ae478c61307a1e412fed7",
                 "shasum": ""
             },
             "require": {
@@ -541,7 +541,7 @@
                 "rest",
                 "restful"
             ],
-            "time": "2014-12-19 16:36:51"
+            "time": "2015-05-19 18:49:40"
         },
         {
             "name": "nikic/fast-route",
@@ -549,12 +549,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/FastRoute.git",
-                "reference": "5460d7875f07e1bb6af8f07b7ed8d061a7604494"
+                "reference": "31fa86924556b80735f98b294a7ffdfb26789f22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/5460d7875f07e1bb6af8f07b7ed8d061a7604494",
-                "reference": "5460d7875f07e1bb6af8f07b7ed8d061a7604494",
+                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/31fa86924556b80735f98b294a7ffdfb26789f22",
+                "reference": "31fa86924556b80735f98b294a7ffdfb26789f22",
                 "shasum": ""
             },
             "require": {
@@ -584,7 +584,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2014-12-25 14:31:57"
+            "time": "2015-06-18 19:15:47"
         },
         {
             "name": "phly/http",
@@ -592,21 +592,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phly/http.git",
-                "reference": "5138f5c05ab75a54cdd147218d5d1479e54f1332"
+                "reference": "47d18cf1e360f0ffcfaa5afbf34886366628984f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phly/http/zipball/5138f5c05ab75a54cdd147218d5d1479e54f1332",
-                "reference": "5138f5c05ab75a54cdd147218d5d1479e54f1332",
+                "url": "https://api.github.com/repos/phly/http/zipball/47d18cf1e360f0ffcfaa5afbf34886366628984f",
+                "reference": "47d18cf1e360f0ffcfaa5afbf34886366628984f",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.8",
-                "psr/http-message": "~0.6.0"
+                "psr/http-message": "~1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "~1.0.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "3.7.*",
-                "squizlabs/php_codesniffer": "1.5.*"
+                "phpunit/phpunit": "~4.6",
+                "squizlabs/php_codesniffer": "~2.0"
             },
             "type": "library",
             "extra": {
@@ -636,7 +639,8 @@
             "keywords": [
                 "http"
             ],
-            "time": "2015-01-19 01:16:34"
+            "abandoned": "zendframework/zend-diactoros",
+            "time": "2015-05-21 17:01:12"
         },
         {
             "name": "pimple/pimple",
@@ -644,12 +648,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silexphp/Pimple.git",
-                "reference": "718d503a0047ccaa724d6ee4804a6de8b774fdad"
+                "reference": "976f9b385ff8e850e967ba6dd99071df11488f17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/718d503a0047ccaa724d6ee4804a6de8b774fdad",
-                "reference": "718d503a0047ccaa724d6ee4804a6de8b774fdad",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/976f9b385ff8e850e967ba6dd99071df11488f17",
+                "reference": "976f9b385ff8e850e967ba6dd99071df11488f17",
                 "shasum": ""
             },
             "require": {
@@ -682,21 +686,24 @@
                 "container",
                 "dependency injection"
             ],
-            "time": "2015-01-16 14:35:03"
+            "time": "2015-05-29 22:13:37"
         },
         {
             "name": "psr/http-message",
-            "version": "0.6.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
-                "reference": "70d7c442866f109cbda7f9dea8938e47fc3cc20c"
+                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/70d7c442866f109cbda7f9dea8938e47fc3cc20c",
-                "reference": "70d7c442866f109cbda7f9dea8938e47fc3cc20c",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
             },
             "type": "library",
             "extra": {
@@ -706,7 +713,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Psr\\Http\\Message\\": "src"
+                    "Psr\\Http\\Message\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -728,7 +735,7 @@
                 "request",
                 "response"
             ],
-            "time": "2015-01-18 23:26:37"
+            "time": "2015-05-04 20:22:00"
         },
         {
             "name": "rdlowrey/auryn",
@@ -736,19 +743,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rdlowrey/Auryn.git",
-                "reference": "6ddc46074fc89978c328d5444c198249ad4ffd3a"
+                "reference": "b57a5046cfcefb0cde7fc86f9915e54aa7196cba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rdlowrey/Auryn/zipball/6ddc46074fc89978c328d5444c198249ad4ffd3a",
-                "reference": "6ddc46074fc89978c328d5444c198249ad4ffd3a",
+                "url": "https://api.github.com/repos/rdlowrey/Auryn/zipball/b57a5046cfcefb0cde7fc86f9915e54aa7196cba",
+                "reference": "b57a5046cfcefb0cde7fc86f9915e54aa7196cba",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.0.*"
+                "athletic/athletic": "~0.1",
+                "phpunit/phpunit": "~4.5"
             },
             "type": "library",
             "autoload": {
@@ -786,7 +794,7 @@
                 "dic",
                 "ioc"
             ],
-            "time": "2014-10-30 14:18:07"
+            "time": "2015-05-27 12:47:19"
         },
         {
             "name": "sabre/event",
@@ -794,19 +802,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fruux/sabre-event.git",
-                "reference": "a973303f4341b65358ede4ee12f8e21c95a0391c"
+                "reference": "9ff4304a93b74cce9e0b35328a70a660aa9da2d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fruux/sabre-event/zipball/a973303f4341b65358ede4ee12f8e21c95a0391c",
-                "reference": "a973303f4341b65358ede4ee12f8e21c95a0391c",
+                "url": "https://api.github.com/repos/fruux/sabre-event/zipball/9ff4304a93b74cce9e0b35328a70a660aa9da2d4",
+                "reference": "9ff4304a93b74cce9e0b35328a70a660aa9da2d4",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.1"
             },
             "require-dev": {
-                "squizlabs/php_codesniffer": "*"
+                "phpunit/phpunit": "*",
+                "sabre/cs": "~0.0.1"
             },
             "type": "library",
             "autoload": {
@@ -836,7 +845,7 @@
                 "promise",
                 "signal"
             ],
-            "time": "2015-01-02 23:51:02"
+            "time": "2015-05-19 10:16:41"
         },
         {
             "name": "samchristy/piechart",
@@ -974,12 +983,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/TomBZombie/Dice.git",
-                "reference": "a5bab80f5354bf4bc1b9ac088a18a19369a68931"
+                "reference": "153e3189228706591472ecc75c5870bf5be84492"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TomBZombie/Dice/zipball/a5bab80f5354bf4bc1b9ac088a18a19369a68931",
-                "reference": "a5bab80f5354bf4bc1b9ac088a18a19369a68931",
+                "url": "https://api.github.com/repos/TomBZombie/Dice/zipball/153e3189228706591472ecc75c5870bf5be84492",
+                "reference": "153e3189228706591472ecc75c5870bf5be84492",
                 "shasum": ""
             },
             "require": {
@@ -988,8 +997,8 @@
             "type": "library",
             "autoload": {
                 "classmap": [
-                    "loader/",
-                    "dice.php"
+                    "Loader/",
+                    "Dice.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1010,7 +1019,7 @@
                 "di",
                 "ioc"
             ],
-            "time": "2015-01-14 10:33:27"
+            "time": "2015-06-23 16:38:12"
         },
         {
             "name": "vlucas/valitron",
@@ -1064,12 +1073,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/willdurand/Negotiation.git",
-                "reference": "17b357c97175840200699012c8c536b4f6d43034"
+                "reference": "540434b453473e48d0c12de9db4607cbca8e112b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/17b357c97175840200699012c8c536b4f6d43034",
-                "reference": "17b357c97175840200699012c8c536b4f6d43034",
+                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/540434b453473e48d0c12de9db4607cbca8e112b",
+                "reference": "540434b453473e48d0c12de9db4607cbca8e112b",
                 "shasum": ""
             },
             "require": {
@@ -1105,7 +1114,7 @@
                 "header",
                 "negotiation"
             ],
-            "time": "2014-10-29 23:21:49"
+            "time": "2015-06-25 14:39:05"
         }
     ],
     "packages-dev": [],
@@ -1136,6 +1145,7 @@
         "samchristy/piechart": 20
     },
     "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
 }
