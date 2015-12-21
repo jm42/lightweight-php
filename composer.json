@@ -6,6 +6,7 @@
         "lime/lime": "dev-master",
         "bento/bento": "dev-master",
         "maverick/maverick": "dev-master",
+        "badphp/dispatch": "dev-master",
         "pimple/pimple": "dev-master",
         "rdlowrey/auryn": "dev-master",
         "chevron/containers": "dev-master",

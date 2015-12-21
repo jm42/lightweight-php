@@ -4,9 +4,122 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "579b6525ab8a619eb0688f7c06509fe6",
-    "content-hash": "6f0f554b87f483816623a83cec250ede",
+    "hash": "a368b9ccc86f7d191da3104a1b49d952",
+    "content-hash": "adb17a4bdcbab96eadbadca5aeefbd7c",
     "packages": [
+        {
+            "name": "badphp/dispatch",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/badphp/dispatch.git",
+                "reference": "c8e514ede1816ace883c5a789486f6691fcd6928"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/badphp/dispatch/zipball/c8e514ede1816ace883c5a789486f6691fcd6928",
+                "reference": "c8e514ede1816ace883c5a789486f6691fcd6928",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.4.0"
+            },
+            "require-dev": {
+                "ext-xdebug": ">= 2.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "8.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "dispatch.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kafene",
+                    "homepage": "https://github.com/kafene",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Martin Angelov",
+                    "homepage": "https://github.com/martinaglv",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "4d47",
+                    "homepage": "https://github.com/4d47",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Bastian Widmer",
+                    "homepage": "https://github.com/dasrecht",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Lloyd Zhou",
+                    "homepage": "https://github.com/lloydzhou",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Darkalemanbr",
+                    "homepage": "https://github.com/darkalemanbr",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Amin By",
+                    "homepage": "https://github.com/xielingwang",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Ross Masters",
+                    "homepage": "https://github.com/rmasters",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Tom Streller",
+                    "homepage": "https://github.com/scan",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Lars",
+                    "homepage": "https://github.com/larsbo",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Ciprian Danea",
+                    "homepage": "https://github.com/cdanea",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Roman Ožana",
+                    "homepage": "https://github.com/OzzyCzech",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Jesus A. Domingo",
+                    "homepage": "http://github.com/noodlehaus/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "a microframework/front-controller",
+            "homepage": "http://github.com/badphp/dispatch",
+            "keywords": [
+                "framework",
+                "micro",
+                "microframework",
+                "microphp",
+                "router"
+            ],
+            "time": "2015-09-02 05:39:28"
+        },
         {
             "name": "bento/bento",
             "version": "dev-master",
@@ -1010,6 +1123,7 @@
         "lime/lime": 20,
         "bento/bento": 20,
         "maverick/maverick": 20,
+        "badphp/dispatch": 20,
         "pimple/pimple": 20,
         "rdlowrey/auryn": 20,
         "chevron/containers": 20,
