@@ -29,7 +29,7 @@ List of lightweight PHP libraries.
 * [Auryn](https://github.com/rdlowrey/Auryn) - IoC dependency injector
 * [Orno\Di](https://github.com/orno/di) - A fast and powerful dependency injection container
 * [Containers](https://github.com/chevronphp/containers) - An implementation of the registry pattern
-* [Dice](https://github.com/TomBZombie/Dice) - A minimalist Dependency injection container (DIC) for PHP.
+* [Dice](https://github.com/TomBZombie/Dice) - A minimalist Dependency injection container (DIC) for PHP
 * [Suda](https://github.com/guide42/suda) - A lightweight container for your services
 
 ## Events
@@ -40,7 +40,7 @@ List of lightweight PHP libraries.
 ## Routing
 
 * [FastRoute](https://github.com/nikic/FastRoute) - Fast request router for PHP
-* [Walkway](https://github.com/mindplay-dk/walkway) - Elegant, modular router for PHP.
+* [Walkway](https://github.com/mindplay-dk/walkway) - Elegant, modular router for PHP
 
 ## HTTP
 
