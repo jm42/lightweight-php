@@ -22,6 +22,10 @@ List of lightweight PHP libraries.
 * [Maverick](https://github.com/gunnar94/Maverick) - A lightweight framework for PHP
 * [Dispatch](https://github.com/badphp/dispatch) - Dispatch is a PHP 5.4+ micro-framework
 
+## Database
+
+* [Medoo](https://github.com/catfan/Medoo) - The Lightest PHP database framework to accelerate development
+
 ## Dependency Injection
 
 * [Pimple](https://github.com/fabpot/Pimple) - A small PHP 5.3 dependency injection container
