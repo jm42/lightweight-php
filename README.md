@@ -5,14 +5,13 @@ Lightweight PHP
 
 List of lightweight PHP libraries.
 
-- [Lightweight PHP](#lightweight-php)
-  - [Frameworks](#frameworks)
-  - [Dependency Injection](#dependency-injection)
-  - [Events](#events)
-  - [Routing](#routing)
-  - [HTTP](#http)
-  - [Validation and Filtering](#validation-and-filtering)
-  - [Graphics](#graphics)
+- [Frameworks](#frameworks)
+- [Dependency Injection](#dependency-injection)
+- [Events](#events)
+- [Routing](#routing)
+- [HTTP](#http)
+- [Validation and Filtering](#validation-and-filtering)
+- [Graphics](#graphics)
 
 ## Frameworks
 
