@@ -248,7 +248,7 @@ class Chart
         }
 
         $x += $keyWidthMax + $padding;
-        imageLine($this->image, $x, $y, $x, $y + $chartHeight, $color);
+        imageLine($this->image, $x, $y, $x, $y + ($barHeight * $count), $color);
         $x += $padding;
 
         $barMaxWidth = $width - $padding - $x - $extrasWidth;
