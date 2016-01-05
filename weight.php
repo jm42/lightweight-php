@@ -24,7 +24,7 @@ function main(array $argv)
     list($counts, $extras) = $weight->run();
 
     $char = new Chart($counts, $title, $extras);
-    $char->draw();
+    $char->draw(888);
     $char->save('weight.png');
 }
 
