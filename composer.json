@@ -17,6 +17,7 @@
         "sabre/event": "dev-master",
         "nikic/fast-route": "dev-master",
         "mindplay/walkway": "dev-master",
+        "gajus/brick": "dev-master",
         "nategood/httpful": "dev-master",
         "willdurand/negotiation": "dev-master",
         "php-http/httplug": "dev-master",

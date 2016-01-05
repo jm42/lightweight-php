@@ -9,6 +9,7 @@ List of lightweight PHP libraries.
 - [Dependency Injection](#dependency-injection)
 - [Events](#events)
 - [Routing](#routing)
+- [Templating](#templating)
 - [HTTP](#http)
 - [Validation and Filtering](#validation-and-filtering)
 - [Graphics](#graphics)
@@ -44,6 +45,10 @@ List of lightweight PHP libraries.
 
 * [FastRoute](https://github.com/nikic/FastRoute) - Fast request router for PHP
 * [Walkway](https://github.com/mindplay-dk/walkway) - Elegant, modular router for PHP
+
+## Templating
+
+* [Brick](https://github.com/gajus/brick) - PHP template system that's fast, easy to use and easy to extend
 
 ## HTTP
 
