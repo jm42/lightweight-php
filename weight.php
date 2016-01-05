@@ -18,12 +18,12 @@ function main(array $argv)
     }
 
     $weight = new Weight($dir);
-    $counts = $weight->run();
-
     $title = 'Lightweight PHP (by Logical Lines of Code)'
            . ' (generated ' . date('Y/m/d') . ')';
 
-    $char = new Chart($counts, $title);
+    list($counts, $extras) = $weight->run();
+
+    $char = new Chart($counts, $title, $extras);
     $char->draw();
     $char->save('weight.png');
 }
@@ -136,13 +136,18 @@ class Weight
     public function run()
     {
         $package = $this->parse($this->root);
+
         $weight = array();
+        $extras = array();
 
         foreach ($package['require'] as $name => $version) {
             $weight[$name] = $this->weightPackage($name);
+            $extras[$name] = array(
+                substr($this->packages[$name]['time'], 0, 10),
+            );
         }
 
-        return $weight;
+        return array($weight, $extras);
     }
 }
 
@@ -151,12 +156,14 @@ class Chart
     const LIGHTWEIGHT = 2000;
 
     protected $data;
+    protected $more;
     protected $title;
     protected $image;
 
-    public function __construct(array $data, $title = null)
+    public function __construct(array $data, $title = null, $extras = array())
     {
         $this->data = $data;
+        $this->more = $extras;
         $this->title = $title;
     }
 
@@ -181,7 +188,7 @@ class Chart
             imageColorAllocate($this->image, 255, 255, 255)
         );
 
-        $padding = 15;
+        $padding = 10;
 
         $x = $padding;
         $y = $padding;
@@ -203,6 +210,18 @@ class Chart
 
         $chartHeight = $height - $y - $padding;
         $barHeight = floor($chartHeight / $count);
+
+        $extrasWidth = 0;
+        foreach ($this->more as $extras) {
+            $extraWidth = 0;
+            foreach ($extras as $extra) {
+                $extraWidth += $fontWidth * strlen($extra) + $padding;
+            }
+
+            if ($extrasWidth < $extraWidth) {
+                $extrasWidth = $extraWidth;
+            }
+        }
 
         $barMaxValue = 0;
         $keyWidthMax = 0;
@@ -232,7 +251,7 @@ class Chart
         imageLine($this->image, $x, $y, $x, $y + $chartHeight, $color);
         $x += $padding;
 
-        $barMaxWidth = $width - $padding - $x;
+        $barMaxWidth = $width - $padding - $x - $extrasWidth;
 
         if ($barMaxValue > self::LIGHTWEIGHT) {
             $xmicro = $x + self::LIGHTWEIGHT * $barMaxWidth / $barMaxValue;
@@ -252,10 +271,20 @@ class Chart
                 $colors[$key]
             );
 
-            $tmpX = $x + $barMaxWidth - $fontWidth * strlen($value) - $padding;
+            $valueWidth = $fontWidth * strlen($value);
+
+            $tmpX = $x + $barMaxWidth - $valueWidth - $padding;
             $tmpY = ($tmpY1 + $tmpY2 - $fontHeight) / 2;
 
             imageString($this->image, $font, $tmpX, $tmpY, $value, $color);
+
+            $extraWidth = $padding;
+            foreach ($this->more[$key] as $extra) {
+                $tmpX = $x + $barMaxWidth + $extraWidth;
+                $extraWidth += $fontWidth * strlen($extra) + $padding;
+
+                imageString($this->image, $font, $tmpX, $tmpY, $extra, $color);
+            }
 
             $i++;
         }
