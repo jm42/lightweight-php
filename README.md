@@ -51,6 +51,7 @@ List of lightweight PHP libraries.
 * [Valitron](https://github.com/vlucas/valitron) - A simple, elegant, stand-alone validation library
 * [Filterus](https://github.com/ircmaxell/filterus) - A simple filtering library for PHP
 * [Plan](https://github.com/guide42/plan) - Fast and simple validation for PHP
+* [Diacritics Remover](https://github.com/mhlavac/diacritics-remover) - Removes diacritics from strings
 
 ## Graphics
 
