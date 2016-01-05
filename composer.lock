@@ -460,12 +460,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Level-2/Dice.git",
-                "reference": "fee948c67e8881f081627f6b1791b841d2e5bd0e"
+                "reference": "d3ecf3a620b361232c77236b39d2d50a48c4a1a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Level-2/Dice/zipball/fee948c67e8881f081627f6b1791b841d2e5bd0e",
-                "reference": "fee948c67e8881f081627f6b1791b841d2e5bd0e",
+                "url": "https://api.github.com/repos/Level-2/Dice/zipball/d3ecf3a620b361232c77236b39d2d50a48c4a1a1",
+                "reference": "d3ecf3a620b361232c77236b39d2d50a48c4a1a1",
                 "shasum": ""
             },
             "require": {
@@ -495,7 +495,7 @@
                 "di",
                 "ioc"
             ],
-            "time": "2015-12-13 17:24:53"
+            "time": "2015-12-29 20:07:11"
         },
         {
             "name": "lime/lime",
@@ -587,12 +587,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mindplay-dk/walkway.git",
-                "reference": "c00a985eb9b352c85cc10e72361668ac58c65960"
+                "reference": "e9415253de8cb19b50d492738f240c9407e0bd1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mindplay-dk/walkway/zipball/c00a985eb9b352c85cc10e72361668ac58c65960",
-                "reference": "c00a985eb9b352c85cc10e72361668ac58c65960",
+                "url": "https://api.github.com/repos/mindplay-dk/walkway/zipball/e9415253de8cb19b50d492738f240c9407e0bd1c",
+                "reference": "e9415253de8cb19b50d492738f240c9407e0bd1c",
                 "shasum": ""
             },
             "require": {
@@ -623,7 +623,7 @@
                 }
             ],
             "description": "Elegant, modular router for PHP",
-            "time": "2015-11-05 20:39:13"
+            "time": "2015-12-30 11:44:34"
         },
         {
             "name": "nategood/httpful",
@@ -831,12 +831,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fruux/sabre-event.git",
-                "reference": "867bef6a313e1a30914cf4ba355bd88afd8c424b"
+                "reference": "82719cf57db4f1f9f064eee5f6541e160e66dfa0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fruux/sabre-event/zipball/867bef6a313e1a30914cf4ba355bd88afd8c424b",
-                "reference": "867bef6a313e1a30914cf4ba355bd88afd8c424b",
+                "url": "https://api.github.com/repos/fruux/sabre-event/zipball/82719cf57db4f1f9f064eee5f6541e160e66dfa0",
+                "reference": "82719cf57db4f1f9f064eee5f6541e160e66dfa0",
                 "shasum": ""
             },
             "require": {
@@ -883,7 +883,7 @@
                 "reactor",
                 "signal"
             ],
-            "time": "2015-11-10 05:21:33"
+            "time": "2015-12-31 18:16:31"
         },
         {
             "name": "samchristy/piechart",
