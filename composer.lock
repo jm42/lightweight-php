@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3149153afeda7ebda8c38c1ce9a070bf",
-    "content-hash": "cdbfa7531fc526054777f4a8add47d37",
+    "hash": "a6d36d93d2b8698278f286be53bd3542",
+    "content-hash": "8dcdf5b2609f22c3e5edcf476c19ca5e",
     "packages": [
         {
             "name": "badphp/dispatch",
@@ -640,6 +640,50 @@
                 "php"
             ],
             "time": "2015-10-12 21:43:23"
+        },
+        {
+            "name": "mashape/unirest-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Mashape/unirest-php.git",
+                "reference": "da71f063cfd1ef2e07769aac7a9af66379ef3361"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mashape/unirest-php/zipball/da71f063cfd1ef2e07769aac7a9af66379ef3361",
+                "reference": "da71f063cfd1ef2e07769aac7a9af66379ef3361",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "0.1.*",
+                "phpunit/phpunit": "~4.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Unirest": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Unirest PHP",
+            "homepage": "https://github.com/Mashape/unirest-php",
+            "keywords": [
+                "client",
+                "curl",
+                "http",
+                "https",
+                "rest"
+            ],
+            "time": "2015-12-15 22:22:11"
         },
         {
             "name": "maverick/maverick",
@@ -1479,6 +1523,7 @@
         "nategood/httpful": 20,
         "willdurand/negotiation": 20,
         "php-http/httplug": 20,
+        "mashape/unirest-php": 20,
         "vlucas/valitron": 20,
         "ircmaxell/filterus": 20,
         "guide42/plan": 20,

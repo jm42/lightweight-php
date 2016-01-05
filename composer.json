@@ -22,6 +22,7 @@
         "nategood/httpful": "dev-master",
         "willdurand/negotiation": "dev-master",
         "php-http/httplug": "dev-master",
+        "mashape/unirest-php": "dev-master",
         "vlucas/valitron": "dev-master",
         "ircmaxell/filterus": "dev-master",
         "guide42/plan": "dev-master",
