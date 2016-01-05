@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7cbcca65a128bce44cc2dddfc5595911",
-    "content-hash": "39eda4707d35c05aa553c10ce90cf227",
+    "hash": "3149153afeda7ebda8c38c1ce9a070bf",
+    "content-hash": "cdbfa7531fc526054777f4a8add47d37",
     "packages": [
         {
             "name": "badphp/dispatch",
@@ -1133,6 +1133,39 @@
             "time": "2015-12-09 16:44:14"
         },
         {
+            "name": "rkr/view",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rkrx/php-view.git",
+                "reference": "dfe7633790cf7d4c033d4306848bb7e171d49e13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rkrx/php-view/zipball/dfe7633790cf7d4c033d4306848bb7e171d49e13",
+                "reference": "dfe7633790cf7d4c033d4306848bb7e171d49e13",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7@stable"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "View\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "More secure and easy to use templating system for php5.4+",
+            "time": "2015-12-10 10:30:14"
+        },
+        {
             "name": "sabre/event",
             "version": "dev-master",
             "source": {
@@ -1442,6 +1475,7 @@
         "nikic/fast-route": 20,
         "mindplay/walkway": 20,
         "gajus/brick": 20,
+        "rkr/view": 20,
         "nategood/httpful": 20,
         "willdurand/negotiation": 20,
         "php-http/httplug": 20,
