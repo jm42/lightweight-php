@@ -12,27 +12,19 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/badphp/dispatch.git",
-                "reference": "c8e514ede1816ace883c5a789486f6691fcd6928"
+                "url": "https://github.com/noodlehaus/dispatch.git",
+                "reference": "a0ff8f576afc16fa69735d0df7b38fa8f5514194"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/badphp/dispatch/zipball/c8e514ede1816ace883c5a789486f6691fcd6928",
-                "reference": "c8e514ede1816ace883c5a789486f6691fcd6928",
+                "url": "https://api.github.com/repos/noodlehaus/dispatch/zipball/a0ff8f576afc16fa69735d0df7b38fa8f5514194",
+                "reference": "a0ff8f576afc16fa69735d0df7b38fa8f5514194",
                 "shasum": ""
             },
             "require": {
-                "php": ">= 5.4.0"
-            },
-            "require-dev": {
-                "ext-xdebug": ">= 2.1"
+                "php": ">= 5.6.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "8.x-dev"
-                }
-            },
             "autoload": {
                 "files": [
                     "dispatch.php"
@@ -104,21 +96,21 @@
                     "role": "Contributor"
                 },
                 {
-                    "name": "Jesus A. Domingo",
+                    "name": "noodlehaus",
                     "homepage": "http://github.com/noodlehaus/",
                     "role": "Developer"
                 }
             ],
-            "description": "a microframework/front-controller",
-            "homepage": "http://github.com/badphp/dispatch",
+            "description": "a micro-routing library for PHP",
+            "homepage": "http://github.com/noodlehaus/dispatch",
             "keywords": [
-                "framework",
                 "micro",
                 "microframework",
                 "microphp",
                 "router"
             ],
-            "time": "2015-09-02 05:39:28"
+            "abandoned": "noodlehaus/dispatch",
+            "time": "2016-02-11 03:21:18"
         },
         {
             "name": "bento/bento",
@@ -167,12 +159,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/catfan/Medoo.git",
-                "reference": "634bcef389e4eaa40d10e6d66a9eecc0f7638cc7"
+                "reference": "342e2d6a3bcf4adcac58e67593d63547139ab1ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/catfan/Medoo/zipball/634bcef389e4eaa40d10e6d66a9eecc0f7638cc7",
-                "reference": "634bcef389e4eaa40d10e6d66a9eecc0f7638cc7",
+                "url": "https://api.github.com/repos/catfan/Medoo/zipball/342e2d6a3bcf4adcac58e67593d63547139ab1ac",
+                "reference": "342e2d6a3bcf4adcac58e67593d63547139ab1ac",
                 "shasum": ""
             },
             "require": {
@@ -214,7 +206,7 @@
                 "sql",
                 "sqlite"
             ],
-            "time": "2015-10-05 07:26:17"
+            "time": "2016-02-14 16:03:42"
         },
         {
             "name": "chevron/containers",
@@ -222,12 +214,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chevronphp/containers.git",
-                "reference": "1559057d8d293d8f973b4d310ed04177ec744f7b"
+                "reference": "5f906df0b30227f18915598d865cec37281340bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chevronphp/containers/zipball/1559057d8d293d8f973b4d310ed04177ec744f7b",
-                "reference": "1559057d8d293d8f973b4d310ed04177ec744f7b",
+                "url": "https://api.github.com/repos/chevronphp/containers/zipball/5f906df0b30227f18915598d865cec37281340bd",
+                "reference": "5f906df0b30227f18915598d865cec37281340bd",
                 "shasum": ""
             },
             "require": {
@@ -256,7 +248,7 @@
             ],
             "description": "an implementation of the registry pattern for fun and profit",
             "homepage": "http://github.com/chevronphp/containers",
-            "time": "2015-09-28 15:12:27"
+            "time": "2016-02-18 14:12:41"
         },
         {
             "name": "chevron/objectloader",
@@ -559,12 +551,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Level-2/Dice.git",
-                "reference": "d3ecf3a620b361232c77236b39d2d50a48c4a1a1"
+                "reference": "2db8353b51296d13d5412c1861f7790e49da189a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Level-2/Dice/zipball/d3ecf3a620b361232c77236b39d2d50a48c4a1a1",
-                "reference": "d3ecf3a620b361232c77236b39d2d50a48c4a1a1",
+                "url": "https://api.github.com/repos/Level-2/Dice/zipball/2db8353b51296d13d5412c1861f7790e49da189a",
+                "reference": "2db8353b51296d13d5412c1861f7790e49da189a",
                 "shasum": ""
             },
             "require": {
@@ -594,7 +586,7 @@
                 "di",
                 "ioc"
             ],
-            "time": "2015-12-29 20:07:11"
+            "time": "2016-06-13 11:46:44"
         },
         {
             "name": "lime/lime",
@@ -602,12 +594,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aheinze/lime.git",
-                "reference": "871ce08b4db05b0a2bf4ec39ca36b9dffbb7c2a7"
+                "reference": "39709b63a5cd0dc65d7667dfdb8c11febcd5bd39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aheinze/lime/zipball/871ce08b4db05b0a2bf4ec39ca36b9dffbb7c2a7",
-                "reference": "871ce08b4db05b0a2bf4ec39ca36b9dffbb7c2a7",
+                "url": "https://api.github.com/repos/aheinze/lime/zipball/39709b63a5cd0dc65d7667dfdb8c11febcd5bd39",
+                "reference": "39709b63a5cd0dc65d7667dfdb8c11febcd5bd39",
                 "shasum": ""
             },
             "require": {
@@ -639,7 +631,7 @@
                 "microframework",
                 "php"
             ],
-            "time": "2015-10-12 21:43:23"
+            "time": "2016-04-07 01:19:18"
         },
         {
             "name": "mashape/unirest-php",
@@ -647,22 +639,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Mashape/unirest-php.git",
-                "reference": "da71f063cfd1ef2e07769aac7a9af66379ef3361"
+                "reference": "5d304c6f6c0a6a75cdf4149005bd19479d3e6b1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Mashape/unirest-php/zipball/da71f063cfd1ef2e07769aac7a9af66379ef3361",
-                "reference": "da71f063cfd1ef2e07769aac7a9af66379ef3361",
+                "url": "https://api.github.com/repos/Mashape/unirest-php/zipball/5d304c6f6c0a6a75cdf4149005bd19479d3e6b1e",
+                "reference": "5d304c6f6c0a6a75cdf4149005bd19479d3e6b1e",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
-                "ext-json": "*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "0.1.*",
                 "phpunit/phpunit": "~4.4"
+            },
+            "suggest": {
+                "ext-json": "Allows using JSON Bodies for sending and parsing requests"
             },
             "type": "library",
             "autoload": {
@@ -683,7 +677,7 @@
                 "https",
                 "rest"
             ],
-            "time": "2015-12-15 22:22:11"
+            "time": "2016-05-31 16:59:14"
         },
         {
             "name": "maverick/maverick",
@@ -691,12 +685,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gunnar94/Maverick.git",
-                "reference": "a060da6ddfab0099047938417499749e518315b0"
+                "reference": "ce08e21ec158f6f739b18e7c6885168bc7d0179e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gunnar94/Maverick/zipball/a060da6ddfab0099047938417499749e518315b0",
-                "reference": "a060da6ddfab0099047938417499749e518315b0",
+                "url": "https://api.github.com/repos/gunnar94/Maverick/zipball/ce08e21ec158f6f739b18e7c6885168bc7d0179e",
+                "reference": "ce08e21ec158f6f739b18e7c6885168bc7d0179e",
                 "shasum": ""
             },
             "require": {
@@ -722,7 +716,7 @@
                 }
             ],
             "description": "A micro framework for PHP",
-            "time": "2015-07-11 02:52:20"
+            "time": "2016-01-11 21:36:32"
         },
         {
             "name": "mhlavac/diacritics-remover",
@@ -780,12 +774,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mindplay-dk/walkway.git",
-                "reference": "e9415253de8cb19b50d492738f240c9407e0bd1c"
+                "reference": "b03481834e8a131f28b26cd6aee8d3499ecb631a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mindplay-dk/walkway/zipball/e9415253de8cb19b50d492738f240c9407e0bd1c",
-                "reference": "e9415253de8cb19b50d492738f240c9407e0bd1c",
+                "url": "https://api.github.com/repos/mindplay-dk/walkway/zipball/b03481834e8a131f28b26cd6aee8d3499ecb631a",
+                "reference": "b03481834e8a131f28b26cd6aee8d3499ecb631a",
                 "shasum": ""
             },
             "require": {
@@ -816,7 +810,7 @@
                 }
             ],
             "description": "Elegant, modular router for PHP",
-            "time": "2015-12-30 11:44:34"
+            "time": "2016-04-16 12:01:43"
         },
         {
             "name": "nategood/httpful",
@@ -874,12 +868,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/FastRoute.git",
-                "reference": "8164b4a0d8afde4eae5f1bfc39084972ba23ad36"
+                "reference": "8ea928195fa9b907f0d6e48312d323c1a13cc2af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/8164b4a0d8afde4eae5f1bfc39084972ba23ad36",
-                "reference": "8164b4a0d8afde4eae5f1bfc39084972ba23ad36",
+                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/8ea928195fa9b907f0d6e48312d323c1a13cc2af",
+                "reference": "8ea928195fa9b907f0d6e48312d323c1a13cc2af",
                 "shasum": ""
             },
             "require": {
@@ -909,7 +903,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2015-12-20 19:50:12"
+            "time": "2016-06-12 19:08:51"
         },
         {
             "name": "php-http/httplug",
@@ -917,17 +911,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/httplug.git",
-                "reference": "94262d31a7694b8945b9ef80ebfd439c564afc47"
+                "reference": "19deb66509fa3d5a828892a05c9e572c48a5c7ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/httplug/zipball/94262d31a7694b8945b9ef80ebfd439c564afc47",
-                "reference": "94262d31a7694b8945b9ef80ebfd439c564afc47",
+                "url": "https://api.github.com/repos/php-http/httplug/zipball/19deb66509fa3d5a828892a05c9e572c48a5c7ad",
+                "reference": "19deb66509fa3d5a828892a05c9e572c48a5c7ad",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4",
-                "php-http/promise": "^0.1",
+                "php-http/promise": "^1.0",
                 "psr/http-message": "^1.0"
             },
             "require-dev": {
@@ -965,24 +959,21 @@
                 "client",
                 "http"
             ],
-            "time": "2015-12-17 15:21:02"
+            "time": "2016-01-28 07:53:22"
         },
         {
             "name": "php-http/promise",
-            "version": "v0.1.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/promise.git",
-                "reference": "63c930a02f68800669a4375c61845a853197b7dc"
+                "reference": "810b30da8bcf69e4b82c4b9bc6b31518234293ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/promise/zipball/63c930a02f68800669a4375c61845a853197b7dc",
-                "reference": "63c930a02f68800669a4375c61845a853197b7dc",
+                "url": "https://api.github.com/repos/php-http/promise/zipball/810b30da8bcf69e4b82c4b9bc6b31518234293ab",
+                "reference": "810b30da8bcf69e4b82c4b9bc6b31518234293ab",
                 "shasum": ""
-            },
-            "require": {
-                "psr/http-message": "^1.0"
             },
             "require-dev": {
                 "henrikbjorn/phpspec-code-coverage": "^1.0",
@@ -991,7 +982,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.2-dev"
+                    "dev-master": "1.0-dev"
                 }
             },
             "autoload": {
@@ -1018,7 +1009,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2015-12-24 23:03:22"
+            "time": "2016-01-28 07:54:12"
         },
         {
             "name": "pimple/pimple",
@@ -1121,12 +1112,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rdlowrey/auryn.git",
-                "reference": "d6e03a7026a1724965c921f4fbd8351ab8f0a9f1"
+                "reference": "2e4240791162dfe073d59654d8dc06df0eb0b73f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rdlowrey/auryn/zipball/d6e03a7026a1724965c921f4fbd8351ab8f0a9f1",
-                "reference": "d6e03a7026a1724965c921f4fbd8351ab8f0a9f1",
+                "url": "https://api.github.com/repos/rdlowrey/auryn/zipball/2e4240791162dfe073d59654d8dc06df0eb0b73f",
+                "reference": "2e4240791162dfe073d59654d8dc06df0eb0b73f",
                 "shasum": ""
             },
             "require": {
@@ -1174,7 +1165,7 @@
                 "dic",
                 "ioc"
             ],
-            "time": "2015-12-09 16:44:14"
+            "time": "2016-03-14 20:10:19"
         },
         {
             "name": "rkr/view",
@@ -1182,12 +1173,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rkrx/php-view.git",
-                "reference": "dfe7633790cf7d4c033d4306848bb7e171d49e13"
+                "reference": "ef67465e16a3ce2e93d6356205e5d6d33013d6e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rkrx/php-view/zipball/dfe7633790cf7d4c033d4306848bb7e171d49e13",
-                "reference": "dfe7633790cf7d4c033d4306848bb7e171d49e13",
+                "url": "https://api.github.com/repos/rkrx/php-view/zipball/ef67465e16a3ce2e93d6356205e5d6d33013d6e8",
+                "reference": "ef67465e16a3ce2e93d6356205e5d6d33013d6e8",
                 "shasum": ""
             },
             "require": {
@@ -1207,7 +1198,7 @@
                 "MIT"
             ],
             "description": "More secure and easy to use templating system for php5.4+",
-            "time": "2015-12-10 10:30:14"
+            "time": "2016-05-10 08:24:15"
         },
         {
             "name": "sabre/event",
@@ -1405,12 +1396,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/valitron.git",
-                "reference": "d2b63c611980bb804d17468bf0b3c8d4e28afbf5"
+                "reference": "e55681c9ab4add9093daaf472ed5798715262d21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/valitron/zipball/d2b63c611980bb804d17468bf0b3c8d4e28afbf5",
-                "reference": "d2b63c611980bb804d17468bf0b3c8d4e28afbf5",
+                "url": "https://api.github.com/repos/vlucas/valitron/zipball/e55681c9ab4add9093daaf472ed5798715262d21",
+                "reference": "e55681c9ab4add9093daaf472ed5798715262d21",
                 "shasum": ""
             },
             "require": {
@@ -1443,7 +1434,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2015-12-15 20:10:29"
+            "time": "2016-05-22 12:02:59"
         },
         {
             "name": "willdurand/negotiation",
@@ -1451,12 +1442,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/willdurand/Negotiation.git",
-                "reference": "6ea823c2deaacb92d580730f2daa576eb40f0eef"
+                "reference": "5154ac7346ed2821dd55e2b70cb865d54f7cbca7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/6ea823c2deaacb92d580730f2daa576eb40f0eef",
-                "reference": "6ea823c2deaacb92d580730f2daa576eb40f0eef",
+                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/5154ac7346ed2821dd55e2b70cb865d54f7cbca7",
+                "reference": "5154ac7346ed2821dd55e2b70cb865d54f7cbca7",
                 "shasum": ""
             },
             "require": {
@@ -1495,7 +1486,7 @@
                 "header",
                 "negotiation"
             ],
-            "time": "2015-12-12 09:30:07"
+            "time": "2016-03-08 21:43:10"
         }
     ],
     "packages-dev": [],
