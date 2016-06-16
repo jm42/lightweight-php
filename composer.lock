@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a6d36d93d2b8698278f286be53bd3542",
-    "content-hash": "8dcdf5b2609f22c3e5edcf476c19ca5e",
+    "hash": "16e4630e18b530fecdcc04f94f620e7e",
+    "content-hash": "1c2be674fdc30229346e1819ead68a0d",
     "packages": [
         {
             "name": "badphp/dispatch",
@@ -632,6 +632,60 @@
                 "php"
             ],
             "time": "2016-04-07 01:19:18"
+        },
+        {
+            "name": "lukasoppermann/http-status",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lukasoppermann/http-status.git",
+                "reference": "e4dc8fd3f4732547bcded430052928b1a902cdae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lukasoppermann/http-status/zipball/e4dc8fd3f4732547bcded430052928b1a902cdae",
+                "reference": "e4dc8fd3f4732547bcded430052928b1a902cdae",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "^1.10",
+                "league/csv": "^7.1",
+                "phpunit/phpunit": "~4.0",
+                "satooshi/php-coveralls": "^0.6.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Lukasoppermann\\Httpstatus\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lukas Oppermann",
+                    "email": "lukas@vea.re",
+                    "homepage": "http://vea.re",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A minimal package for working with HTTP statuses.",
+            "homepage": "https://github.com/lukasoppermann/http-status",
+            "keywords": [
+                "httpstatus",
+                "status codes"
+            ],
+            "time": "2015-12-28 16:09:41"
         },
         {
             "name": "mashape/unirest-php",
@@ -1515,6 +1569,7 @@
         "willdurand/negotiation": 20,
         "php-http/httplug": 20,
         "mashape/unirest-php": 20,
+        "lukasoppermann/http-status": 20,
         "vlucas/valitron": 20,
         "ircmaxell/filterus": 20,
         "guide42/plan": 20,

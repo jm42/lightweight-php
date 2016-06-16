@@ -57,6 +57,7 @@ List of lightweight PHP libraries.
 * [Negotiation](https://github.com/willdurand/Negotiation) - Content negotiation tools for PHP
 * [HTTPlug](https://github.com/php-http/httplug) - HTTP client abstraction for PHP
 * [Unirest](https://github.com/Mashape/unirest-php) - Simplified, lightweight HTTP client library
+* [Httpstatus](https://github.com/lukasoppermann/http-status) - A minimal package for working with HTTP statuses
 
 ## Validation and Filtering
 
