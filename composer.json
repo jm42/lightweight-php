@@ -17,6 +17,7 @@
         "sabre/event": "dev-master",
         "nikic/fast-route": "dev-master",
         "mindplay/walkway": "dev-master",
+        "aura/router": "3.x-dev",
         "gajus/brick": "dev-master",
         "rkr/view": "dev-master",
         "nategood/httpful": "dev-master",

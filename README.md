@@ -45,6 +45,7 @@ List of lightweight PHP libraries.
 
 * [FastRoute](https://github.com/nikic/FastRoute) - Fast request router for PHP
 * [Walkway](https://github.com/mindplay-dk/walkway) - Elegant, modular router for PHP
+* [Aura.Router](https://github.com/auraphp/Aura.Router) - A web router implementation for PHP
 
 ## Templating
 
