@@ -11,6 +11,7 @@ List of lightweight PHP libraries.
 - [Routing](#routing)
 - [Templating](#templating)
 - [HTTP](#http)
+- [Middleware](#middleware)
 - [Validation and Filtering](#validation-and-filtering)
 - [Graphics](#graphics)
 
@@ -59,6 +60,13 @@ List of lightweight PHP libraries.
 * [HTTPlug](https://github.com/php-http/httplug) - HTTP client abstraction for PHP
 * [Unirest](https://github.com/Mashape/unirest-php) - Simplified, lightweight HTTP client library
 * [Httpstatus](https://github.com/lukasoppermann/http-status) - A minimal package for working with HTTP statuses
+
+## Middleware
+
+* [Tari-PHP](https://github.com/ircmaxell/Tari-PHP) - A middleware proposal for PHP
+* [Relay](https://github.com/relayphp/Relay.Relay) - A PSR-7 middleware dispatcher
+* [zend-stratigility](https://github.com/zendframework/zend-stratigility) - Middleware for PHP built on top of PSR-7
+* [Sirius](https://github.com/siriusphp/middleware) - Lightweight middleware implementation
 
 ## Validation and Filtering
 
