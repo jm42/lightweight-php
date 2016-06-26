@@ -68,6 +68,7 @@ List of lightweight PHP libraries.
 * [Relay](https://github.com/relayphp/Relay.Relay) - A PSR-7 middleware dispatcher
 * [zend-stratigility](https://github.com/zendframework/zend-stratigility) - Middleware for PHP built on top of PSR-7
 * [Sirius](https://github.com/siriusphp/middleware) - Lightweight middleware implementation
+* [mindplay\middleman](https://github.com/mindplay-dk/middleman) - Dead simple PSR-7 middleware dispatcher
 
 ## Log
 

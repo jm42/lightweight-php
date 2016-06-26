@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ffcbd90876d53a225ec5d262d517940b",
-    "content-hash": "29052267c05d8487928490dcfcb1fe02",
+    "hash": "c555c90a3d4c4a6fa3a70c85ae37c1bd",
+    "content-hash": "06e79ccb36b8d1fbd4836d90c24f7f0c",
     "packages": [
         {
             "name": "apix/log",
@@ -389,6 +389,33 @@
             "description": "populate an object by recursively loading files",
             "homepage": "http://github.com/chevronphp/objectloader",
             "time": "2014-08-31 04:03:27"
+        },
+        {
+            "name": "container-interop/container-interop",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/container-interop/container-interop.git",
+                "reference": "fc08354828f8fd3245f77a66b9e23a6bca48297e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/container-interop/container-interop/zipball/fc08354828f8fd3245f77a66b9e23a6bca48297e",
+                "reference": "fc08354828f8fd3245f77a66b9e23a6bca48297e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Interop\\Container\\": "src/Interop/Container/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
+            "time": "2014-12-30 15:22:37"
         },
         {
             "name": "evenement/evenement",
@@ -938,6 +965,84 @@
                 "string"
             ],
             "time": "2015-08-28 04:33:11"
+        },
+        {
+            "name": "mindplay/middleman",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mindplay-dk/middleman.git",
+                "reference": "9b8f585e315f3cd3c96865bf54bbf3499f24d932"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mindplay-dk/middleman/zipball/9b8f585e315f3cd3c96865bf54bbf3499f24d932",
+                "reference": "9b8f585e315f3cd3c96865bf54bbf3499f24d932",
+                "shasum": ""
+            },
+            "require": {
+                "container-interop/container-interop": "^1.1",
+                "mindplay/readable": "^1",
+                "php": ">=5.4",
+                "psr/http-message": "~1.0"
+            },
+            "require-dev": {
+                "mindplay/testies": "^0.2.0",
+                "mockery/mockery": "^0.9.4",
+                "phpunit/php-code-coverage": "^2.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "mindplay\\middleman\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Rasmus Schultz",
+                    "email": "rasmus@mindplay.dk"
+                }
+            ],
+            "description": "PSR-7 middleware dispatcher. Let's stop trying to make this complicated.",
+            "time": "2016-05-08 20:48:21"
+        },
+        {
+            "name": "mindplay/readable",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mindplay-dk/readable.git",
+                "reference": "211a6afd951d3501d9e4495bcaf373659af79ade"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mindplay-dk/readable/zipball/211a6afd951d3501d9e4495bcaf373659af79ade",
+                "reference": "211a6afd951d3501d9e4495bcaf373659af79ade",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "mindplay/testies": "dev-master",
+                "phpunit/php-code-coverage": ">=2, <4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Formats PHP values as human-readable strings",
+            "time": "2016-05-08 20:17:11"
         },
         {
             "name": "mindplay/walkway",
@@ -1935,6 +2040,7 @@
         "relay/relay": 20,
         "zendframework/zend-stratigility": 20,
         "siriusphp/middleware": 20,
+        "mindplay/middleman": 20,
         "apix/log": 20,
         "vlucas/valitron": 20,
         "ircmaxell/filterus": 20,
