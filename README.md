@@ -12,6 +12,7 @@ List of lightweight PHP libraries.
 - [Templating](#templating)
 - [HTTP](#http)
 - [Middleware](#middleware)
+- [Log](#log)
 - [Validation and Filtering](#validation-and-filtering)
 - [Graphics](#graphics)
 
@@ -66,6 +67,10 @@ List of lightweight PHP libraries.
 * [Relay](https://github.com/relayphp/Relay.Relay) - A PSR-7 middleware dispatcher
 * [zend-stratigility](https://github.com/zendframework/zend-stratigility) - Middleware for PHP built on top of PSR-7
 * [Sirius](https://github.com/siriusphp/middleware) - Lightweight middleware implementation
+
+## Log
+
+* [APIx Log](https://github.com/frqnck/apix-log) - A thin (and fast) PSR-3 logger
 
 ## Validation and Filtering
 

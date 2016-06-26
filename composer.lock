@@ -4,9 +4,60 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "18de834394315c44dad23b4a4f4c73da",
-    "content-hash": "f114d3b0a01b9ef72cf20a5c21f24bed",
+    "hash": "8b9d502b2beb126d0d548b556670b738",
+    "content-hash": "b95f1234c0e6c755f6f5914f646690a5",
     "packages": [
+        {
+            "name": "apix/log",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/frqnck/apix-log.git",
+                "reference": "3aeecb70d9713bc3c4a17efb39db86ec38a0f32d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/frqnck/apix-log/zipball/3aeecb70d9713bc3c4a17efb39db86ec38a0f32d",
+                "reference": "3aeecb70d9713bc3c4a17efb39db86ec38a0f32d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "psr/log": "~1.0"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.8.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Apix\\Log\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Franck Cassedanne",
+                    "email": "franck@ouarz.net"
+                }
+            ],
+            "description": "Minimalist, thin and fast PSR-3 compliant (multi-bucket) logger.",
+            "homepage": "https://github.com/frqnck/apix-log",
+            "keywords": [
+                "apix",
+                "log",
+                "logger",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2015-09-18 13:22:00"
+        },
         {
             "name": "aura/router",
             "version": "3.x-dev",
@@ -1834,6 +1885,7 @@
         "relay/relay": 20,
         "zendframework/zend-stratigility": 20,
         "siriusphp/middleware": 20,
+        "apix/log": 20,
         "vlucas/valitron": 20,
         "ircmaxell/filterus": 20,
         "guide42/plan": 20,
