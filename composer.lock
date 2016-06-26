@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8b9d502b2beb126d0d548b556670b738",
-    "content-hash": "b95f1234c0e6c755f6f5914f646690a5",
+    "hash": "ffcbd90876d53a225ec5d262d517940b",
+    "content-hash": "29052267c05d8487928490dcfcb1fe02",
     "packages": [
         {
             "name": "apix/log",
@@ -612,6 +612,55 @@
             ],
             "description": "A Middleware Proof-Of-Concept Library For PHP",
             "time": "2016-05-21 13:21:07"
+        },
+        {
+            "name": "kambo/httpmessage",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kambo-1st/HttpMessage.git",
+                "reference": "f6575e587829abc2cb14d5f3a934010cc52e7610"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kambo-1st/HttpMessage/zipball/f6575e587829abc2cb14d5f3a934010cc52e7610",
+                "reference": "f6575e587829abc2cb14d5f3a934010cc52e7610",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "psr/http-message": "*"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "~1",
+                "phpunit/phpunit": "4.6.10"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kambo\\HttpMessage\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bohuslav Simek",
+                    "email": "bohuslav@simek.si"
+                }
+            ],
+            "description": "Kambo httpmessage a PSR-7 implementation",
+            "keywords": [
+                "http",
+                "httpmessage",
+                "psr-7"
+            ],
+            "time": "2016-06-20 18:24:40"
         },
         {
             "name": "level-2/dice",
@@ -1881,6 +1930,7 @@
         "php-http/httplug": 20,
         "mashape/unirest-php": 20,
         "lukasoppermann/http-status": 20,
+        "kambo/httpmessage": 20,
         "ircmaxell/tari-php": 20,
         "relay/relay": 20,
         "zendframework/zend-stratigility": 20,

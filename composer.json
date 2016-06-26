@@ -24,6 +24,7 @@
         "php-http/httplug": "dev-master",
         "mashape/unirest-php": "dev-master",
         "lukasoppermann/http-status": "dev-master",
+        "kambo/httpmessage": "dev-master",
         "ircmaxell/tari-php": "dev-master",
         "relay/relay": "2.x-dev",
         "zendframework/zend-stratigility": "dev-master",
