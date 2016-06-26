@@ -35,7 +35,6 @@ List of lightweight PHP libraries.
 * [Orno\Di](https://github.com/orno/di) - A fast and powerful dependency injection container
 * [Containers](https://github.com/chevronphp/containers) - An implementation of the registry pattern
 * [Dice](https://github.com/Level-2/Dice) - A minimalist Dependency injection container (DIC) for PHP
-* [Suda](https://github.com/guide42/suda) - A lightweight container for your services
 
 ## Events
 

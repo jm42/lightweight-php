@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "330e965bf078c70e8fb9e18523fbb016",
-    "content-hash": "95d61f173762d993792f8b5304c75c90",
+    "hash": "18de834394315c44dad23b4a4f4c73da",
+    "content-hash": "f114d3b0a01b9ef72cf20a5c21f24bed",
     "packages": [
         {
             "name": "aura/router",
@@ -340,33 +340,6 @@
             "time": "2014-08-31 04:03:27"
         },
         {
-            "name": "container-interop/container-interop",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/container-interop/container-interop.git",
-                "reference": "fc08354828f8fd3245f77a66b9e23a6bca48297e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/container-interop/container-interop/zipball/fc08354828f8fd3245f77a66b9e23a6bca48297e",
-                "reference": "fc08354828f8fd3245f77a66b9e23a6bca48297e",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Interop\\Container\\": "src/Interop/Container/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
-            "time": "2014-12-30 15:22:37"
-        },
-        {
             "name": "evenement/evenement",
             "version": "dev-master",
             "source": {
@@ -462,12 +435,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guide42/plan.git",
-                "reference": "34f41e1e6a4330fd4ce5e0e87412c94f6bf02e3c"
+                "reference": "2098a817f1df74a8ec92bd41d36e26cd2b61dcae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guide42/plan/zipball/34f41e1e6a4330fd4ce5e0e87412c94f6bf02e3c",
-                "reference": "34f41e1e6a4330fd4ce5e0e87412c94f6bf02e3c",
+                "url": "https://api.github.com/repos/guide42/plan/zipball/2098a817f1df74a8ec92bd41d36e26cd2b61dcae",
+                "reference": "2098a817f1df74a8ec92bd41d36e26cd2b61dcae",
                 "shasum": ""
             },
             "require": {
@@ -498,55 +471,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2015-12-12 22:53:43"
-        },
-        {
-            "name": "guide42/suda",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guide42/suda.git",
-                "reference": "4972fd0bbef5e3a145f1f22c2e32e1f6606e3bb6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guide42/suda/zipball/4972fd0bbef5e3a145f1f22c2e32e1f6606e3bb6",
-                "reference": "4972fd0bbef5e3a145f1f22c2e32e1f6606e3bb6",
-                "shasum": ""
-            },
-            "require": {
-                "container-interop/container-interop": "~1.0",
-                "php": ">=5.3"
-            },
-            "require-dev": {
-                "satooshi/php-coveralls": "@stable"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Guide42\\Suda\\": "library/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "ISC"
-            ],
-            "authors": [
-                {
-                    "name": "Juan M Martínez",
-                    "email": "suda@jm.guide42.com",
-                    "homepage": "http://jm.guide42.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "PHP Registry",
-            "keywords": [
-                "container",
-                "dependency injection",
-                "di",
-                "registry"
-            ],
-            "time": "2014-11-25 03:21:07"
+            "time": "2016-06-25 23:00:15"
         },
         {
             "name": "ircmaxell/filterus",
@@ -1634,12 +1559,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/siriusphp/middleware.git",
-                "reference": "7fdda663e2e0d633fe4fa195b766abd7e794f4c3"
+                "reference": "e6805639982d2c0ae01dc9e9a1583915b7873782"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/siriusphp/middleware/zipball/7fdda663e2e0d633fe4fa195b766abd7e794f4c3",
-                "reference": "7fdda663e2e0d633fe4fa195b766abd7e794f4c3",
+                "url": "https://api.github.com/repos/siriusphp/middleware/zipball/e6805639982d2c0ae01dc9e9a1583915b7873782",
+                "reference": "e6805639982d2c0ae01dc9e9a1583915b7873782",
                 "shasum": ""
             },
             "require": {
@@ -1681,7 +1606,7 @@
                 "response",
                 "zend-diactoros"
             ],
-            "time": "2016-06-16 12:45:09"
+            "time": "2016-06-21 11:33:37"
         },
         {
             "name": "vlucas/valitron",
@@ -1893,7 +1818,6 @@
         "rdlowrey/auryn": 20,
         "chevron/containers": 20,
         "level-2/dice": 20,
-        "guide42/suda": 20,
         "evenement/evenement": 20,
         "sabre/event": 20,
         "nikic/fast-route": 20,
