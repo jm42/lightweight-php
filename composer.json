@@ -1,12 +1,8 @@
 {
     "minimum-stability": "dev",
     "require": {
-        "shield/shield": "dev-master",
-        "silica/silica": "dev-master",
         "lime/lime": "dev-master",
         "bento/bento": "dev-master",
-        "maverick/maverick": "dev-master",
-        "badphp/dispatch": "dev-master",
         "catfan/medoo": "dev-master",
         "pimple/pimple": "dev-master",
         "rdlowrey/auryn": "dev-master",

@@ -18,12 +18,8 @@ List of lightweight PHP libraries.
 
 ## Frameworks
 
-* [Shield](https://github.com/enygma/shieldframework) - A security minded microframework
-* [Silica](https://github.com/changloong/Silica) - Micro framework inspired by Silex
 * [Lime](https://github.com/aheinze/Lime) - Micro framework for quickly creating web applications with minimal effort
 * [Bento](https://github.com/nramenta/bento) - Simple PHP micro framework
-* [Maverick](https://github.com/gunnar94/Maverick) - A lightweight framework for PHP
-* [Dispatch](https://github.com/badphp/dispatch) - Dispatch is a PHP 5.4+ micro-framework
 
 ## Database
 
