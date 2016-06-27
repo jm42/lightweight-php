@@ -16,9 +16,9 @@
         composer: https://getcomposer.org/composer.phar
   tasks:
     - apt: name={{ item }} update_cache=yes state=latest
-      with_items: packages
+      with_items: "{{ packages }}"
     - lineinfile: dest=/etc/php5/cli/php.ini regexp="^{{ item.key }}" line="{{ item.key }}={{ item.value }}" state=present
-      with_dict: php_ini
+      with_dict: "{{ php_ini }}"
     - get_url: url={{ item.value }} dest=/usr/local/bin/{{ item.key }} mode=0755
-      with_dict: phars
+      with_dict: "{{ phars }}"
 
