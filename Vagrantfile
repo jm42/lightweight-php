@@ -2,7 +2,7 @@
 # vi: set ft=ruby sw=2 ts=2 :
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "hashicorp/precise64"
+  config.vm.box = "ubuntu/trusty64"
 
   config.vm.define "lightweight-php" do |vm|
     vm.vm.hostname = "lightweight-php"
