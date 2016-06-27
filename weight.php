@@ -1,5 +1,9 @@
 <?php
 
+if (file_exists(__DIR__ . '/vendor/autoload.php')) {
+    require __DIR__ . '/vendor/autoload.php';
+}
+
 main($argv);
 
 function main(array $argv)
@@ -127,6 +131,13 @@ class Weight
 
     protected function weightFile($filename)
     {
+        if (class_exists('\\SebastianBergmann\\PHPLOC\\Analyser')) {
+            $analyser = new \SebastianBergmann\PHPLOC\Analyser;
+            $stats = $analyser->countFiles(array($filename), false);
+
+            return $stats['lloc'];
+        }
+
         $buffer = file_get_contents($filename);
         $weight = substr_count($buffer, ';') + substr_count($buffer, '{');
 

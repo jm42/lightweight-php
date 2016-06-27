@@ -32,5 +32,8 @@
         "guide42/plan": "dev-master",
         "mhlavac/diacritics-remover": "dev-master",
         "samchristy/piechart": "dev-master"
+    },
+    "require-dev": {
+        "phploc/phploc": "*"
     }
 }
