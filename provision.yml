@@ -6,19 +6,20 @@
       - git
       - curl
       - unzip
-      - php5-cli
-      - php5-gd
-      - php5-curl
+      - php7.0-cli
+      - php7.0-gd
+      - php7.0-curl
     php_ini:
       "default_charset": "UTF-8"
       "date.timezone":   "UTC"
     phars:
         composer: https://getcomposer.org/composer.phar
   tasks:
+    - apt_repository: repo="ppa:ondrej/php" update_cache=yes state=present
+      environment: {LC_ALL: C.UTF-8}
     - apt: name={{ item }} update_cache=yes state=latest
       with_items: "{{ packages }}"
-    - lineinfile: dest=/etc/php5/cli/php.ini regexp="^{{ item.key }}" line="{{ item.key }}={{ item.value }}" state=present
+    - lineinfile: dest=/etc/php/7.0/cli/php.ini regexp="^{{ item.key }}" line="{{ item.key }}={{ item.value }}" state=present
       with_dict: "{{ php_ini }}"
     - get_url: url={{ item.value }} dest=/usr/local/bin/{{ item.key }} mode=0755
       with_dict: "{{ phars }}"
-
