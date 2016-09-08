@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "02eb22915b010dda8b6752ec3e5126d8",
-    "content-hash": "9a19cfa47b4cbb9d77fa2e17500b36f7",
+    "hash": "3010decd213182139f22d5644540e8b4",
+    "content-hash": "ee97727367d1bcecd09ebb3e8588c40a",
     "packages": [
         {
             "name": "apix/log",
@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Router.git",
-                "reference": "c638e569365447fa1ee1a3727a858ad45a2facb5"
+                "reference": "eeca09aa375d30971274bfa5f3c00884910fbecf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/c638e569365447fa1ee1a3727a858ad45a2facb5",
-                "reference": "c638e569365447fa1ee1a3727a858ad45a2facb5",
+                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/eeca09aa375d30971274bfa5f3c00884910fbecf",
+                "reference": "eeca09aa375d30971274bfa5f3c00884910fbecf",
                 "shasum": ""
             },
             "require": {
@@ -104,7 +104,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2016-05-31 07:16:53"
+            "time": "2016-08-22 19:16:13"
         },
         {
             "name": "bento/bento",
@@ -148,17 +148,103 @@
             "time": "2014-10-02 14:28:27"
         },
         {
+            "name": "bephp/activerecord",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bephp/activerecord.git",
+                "reference": "30faad21a5997f9ba4dfa0da2037c2c71e575697"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bephp/activerecord/zipball/30faad21a5997f9ba4dfa0da2037c2c71e575697",
+                "reference": "30faad21a5997f9ba4dfa0da2037c2c71e575697",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpdocumentor/phpdocumentor": "^2.8",
+                "phpunit/phpunit": "*",
+                "satooshi/php-coveralls": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "ActiveRecord.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "micro activerecord library in PHP(only 400 lines with comments), support chain calls and relations(HAS_ONE, HAS_MANY, BELONGS_TO).",
+            "homepage": "http://lloydzhou.github.io/activerecord/",
+            "keywords": [
+                "activerecord",
+                "database",
+                "micro",
+                "orm",
+                "pdo",
+                "relation"
+            ],
+            "time": "2016-08-25 09:33:29"
+        },
+        {
+            "name": "bephp/router",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bephp/router.git",
+                "reference": "424e3ec692dc52d6af36536cff1d15431b45e7bd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bephp/router/zipball/424e3ec692dc52d6af36536cff1d15431b45e7bd",
+                "reference": "424e3ec692dc52d6af36536cff1d15431b45e7bd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "bephp/request": "*",
+                "phpunit/phpunit": "*",
+                "satooshi/php-coveralls": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "crouter.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A fast router for PHP. It matches urls and executes PHP functions. automatic get variable based on handler function parameter list. Suport to compile router callback handlers into plain array source code.",
+            "homepage": "https://github.com/lloydzhou/router",
+            "keywords": [
+                "fast",
+                "library",
+                "micro",
+                "router"
+            ],
+            "time": "2016-05-24 10:56:07"
+        },
+        {
             "name": "catfan/medoo",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/catfan/Medoo.git",
-                "reference": "697abce28cbfafc08006a61737087175a4f53ee9"
+                "reference": "2601ffd53971866695c544c955d580d3d36b3848"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/catfan/Medoo/zipball/697abce28cbfafc08006a61737087175a4f53ee9",
-                "reference": "697abce28cbfafc08006a61737087175a4f53ee9",
+                "url": "https://api.github.com/repos/catfan/Medoo/zipball/2601ffd53971866695c544c955d580d3d36b3848",
+                "reference": "2601ffd53971866695c544c955d580d3d36b3848",
                 "shasum": ""
             },
             "require": {
@@ -200,7 +286,7 @@
                 "sql",
                 "sqlite"
             ],
-            "time": "2016-06-26 10:26:40"
+            "time": "2016-09-05 07:18:35"
         },
         {
             "name": "chevron/containers",
@@ -208,12 +294,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chevronphp/containers.git",
-                "reference": "5f906df0b30227f18915598d865cec37281340bd"
+                "reference": "9e80bc0b99eec8f3f892d2c578ee424c4dc30e53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chevronphp/containers/zipball/5f906df0b30227f18915598d865cec37281340bd",
-                "reference": "5f906df0b30227f18915598d865cec37281340bd",
+                "url": "https://api.github.com/repos/chevronphp/containers/zipball/9e80bc0b99eec8f3f892d2c578ee424c4dc30e53",
+                "reference": "9e80bc0b99eec8f3f892d2c578ee424c4dc30e53",
                 "shasum": ""
             },
             "require": {
@@ -242,7 +328,7 @@
             ],
             "description": "an implementation of the registry pattern for fun and profit",
             "homepage": "http://github.com/chevronphp/containers",
-            "time": "2016-02-18 14:12:41"
+            "time": "2016-08-09 13:33:57"
         },
         {
             "name": "chevron/objectloader",
@@ -408,12 +494,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guide42/plan.git",
-                "reference": "2098a817f1df74a8ec92bd41d36e26cd2b61dcae"
+                "reference": "b412a7d1516fb4f23639099ae218016475e94ad8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guide42/plan/zipball/2098a817f1df74a8ec92bd41d36e26cd2b61dcae",
-                "reference": "2098a817f1df74a8ec92bd41d36e26cd2b61dcae",
+                "url": "https://api.github.com/repos/guide42/plan/zipball/b412a7d1516fb4f23639099ae218016475e94ad8",
+                "reference": "b412a7d1516fb4f23639099ae218016475e94ad8",
                 "shasum": ""
             },
             "require": {
@@ -444,7 +530,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2016-06-25 23:00:15"
+            "time": "2016-07-23 03:33:59"
         },
         {
             "name": "ircmaxell/filterus",
@@ -452,16 +538,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ircmaxell/filterus.git",
-                "reference": "1f2df5ded0b4cf36635899ccd6dc0798c6b51b42"
+                "reference": "6670d75f978b2713e1ec33acbdea73c92216e726"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ircmaxell/filterus/zipball/1f2df5ded0b4cf36635899ccd6dc0798c6b51b42",
-                "reference": "1f2df5ded0b4cf36635899ccd6dc0798c6b51b42",
+                "url": "https://api.github.com/repos/ircmaxell/filterus/zipball/6670d75f978b2713e1ec33acbdea73c92216e726",
+                "reference": "6670d75f978b2713e1ec33acbdea73c92216e726",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5"
             },
             "type": "library",
             "autoload": {
@@ -489,7 +578,7 @@
                 "filter",
                 "security"
             ],
-            "time": "2015-02-20 20:12:05"
+            "time": "2016-08-15 20:09:15"
         },
         {
             "name": "ircmaxell/tari-php",
@@ -541,12 +630,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kambo-1st/HttpMessage.git",
-                "reference": "8c62c018e606b077ffb735b4c78269ef2b595e9f"
+                "reference": "71d058bdfd39f3dc4e273fdcbae371f6573ae24f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kambo-1st/HttpMessage/zipball/8c62c018e606b077ffb735b4c78269ef2b595e9f",
-                "reference": "8c62c018e606b077ffb735b4c78269ef2b595e9f",
+                "url": "https://api.github.com/repos/kambo-1st/HttpMessage/zipball/71d058bdfd39f3dc4e273fdcbae371f6573ae24f",
+                "reference": "71d058bdfd39f3dc4e273fdcbae371f6573ae24f",
                 "shasum": ""
             },
             "require": {
@@ -563,7 +652,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Kambo\\HttpMessage\\": "src"
+                    "Kambo\\Http\\Message\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -582,7 +671,7 @@
                 "httpmessage",
                 "psr-7"
             ],
-            "time": "2016-06-26 18:00:19"
+            "time": "2016-08-10 18:49:25"
         },
         {
             "name": "level-2/dice",
@@ -590,12 +679,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Level-2/Dice.git",
-                "reference": "2db8353b51296d13d5412c1861f7790e49da189a"
+                "reference": "1febd1acf4ffba7b8ecd2d422e14f42fd69f0dc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Level-2/Dice/zipball/2db8353b51296d13d5412c1861f7790e49da189a",
-                "reference": "2db8353b51296d13d5412c1861f7790e49da189a",
+                "url": "https://api.github.com/repos/Level-2/Dice/zipball/1febd1acf4ffba7b8ecd2d422e14f42fd69f0dc2",
+                "reference": "1febd1acf4ffba7b8ecd2d422e14f42fd69f0dc2",
                 "shasum": ""
             },
             "require": {
@@ -625,7 +714,7 @@
                 "di",
                 "ioc"
             ],
-            "time": "2016-06-13 11:46:44"
+            "time": "2016-08-09 19:27:25"
         },
         {
             "name": "lime/lime",
@@ -678,12 +767,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lukasoppermann/http-status.git",
-                "reference": "e4dc8fd3f4732547bcded430052928b1a902cdae"
+                "reference": "bbfb935bc6a5f51896d3d4dc08c5d736ea750bbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lukasoppermann/http-status/zipball/e4dc8fd3f4732547bcded430052928b1a902cdae",
-                "reference": "e4dc8fd3f4732547bcded430052928b1a902cdae",
+                "url": "https://api.github.com/repos/lukasoppermann/http-status/zipball/bbfb935bc6a5f51896d3d4dc08c5d736ea750bbc",
+                "reference": "bbfb935bc6a5f51896d3d4dc08c5d736ea750bbc",
                 "shasum": ""
             },
             "require": {
@@ -724,7 +813,7 @@
                 "httpstatus",
                 "status codes"
             ],
-            "time": "2015-12-28 16:09:41"
+            "time": "2016-07-11 08:45:30"
         },
         {
             "name": "mashape/unirest-php",
@@ -732,12 +821,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Mashape/unirest-php.git",
-                "reference": "5d304c6f6c0a6a75cdf4149005bd19479d3e6b1e"
+                "reference": "842c0f242dfaaf85f16b72e217bf7f7c19ab12cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Mashape/unirest-php/zipball/5d304c6f6c0a6a75cdf4149005bd19479d3e6b1e",
-                "reference": "5d304c6f6c0a6a75cdf4149005bd19479d3e6b1e",
+                "url": "https://api.github.com/repos/Mashape/unirest-php/zipball/842c0f242dfaaf85f16b72e217bf7f7c19ab12cb",
+                "reference": "842c0f242dfaaf85f16b72e217bf7f7c19ab12cb",
                 "shasum": ""
             },
             "require": {
@@ -754,7 +843,7 @@
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "Unirest": "src"
+                    "Unirest\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -770,7 +859,7 @@
                 "https",
                 "rest"
             ],
-            "time": "2016-05-31 16:59:14"
+            "time": "2016-08-11 17:49:21"
         },
         {
             "name": "mhlavac/diacritics-remover",
@@ -950,12 +1039,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nategood/httpful.git",
-                "reference": "c1cd4d46a4b281229032cf39d4dd852f9887c0f6"
+                "reference": "fc8e4274a09529a6ff29b9c6c0a105ee43dbfda5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nategood/httpful/zipball/c1cd4d46a4b281229032cf39d4dd852f9887c0f6",
-                "reference": "c1cd4d46a4b281229032cf39d4dd852f9887c0f6",
+                "url": "https://api.github.com/repos/nategood/httpful/zipball/fc8e4274a09529a6ff29b9c6c0a105ee43dbfda5",
+                "reference": "fc8e4274a09529a6ff29b9c6c0a105ee43dbfda5",
                 "shasum": ""
             },
             "require": {
@@ -992,7 +1081,7 @@
                 "rest",
                 "restful"
             ],
-            "time": "2015-10-26 16:11:30"
+            "time": "2016-07-22 12:30:30"
         },
         {
             "name": "nikic/fast-route",
@@ -1000,12 +1089,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/FastRoute.git",
-                "reference": "8ea928195fa9b907f0d6e48312d323c1a13cc2af"
+                "reference": "7b1553577137da1a6986e5ff15358447f7f714be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/8ea928195fa9b907f0d6e48312d323c1a13cc2af",
-                "reference": "8ea928195fa9b907f0d6e48312d323c1a13cc2af",
+                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/7b1553577137da1a6986e5ff15358447f7f714be",
+                "reference": "7b1553577137da1a6986e5ff15358447f7f714be",
                 "shasum": ""
             },
             "require": {
@@ -1035,7 +1124,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2016-06-12 19:08:51"
+            "time": "2016-09-03 14:49:16"
         },
         {
             "name": "php-http/httplug",
@@ -1043,12 +1132,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/httplug.git",
-                "reference": "19deb66509fa3d5a828892a05c9e572c48a5c7ad"
+                "reference": "88d48cadcd1dfd858fc372fd4c5c7be8ef74b731"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/httplug/zipball/19deb66509fa3d5a828892a05c9e572c48a5c7ad",
-                "reference": "19deb66509fa3d5a828892a05c9e572c48a5c7ad",
+                "url": "https://api.github.com/repos/php-http/httplug/zipball/88d48cadcd1dfd858fc372fd4c5c7be8ef74b731",
+                "reference": "88d48cadcd1dfd858fc372fd4c5c7be8ef74b731",
                 "shasum": ""
             },
             "require": {
@@ -1063,7 +1152,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.2-dev"
                 }
             },
             "autoload": {
@@ -1091,7 +1180,7 @@
                 "client",
                 "http"
             ],
-            "time": "2016-01-28 07:53:22"
+            "time": "2016-09-02 09:29:03"
         },
         {
             "name": "php-http/promise",
@@ -1195,12 +1284,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
-                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298"
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
-                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
                 "shasum": ""
             },
             "require": {
@@ -1228,6 +1317,7 @@
                 }
             ],
             "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
             "keywords": [
                 "http",
                 "http-message",
@@ -1236,7 +1326,7 @@
                 "request",
                 "response"
             ],
-            "time": "2015-05-04 20:22:00"
+            "time": "2016-08-06 14:39:51"
         },
         {
             "name": "psr/log",
@@ -1588,12 +1678,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/valitron.git",
-                "reference": "e55681c9ab4add9093daaf472ed5798715262d21"
+                "reference": "6200b45304ec3ea8147632453a849e012a0c4483"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/valitron/zipball/e55681c9ab4add9093daaf472ed5798715262d21",
-                "reference": "e55681c9ab4add9093daaf472ed5798715262d21",
+                "url": "https://api.github.com/repos/vlucas/valitron/zipball/6200b45304ec3ea8147632453a849e012a0c4483",
+                "reference": "6200b45304ec3ea8147632453a849e012a0c4483",
                 "shasum": ""
             },
             "require": {
@@ -1626,7 +1716,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2016-05-22 12:02:59"
+            "time": "2016-08-17 19:48:04"
         },
         {
             "name": "willdurand/negotiation",
@@ -1634,12 +1724,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/willdurand/Negotiation.git",
-                "reference": "5154ac7346ed2821dd55e2b70cb865d54f7cbca7"
+                "reference": "e1dcf01c6854eba56f2e6a033a1fa5d03d152db0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/5154ac7346ed2821dd55e2b70cb865d54f7cbca7",
-                "reference": "5154ac7346ed2821dd55e2b70cb865d54f7cbca7",
+                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/e1dcf01c6854eba56f2e6a033a1fa5d03d152db0",
+                "reference": "e1dcf01c6854eba56f2e6a033a1fa5d03d152db0",
                 "shasum": ""
             },
             "require": {
@@ -1678,7 +1768,7 @@
                 "header",
                 "negotiation"
             ],
-            "time": "2016-03-08 21:43:10"
+            "time": "2016-09-04 13:00:20"
         },
         {
             "name": "zendframework/zend-escaper",
@@ -1686,12 +1776,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-escaper.git",
-                "reference": "4b4d0b89db62f017981fcb7ef33b2db9bea04444"
+                "reference": "724402ba0dc7d82eec30dac97efa669e69e0ae7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-escaper/zipball/4b4d0b89db62f017981fcb7ef33b2db9bea04444",
-                "reference": "4b4d0b89db62f017981fcb7ef33b2db9bea04444",
+                "url": "https://api.github.com/repos/zendframework/zend-escaper/zipball/724402ba0dc7d82eec30dac97efa669e69e0ae7c",
+                "reference": "724402ba0dc7d82eec30dac97efa669e69e0ae7c",
                 "shasum": ""
             },
             "require": {
@@ -1722,7 +1812,7 @@
                 "escaper",
                 "zf2"
             ],
-            "time": "2016-04-28 16:27:09"
+            "time": "2016-06-30 19:50:10"
         },
         {
             "name": "zendframework/zend-stratigility",
@@ -1964,12 +2054,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "e32c3264c55b58a1b22eec48e792e246b6f20760"
+                "reference": "d0d9bd5423a1be36d3338c15455184fed6de232d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/e32c3264c55b58a1b22eec48e792e246b6f20760",
-                "reference": "e32c3264c55b58a1b22eec48e792e246b6f20760",
+                "url": "https://api.github.com/repos/symfony/console/zipball/d0d9bd5423a1be36d3338c15455184fed6de232d",
+                "reference": "d0d9bd5423a1be36d3338c15455184fed6de232d",
                 "shasum": ""
             },
             "require": {
@@ -2018,7 +2108,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-06-24 06:07:32"
+            "time": "2016-09-06 11:07:23"
         },
         {
             "name": "symfony/finder",
@@ -2026,12 +2116,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "f3acec580e9460c2c011a24726428c00641554ef"
+                "reference": "ad1b54ed6b5d43255a34aab009a25fd368e0f417"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/f3acec580e9460c2c011a24726428c00641554ef",
-                "reference": "f3acec580e9460c2c011a24726428c00641554ef",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/ad1b54ed6b5d43255a34aab009a25fd368e0f417",
+                "reference": "ad1b54ed6b5d43255a34aab009a25fd368e0f417",
                 "shasum": ""
             },
             "require": {
@@ -2067,7 +2157,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2016-06-21 06:41:01"
+            "time": "2016-08-26 12:08:28"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -2075,12 +2165,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "f9bc5072e11b2ad15ea55e0f4171cc870dc33a1d"
+                "reference": "53ad9faffe141fbe8f98cd6a7fd9a5e84513f56c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f9bc5072e11b2ad15ea55e0f4171cc870dc33a1d",
-                "reference": "f9bc5072e11b2ad15ea55e0f4171cc870dc33a1d",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/53ad9faffe141fbe8f98cd6a7fd9a5e84513f56c",
+                "reference": "53ad9faffe141fbe8f98cd6a7fd9a5e84513f56c",
                 "shasum": ""
             },
             "require": {
@@ -2126,7 +2216,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-06-07 08:38:42"
+            "time": "2016-08-30 17:06:17"
         },
         {
             "name": "theseer/fdomdocument",
@@ -2175,6 +2265,7 @@
         "lime/lime": 20,
         "bento/bento": 20,
         "catfan/medoo": 20,
+        "bephp/activerecord": 20,
         "pimple/pimple": 20,
         "rdlowrey/auryn": 20,
         "chevron/containers": 20,
@@ -2184,6 +2275,7 @@
         "nikic/fast-route": 20,
         "mindplay/walkway": 20,
         "aura/router": 20,
+        "bephp/router": 20,
         "gajus/brick": 20,
         "rkr/view": 20,
         "nategood/httpful": 20,

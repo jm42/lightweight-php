@@ -24,6 +24,7 @@ List of lightweight PHP libraries.
 ## Database
 
 * [Medoo](https://github.com/catfan/Medoo) - The Lightest PHP database framework to accelerate development
+* [bephp/activerecord](https://github.com/bephp/activerecord) - Micro activerecord library in PHP
 
 ## Dependency Injection
 
@@ -43,6 +44,7 @@ List of lightweight PHP libraries.
 * [FastRoute](https://github.com/nikic/FastRoute) - Fast request router for PHP
 * [Walkway](https://github.com/mindplay-dk/walkway) - Elegant, modular router for PHP
 * [Aura.Router](https://github.com/auraphp/Aura.Router) - A web router implementation for PHP
+* [bephp/router](https://github.com/bephp/router) - A barebones router for PHP
 
 ## Templating
 
