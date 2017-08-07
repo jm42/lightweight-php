@@ -27,7 +27,7 @@
         "relay/relay": "2.x-dev",
         "zendframework/zend-stratigility": "dev-master",
         "siriusphp/middleware": "dev-master",
-        "mindplay/middleman": "dev-master",
+        "mindplay/middleman": "3.0.0.x-dev",
         "apix/log": "dev-master",
         "vlucas/valitron": "dev-master",
         "ircmaxell/filterus": "dev-master",
