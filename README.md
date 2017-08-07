@@ -25,6 +25,7 @@ List of lightweight PHP libraries.
 
 * [Medoo](https://github.com/catfan/Medoo) - The Lightest PHP database framework to accelerate development
 * [bephp/activerecord](https://github.com/bephp/activerecord) - Micro activerecord library in PHP
+* [MongoLite](https://github.com/agentejo/mongo-lite) - Schemaless database on top of SqLite
 
 ## Dependency Injection
 

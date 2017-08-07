@@ -5,6 +5,7 @@
         "bento/bento": "dev-master",
         "catfan/medoo": "dev-master",
         "bephp/activerecord": "dev-master",
+        "agentejo/mongo-lite": "dev-master",
         "pimple/pimple": "dev-master",
         "rdlowrey/auryn": "dev-master",
         "chevron/containers": "dev-master",
