@@ -19,7 +19,6 @@ List of lightweight PHP libraries.
 ## Frameworks
 
 * [Lime](https://github.com/aheinze/Lime) - Micro framework for quickly creating web applications with minimal effort
-* [Bento](https://github.com/nramenta/bento) - Simple PHP micro framework
 
 ## Database
 
@@ -49,7 +48,6 @@ List of lightweight PHP libraries.
 
 ## Templating
 
-* [Brick](https://github.com/gajus/brick) - PHP template system that's fast, easy to use and easy to extend
 * [php-view](https://github.com/rkrx/php-view) - More secure and easy to use templating system for php5.4+
 
 ## HTTP

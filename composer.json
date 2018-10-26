@@ -2,7 +2,6 @@
     "minimum-stability": "dev",
     "require": {
         "lime/lime": "dev-master",
-        "bento/bento": "dev-master",
         "catfan/medoo": "dev-master",
         "bephp/activerecord": "dev-master",
         "agentejo/mongo-lite": "dev-master",
@@ -16,7 +15,6 @@
         "mindplay/walkway": "dev-master",
         "aura/router": "3.x-dev",
         "bephp/router": "dev-master",
-        "gajus/brick": "dev-master",
         "rkr/view": "dev-master",
         "nategood/httpful": "dev-master",
         "willdurand/negotiation": "dev-master",

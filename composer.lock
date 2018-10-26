@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c5b93942d0e866d5c8311ad3fe64c171",
+    "content-hash": "dfe5a92b45e4423b63c826e9148c3768",
     "packages": [
         {
             "name": "agentejo/mongo-lite",
@@ -158,47 +158,6 @@
                 "routing"
             ],
             "time": "2018-08-04T03:33:51+00:00"
-        },
-        {
-            "name": "bento/bento",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nramenta/bento.git",
-                "reference": "42b0083650e1a7ad59abde38b2dbd36e7e5337d2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nramenta/bento/zipball/42b0083650e1a7ad59abde38b2dbd36e7e5337d2",
-                "reference": "42b0083650e1a7ad59abde38b2dbd36e7e5337d2",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/bento.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nofriandi Ramenta",
-                    "email": "nramenta@gmail.com"
-                }
-            ],
-            "description": "Simple micro-framework",
-            "keywords": [
-                "framework",
-                "microframework",
-                "router"
-            ],
-            "time": "2014-10-02T14:28:27+00:00"
         },
         {
             "name": "bephp/activerecord",
@@ -520,50 +479,6 @@
                 "response"
             ],
             "time": "2017-02-09T16:10:21+00:00"
-        },
-        {
-            "name": "gajus/brick",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/gajus/brick.git",
-                "reference": "8e1890b2993fb1e2049a3fd73ec048c95fb0a7df"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/gajus/brick/zipball/8e1890b2993fb1e2049a3fd73ec048c95fb0a7df",
-                "reference": "8e1890b2993fb1e2049a3fd73ec048c95fb0a7df",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4"
-            },
-            "require-dev": {
-                "psr/log": "1.0.0",
-                "satooshi/php-coveralls": "dev-master"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Gajus\\Brick\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Gajus Kuizinas",
-                    "email": "gk@anuary.com"
-                }
-            ],
-            "description": "PHP template system that's fast, easy to use and easy to extend.",
-            "homepage": "https://github.com/gajus/brick",
-            "keywords": [
-                "template"
-            ],
-            "time": "2015-02-15T17:27:35+00:00"
         },
         {
             "name": "guide42/plan",
@@ -2622,7 +2537,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "lime/lime": 20,
-        "bento/bento": 20,
         "catfan/medoo": 20,
         "bephp/activerecord": 20,
         "agentejo/mongo-lite": 20,
@@ -2636,7 +2550,6 @@
         "mindplay/walkway": 20,
         "aura/router": 20,
         "bephp/router": 20,
-        "gajus/brick": 20,
         "rkr/view": 20,
         "nategood/httpful": 20,
         "willdurand/negotiation": 20,
