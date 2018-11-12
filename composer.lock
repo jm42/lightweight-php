@@ -116,12 +116,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Router.git",
-                "reference": "ac7528785d455033157140e257b2603c271df55b"
+                "reference": "9167a38a8a9e9ec96667d939e3eaa4b2e7bd5333"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/ac7528785d455033157140e257b2603c271df55b",
-                "reference": "ac7528785d455033157140e257b2603c271df55b",
+                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/9167a38a8a9e9ec96667d939e3eaa4b2e7bd5333",
+                "reference": "9167a38a8a9e9ec96667d939e3eaa4b2e7bd5333",
                 "shasum": ""
             },
             "require": {
@@ -157,7 +157,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2018-08-04T03:33:51+00:00"
+            "time": "2018-11-06T02:14:29+00:00"
         },
         {
             "name": "bephp/activerecord",
@@ -436,12 +436,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message-util.git",
-                "reference": "20b2c280cb6914b7b83089720df44e490f4b42f0"
+                "reference": "5554d7b06ee190299be99a5d0bfb1ed5cf0a4688"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message-util/zipball/20b2c280cb6914b7b83089720df44e490f4b42f0",
-                "reference": "20b2c280cb6914b7b83089720df44e490f4b42f0",
+                "url": "https://api.github.com/repos/php-fig/http-message-util/zipball/5554d7b06ee190299be99a5d0bfb1ed5cf0a4688",
+                "reference": "5554d7b06ee190299be99a5d0bfb1ed5cf0a4688",
                 "shasum": ""
             },
             "require": {
@@ -478,7 +478,7 @@
                 "request",
                 "response"
             ],
-            "time": "2017-02-09T16:10:21+00:00"
+            "time": "2018-10-29T17:25:09+00:00"
         },
         {
             "name": "guide42/plan",
@@ -1201,17 +1201,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/httplug.git",
-                "reference": "7e296052447a8c8c391c619ba2058284e578e033"
+                "reference": "a11f1e36e8c4ea5b9ebeb60109703e21c4103f02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/httplug/zipball/7e296052447a8c8c391c619ba2058284e578e033",
-                "reference": "7e296052447a8c8c391c619ba2058284e578e033",
+                "url": "https://api.github.com/repos/php-http/httplug/zipball/a11f1e36e8c4ea5b9ebeb60109703e21c4103f02",
+                "reference": "a11f1e36e8c4ea5b9ebeb60109703e21c4103f02",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4",
+                "php": "^7.0",
                 "php-http/promise": "^1.0",
+                "psr/http-client": "^1.0",
                 "psr/http-message": "^1.0"
             },
             "require-dev": {
@@ -1221,7 +1222,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "2.0.x-dev"
                 }
             },
             "autoload": {
@@ -1249,7 +1250,7 @@
                 "client",
                 "http"
             ],
-            "time": "2018-10-18T10:18:22+00:00"
+            "time": "2018-10-31T11:16:59+00:00"
         },
         {
             "name": "php-http/promise",
@@ -1401,6 +1402,55 @@
             "time": "2017-06-28T15:35:32+00:00"
         },
         {
+            "name": "psr/http-client",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-client.git",
+                "reference": "496a823ef742b632934724bf769560c2a5c7c44e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-client/zipball/496a823ef742b632934724bf769560c2a5c7c44e",
+                "reference": "496a823ef742b632934724bf769560c2a5c7c44e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "psr/http-message": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP clients",
+            "homepage": "https://github.com/php-fig/http-client",
+            "keywords": [
+                "http",
+                "http-client",
+                "psr",
+                "psr-18"
+            ],
+            "time": "2018-10-30T23:29:13+00:00"
+        },
+        {
             "name": "psr/http-message",
             "version": "dev-master",
             "source": {
@@ -1456,12 +1506,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-server-handler.git",
-                "reference": "ede6c504a77ebc87e7256d13df5877cbf9127104"
+                "reference": "aff2f80e33b7f026ec96bb42f63242dc50ffcae7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-server-handler/zipball/ede6c504a77ebc87e7256d13df5877cbf9127104",
-                "reference": "ede6c504a77ebc87e7256d13df5877cbf9127104",
+                "url": "https://api.github.com/repos/php-fig/http-server-handler/zipball/aff2f80e33b7f026ec96bb42f63242dc50ffcae7",
+                "reference": "aff2f80e33b7f026ec96bb42f63242dc50ffcae7",
                 "shasum": ""
             },
             "require": {
@@ -1501,7 +1551,7 @@
                 "response",
                 "server"
             ],
-            "time": "2018-01-26T14:27:09+00:00"
+            "time": "2018-10-30T16:46:14+00:00"
         },
         {
             "name": "psr/http-server-middleware",
@@ -1509,12 +1559,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-server-middleware.git",
-                "reference": "e01237126449cadfb66b60a5a818de9e9dde6bf3"
+                "reference": "2296f45510945530b9dceb8bcedb5cb84d40c5f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-server-middleware/zipball/e01237126449cadfb66b60a5a818de9e9dde6bf3",
-                "reference": "e01237126449cadfb66b60a5a818de9e9dde6bf3",
+                "url": "https://api.github.com/repos/php-fig/http-server-middleware/zipball/2296f45510945530b9dceb8bcedb5cb84d40c5f5",
+                "reference": "2296f45510945530b9dceb8bcedb5cb84d40c5f5",
                 "shasum": ""
             },
             "require": {
@@ -1554,7 +1604,7 @@
                 "request",
                 "response"
             ],
-            "time": "2018-01-22T22:18:49+00:00"
+            "time": "2018-10-30T17:12:04+00:00"
         },
         {
             "name": "psr/log",
@@ -1751,12 +1801,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabre-io/event.git",
-                "reference": "f15f732c7e538cd5db8f2d90c499381d47708a91"
+                "reference": "09c9c03c9b8f6917257cf4bed40b0dc49743ded9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabre-io/event/zipball/f15f732c7e538cd5db8f2d90c499381d47708a91",
-                "reference": "f15f732c7e538cd5db8f2d90c499381d47708a91",
+                "url": "https://api.github.com/repos/sabre-io/event/zipball/09c9c03c9b8f6917257cf4bed40b0dc49743ded9",
+                "reference": "09c9c03c9b8f6917257cf4bed40b0dc49743ded9",
                 "shasum": ""
             },
             "require": {
@@ -1802,7 +1852,7 @@
                 "reactor",
                 "signal"
             ],
-            "time": "2018-10-13T20:31:58+00:00"
+            "time": "2018-10-29T18:29:32+00:00"
         },
         {
             "name": "samchristy/piechart",
@@ -2253,12 +2303,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "2e629ed12c551c95336165ded274c71908c48ff8"
+                "reference": "7b2dc3ee659453b97bf2f6e887fc036475389a49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/2e629ed12c551c95336165ded274c71908c48ff8",
-                "reference": "2e629ed12c551c95336165ded274c71908c48ff8",
+                "url": "https://api.github.com/repos/symfony/console/zipball/7b2dc3ee659453b97bf2f6e887fc036475389a49",
+                "reference": "7b2dc3ee659453b97bf2f6e887fc036475389a49",
                 "shasum": ""
             },
             "require": {
@@ -2314,7 +2364,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-10-14T20:50:41+00:00"
+            "time": "2018-11-11T19:52:12+00:00"
         },
         {
             "name": "symfony/contracts",
@@ -2322,12 +2372,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/contracts.git",
-                "reference": "df30ce9a7726feff039b5eaacffe5d48920d1f9f"
+                "reference": "4a33574d5771f4b04334cd4f7d43de96a92efb62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/contracts/zipball/df30ce9a7726feff039b5eaacffe5d48920d1f9f",
-                "reference": "df30ce9a7726feff039b5eaacffe5d48920d1f9f",
+                "url": "https://api.github.com/repos/symfony/contracts/zipball/4a33574d5771f4b04334cd4f7d43de96a92efb62",
+                "reference": "4a33574d5771f4b04334cd4f7d43de96a92efb62",
                 "shasum": ""
             },
             "require": {
@@ -2382,7 +2432,7 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2018-10-10T09:20:36+00:00"
+            "time": "2018-10-31T08:00:32+00:00"
         },
         {
             "name": "symfony/finder",
@@ -2390,12 +2440,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "dbfc8530bf5f3fbeeba9f94bf8fc797364c6b61c"
+                "reference": "e53d477d7b5c4982d0e1bfd2298dbee63d01441d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/dbfc8530bf5f3fbeeba9f94bf8fc797364c6b61c",
-                "reference": "dbfc8530bf5f3fbeeba9f94bf8fc797364c6b61c",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/e53d477d7b5c4982d0e1bfd2298dbee63d01441d",
+                "reference": "e53d477d7b5c4982d0e1bfd2298dbee63d01441d",
                 "shasum": ""
             },
             "require": {
@@ -2431,11 +2481,11 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2018-10-10T13:30:17+00:00"
+            "time": "2018-11-11T19:52:12+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "dev-master",
+            "version": "v1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
