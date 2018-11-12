@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dfe5a92b45e4423b63c826e9148c3768",
+    "content-hash": "b7b5bcd1e39c4a88197ac39de192ab9b",
     "packages": [
         {
             "name": "agentejo/mongo-lite",
@@ -1953,6 +1953,54 @@
             "time": "2016-06-21T11:33:37+00:00"
         },
         {
+            "name": "stefangabos/zebra_image",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stefangabos/Zebra_Image.git",
+                "reference": "a2f634a7c2dfc566989cd14fd6b64147dc157908"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stefangabos/Zebra_Image/zipball/a2f634a7c2dfc566989cd14fd6b64147dc157908",
+                "reference": "a2f634a7c2dfc566989cd14fd6b64147dc157908",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Zebra_Image.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Stefan Gabos",
+                    "email": "contact@stefangabos.ro",
+                    "homepage": "https://github.com/stefangabos/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A compact (one-file only), lightweight, image manipulation PHP library",
+            "homepage": "https://github.com/stefangabos/Zebra_Image/",
+            "keywords": [
+                "crop",
+                "filters",
+                "gd",
+                "image",
+                "php",
+                "resize",
+                "thumbnail"
+            ],
+            "time": "2018-07-06T08:35:46+00:00"
+        },
+        {
             "name": "vlucas/valitron",
             "version": "dev-master",
             "source": {
@@ -2617,7 +2665,8 @@
         "ircmaxell/filterus": 20,
         "guide42/plan": 20,
         "mhlavac/diacritics-remover": 20,
-        "samchristy/piechart": 20
+        "samchristy/piechart": 20,
+        "stefangabos/zebra_image": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -81,3 +81,4 @@ List of lightweight PHP libraries.
 ## Graphics
 
 * [PieChart](https://github.com/SamChristy/PieChart) - A simple class for drawing pie charts
+* [Zebra_Image](https://github.com/stefangabos/Zebra_Image) - A compact and lightweight library for image manipulation
