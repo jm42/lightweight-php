@@ -60,12 +60,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/apix/log.git",
-                "reference": "93216c74f7bbf58719db97a14c490b47dfe24f73"
+                "reference": "e460e3d65e0f22135cd204591d1ef3185c26abfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/apix/log/zipball/93216c74f7bbf58719db97a14c490b47dfe24f73",
-                "reference": "93216c74f7bbf58719db97a14c490b47dfe24f73",
+                "url": "https://api.github.com/repos/apix/log/zipball/e460e3d65e0f22135cd204591d1ef3185c26abfe",
+                "reference": "e460e3d65e0f22135cd204591d1ef3185c26abfe",
                 "shasum": ""
             },
             "require": {
@@ -108,7 +108,7 @@
                 "tracker",
                 "tracking"
             ],
-            "time": "2017-05-03T16:17:42+00:00"
+            "time": "2018-10-23T12:58:57+00:00"
         },
         {
             "name": "aura/router",
@@ -251,12 +251,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/catfan/Medoo.git",
-                "reference": "8bde25fec9bb2dcb3caca2927d0abd65e0c9eff4"
+                "reference": "53a02b300d673f716cb06bf0e24fd774ec53939f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/catfan/Medoo/zipball/8bde25fec9bb2dcb3caca2927d0abd65e0c9eff4",
-                "reference": "8bde25fec9bb2dcb3caca2927d0abd65e0c9eff4",
+                "url": "https://api.github.com/repos/catfan/Medoo/zipball/53a02b300d673f716cb06bf0e24fd774ec53939f",
+                "reference": "53a02b300d673f716cb06bf0e24fd774ec53939f",
                 "shasum": ""
             },
             "require": {
@@ -302,7 +302,7 @@
                 "sql",
                 "sqlite"
             ],
-            "time": "2018-10-08T09:29:25+00:00"
+            "time": "2018-12-08T20:24:23+00:00"
         },
         {
             "name": "chevron/containers",
@@ -436,12 +436,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message-util.git",
-                "reference": "5554d7b06ee190299be99a5d0bfb1ed5cf0a4688"
+                "reference": "50d0bc9262cf66e1c2f5eb185c6767556b146542"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message-util/zipball/5554d7b06ee190299be99a5d0bfb1ed5cf0a4688",
-                "reference": "5554d7b06ee190299be99a5d0bfb1ed5cf0a4688",
+                "url": "https://api.github.com/repos/php-fig/http-message-util/zipball/50d0bc9262cf66e1c2f5eb185c6767556b146542",
+                "reference": "50d0bc9262cf66e1c2f5eb185c6767556b146542",
                 "shasum": ""
             },
             "require": {
@@ -478,7 +478,7 @@
                 "request",
                 "response"
             ],
-            "time": "2018-10-29T17:25:09+00:00"
+            "time": "2018-11-19T21:41:57+00:00"
         },
         {
             "name": "guide42/plan",
@@ -592,12 +592,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ircmaxell/filterus.git",
-                "reference": "6670d75f978b2713e1ec33acbdea73c92216e726"
+                "reference": "3c4f59285654201d3ecec6b4d64d3cf0b38622dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ircmaxell/filterus/zipball/6670d75f978b2713e1ec33acbdea73c92216e726",
-                "reference": "6670d75f978b2713e1ec33acbdea73c92216e726",
+                "url": "https://api.github.com/repos/ircmaxell/filterus/zipball/3c4f59285654201d3ecec6b4d64d3cf0b38622dd",
+                "reference": "3c4f59285654201d3ecec6b4d64d3cf0b38622dd",
                 "shasum": ""
             },
             "require": {
@@ -632,7 +632,7 @@
                 "filter",
                 "security"
             ],
-            "time": "2016-08-15T20:09:15+00:00"
+            "time": "2018-11-21T21:48:10+00:00"
         },
         {
             "name": "ircmaxell/tari-php",
@@ -733,12 +733,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Level-2/Dice.git",
-                "reference": "5dbce22c2b97b94136bc1dad4946079517a47eab"
+                "reference": "9d951f62129ec616893c67535c16885e44af10f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Level-2/Dice/zipball/5dbce22c2b97b94136bc1dad4946079517a47eab",
-                "reference": "5dbce22c2b97b94136bc1dad4946079517a47eab",
+                "url": "https://api.github.com/repos/Level-2/Dice/zipball/9d951f62129ec616893c67535c16885e44af10f0",
+                "reference": "9d951f62129ec616893c67535c16885e44af10f0",
                 "shasum": ""
             },
             "require": {
@@ -771,7 +771,7 @@
                 "di",
                 "ioc"
             ],
-            "time": "2018-08-03T09:00:06+00:00"
+            "time": "2018-11-15T16:18:39+00:00"
         },
         {
             "name": "lime/lime",
@@ -1358,12 +1358,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/container.git",
-                "reference": "2cc4a01788191489dc7459446ba832fa79a216a7"
+                "reference": "014d250daebff39eba15ba990eeb2a140798e77c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/container/zipball/2cc4a01788191489dc7459446ba832fa79a216a7",
-                "reference": "2cc4a01788191489dc7459446ba832fa79a216a7",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/014d250daebff39eba15ba990eeb2a140798e77c",
+                "reference": "014d250daebff39eba15ba990eeb2a140798e77c",
                 "shasum": ""
             },
             "require": {
@@ -1399,7 +1399,7 @@
                 "container-interop",
                 "psr"
             ],
-            "time": "2017-06-28T15:35:32+00:00"
+            "time": "2018-12-29T15:36:03+00:00"
         },
         {
             "name": "psr/http-client",
@@ -1612,12 +1612,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "3490ba5925e6dcbe6de950c5c6b8dce9f6e96eda"
+                "reference": "c4421fcac1edd5a324fda73e589a5cf96e52ffd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/3490ba5925e6dcbe6de950c5c6b8dce9f6e96eda",
-                "reference": "3490ba5925e6dcbe6de950c5c6b8dce9f6e96eda",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/c4421fcac1edd5a324fda73e589a5cf96e52ffd0",
+                "reference": "c4421fcac1edd5a324fda73e589a5cf96e52ffd0",
                 "shasum": ""
             },
             "require": {
@@ -1626,7 +1626,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -1651,7 +1651,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2018-04-03T15:59:15+00:00"
+            "time": "2018-11-21T13:42:00+00:00"
         },
         {
             "name": "rdlowrey/auryn",
@@ -2006,12 +2006,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/valitron.git",
-                "reference": "661365f3173433fd0deee625f1835377ce0947e5"
+                "reference": "c6893fc67ef1228f7692a86ca13c34e5e9ecc9a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/valitron/zipball/661365f3173433fd0deee625f1835377ce0947e5",
-                "reference": "661365f3173433fd0deee625f1835377ce0947e5",
+                "url": "https://api.github.com/repos/vlucas/valitron/zipball/c6893fc67ef1228f7692a86ca13c34e5e9ecc9a8",
+                "reference": "c6893fc67ef1228f7692a86ca13c34e5e9ecc9a8",
                 "shasum": ""
             },
             "require": {
@@ -2047,7 +2047,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2018-10-14T12:01:40+00:00"
+            "time": "2018-12-14T21:15:14+00:00"
         },
         {
             "name": "willdurand/negotiation",
@@ -2220,19 +2220,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phploc.git",
-                "reference": "1799bbc0e1e25d4e27ead845b640e8a7e480558c"
+                "reference": "c788e68f8bc3f45e961ca9d210fdf35903e51b0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phploc/zipball/1799bbc0e1e25d4e27ead845b640e8a7e480558c",
-                "reference": "1799bbc0e1e25d4e27ead845b640e8a7e480558c",
+                "url": "https://api.github.com/repos/sebastianbergmann/phploc/zipball/c788e68f8bc3f45e961ca9d210fdf35903e51b0a",
+                "reference": "c788e68f8bc3f45e961ca9d210fdf35903e51b0a",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.6 || ^7.0",
+                "php": "^7.2",
                 "sebastian/finder-facade": "^1.1",
                 "sebastian/version": "^2.0",
-                "symfony/console": "^2.7|^3.0|^4.0"
+                "symfony/console": "^4.0"
             },
             "bin": [
                 "phploc"
@@ -2240,7 +2240,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.0-dev"
+                    "dev-master": "5.0-dev"
                 }
             },
             "autoload": {
@@ -2261,7 +2261,7 @@
             ],
             "description": "A tool for quickly measuring the size of a PHP project.",
             "homepage": "https://github.com/sebastianbergmann/phploc",
-            "time": "2018-06-02T06:31:21+00:00"
+            "time": "2019-01-09T14:29:57+00:00"
         },
         {
             "name": "sebastian/finder-facade",
@@ -2351,12 +2351,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "7b2dc3ee659453b97bf2f6e887fc036475389a49"
+                "reference": "64937798e28dbff2b3d726af41b5c9208af5d3f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/7b2dc3ee659453b97bf2f6e887fc036475389a49",
-                "reference": "7b2dc3ee659453b97bf2f6e887fc036475389a49",
+                "url": "https://api.github.com/repos/symfony/console/zipball/64937798e28dbff2b3d726af41b5c9208af5d3f4",
+                "reference": "64937798e28dbff2b3d726af41b5c9208af5d3f4",
                 "shasum": ""
             },
             "require": {
@@ -2368,6 +2368,9 @@
                 "symfony/dependency-injection": "<3.4",
                 "symfony/process": "<3.3"
             },
+            "provide": {
+                "psr/log-implementation": "1.0"
+            },
             "require-dev": {
                 "psr/log": "~1.0",
                 "symfony/config": "~3.4|~4.0",
@@ -2377,7 +2380,7 @@
                 "symfony/process": "~3.4|~4.0"
             },
             "suggest": {
-                "psr/log-implementation": "For using the console logger",
+                "psr/log": "For using the console logger",
                 "symfony/event-dispatcher": "",
                 "symfony/lock": "",
                 "symfony/process": ""
@@ -2385,7 +2388,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.2-dev"
+                    "dev-master": "4.3-dev"
                 }
             },
             "autoload": {
@@ -2412,7 +2415,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-11-11T19:52:12+00:00"
+            "time": "2019-01-16T06:59:14+00:00"
         },
         {
             "name": "symfony/contracts",
@@ -2420,12 +2423,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/contracts.git",
-                "reference": "4a33574d5771f4b04334cd4f7d43de96a92efb62"
+                "reference": "1aa7ab2429c3d594dd70689604b5cf7421254cdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/contracts/zipball/4a33574d5771f4b04334cd4f7d43de96a92efb62",
-                "reference": "4a33574d5771f4b04334cd4f7d43de96a92efb62",
+                "url": "https://api.github.com/repos/symfony/contracts/zipball/1aa7ab2429c3d594dd70689604b5cf7421254cdf",
+                "reference": "1aa7ab2429c3d594dd70689604b5cf7421254cdf",
                 "shasum": ""
             },
             "require": {
@@ -2480,7 +2483,7 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2018-10-31T08:00:32+00:00"
+            "time": "2018-12-05T08:06:11+00:00"
         },
         {
             "name": "symfony/finder",
@@ -2488,12 +2491,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "e53d477d7b5c4982d0e1bfd2298dbee63d01441d"
+                "reference": "462d940115bc98dd81da28daf87ca7eaa8ce0552"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/e53d477d7b5c4982d0e1bfd2298dbee63d01441d",
-                "reference": "e53d477d7b5c4982d0e1bfd2298dbee63d01441d",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/462d940115bc98dd81da28daf87ca7eaa8ce0552",
+                "reference": "462d940115bc98dd81da28daf87ca7eaa8ce0552",
                 "shasum": ""
             },
             "require": {
@@ -2502,7 +2505,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.2-dev"
+                    "dev-master": "4.3-dev"
                 }
             },
             "autoload": {
@@ -2529,7 +2532,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2018-11-11T19:52:12+00:00"
+            "time": "2019-01-03T09:16:58+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
