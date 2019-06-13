@@ -18,8 +18,7 @@
   tasks:
     - apt_repository: repo="ppa:ondrej/php" update_cache=yes state=present
       environment: {LC_ALL: C.UTF-8}
-    - apt: name={{ item }} update_cache=yes state=latest
-      with_items: "{{ packages }}"
+    - apt: name={{ packages }} update_cache=yes state=latest
     - lineinfile: dest=/etc/php/7.2/cli/php.ini regexp="^{{ item.key }}" line="{{ item.key }}={{ item.value }}" state=present
       with_dict: "{{ php_ini }}"
     - get_url: url={{ item.value }} dest=/usr/local/bin/{{ item.key }} mode=0755
