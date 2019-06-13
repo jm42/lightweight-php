@@ -49,6 +49,7 @@ List of lightweight PHP libraries.
 ## Templating
 
 * [php-view](https://github.com/rkrx/php-view) - More secure and easy to use templating system for php5.4+
+* [date-formatter](https://github.com/indieweb/date-formatter-php) - Render dates and date ranges in a human-readable format
 
 ## HTTP
 

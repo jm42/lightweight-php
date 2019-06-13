@@ -16,6 +16,7 @@
         "aura/router": "3.x-dev",
         "bephp/router": "dev-master",
         "rkr/view": "dev-master",
+        "indieweb/date-formatter": "dev-master",
         "nategood/httpful": "dev-master",
         "willdurand/negotiation": "dev-master",
         "php-http/httplug": "dev-master",
