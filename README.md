@@ -58,6 +58,7 @@ List of lightweight PHP libraries.
 * [Unirest](https://github.com/Mashape/unirest-php) - Simplified, lightweight HTTP client library
 * [Httpstatus](https://github.com/lukasoppermann/http-status) - A minimal package for working with HTTP statuses
 * [HttpMessage](https://github.com/kambo-1st/HttpMessage) - Just another PHP implementation of PSR-7
+* [p3k-http](https://github.com/aaronpk/p3k-http) - A simple wrapper API around the PHP curl functions
 
 ## Middleware
 
