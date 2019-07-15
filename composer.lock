@@ -251,12 +251,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/catfan/Medoo.git",
-                "reference": "53a02b300d673f716cb06bf0e24fd774ec53939f"
+                "reference": "b9dfce4046f3eb48a647ef72991bb65012f99376"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/catfan/Medoo/zipball/53a02b300d673f716cb06bf0e24fd774ec53939f",
-                "reference": "53a02b300d673f716cb06bf0e24fd774ec53939f",
+                "url": "https://api.github.com/repos/catfan/Medoo/zipball/b9dfce4046f3eb48a647ef72991bb65012f99376",
+                "reference": "b9dfce4046f3eb48a647ef72991bb65012f99376",
                 "shasum": ""
             },
             "require": {
@@ -270,7 +270,7 @@
                 "ext-pdo_oci8": "For Oracle version 8 database",
                 "ext-pdo_pqsql": "For PostgreSQL database",
                 "ext-pdo_sqlite": "For SQLite database",
-                "ext-pdo_sqlsrv": "For MSSQL database"
+                "ext-pdo_sqlsrv": "For MSSQL database on both Window/Liunx platform"
             },
             "type": "framework",
             "autoload": {
@@ -288,10 +288,11 @@
                     "email": "angel@catfan.me"
                 }
             ],
-            "description": "The lightest PHP database framework to accelerate development",
+            "description": "The lightweight PHP database framework to accelerate development",
             "homepage": "https://medoo.in",
             "keywords": [
                 "database",
+                "database library",
                 "lightweight",
                 "mariadb",
                 "mssql",
@@ -302,7 +303,7 @@
                 "sql",
                 "sqlite"
             ],
-            "time": "2018-12-08T20:24:23+00:00"
+            "time": "2019-07-13T14:52:50+00:00"
         },
         {
             "name": "chevron/containers",
@@ -830,12 +831,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Level-2/Dice.git",
-                "reference": "e631f110f0520294fec902814c61cac26566023c"
+                "reference": "7ce6a43b61b65925f78721506523e1bbc3c45865"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Level-2/Dice/zipball/e631f110f0520294fec902814c61cac26566023c",
-                "reference": "e631f110f0520294fec902814c61cac26566023c",
+                "url": "https://api.github.com/repos/Level-2/Dice/zipball/7ce6a43b61b65925f78721506523e1bbc3c45865",
+                "reference": "7ce6a43b61b65925f78721506523e1bbc3c45865",
                 "shasum": ""
             },
             "require": {
@@ -868,7 +869,7 @@
                 "di",
                 "ioc"
             ],
-            "time": "2019-05-01T12:55:36+00:00"
+            "time": "2019-06-30T17:28:53+00:00"
         },
         {
             "name": "lime/lime",
@@ -1303,12 +1304,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/FastRoute.git",
-                "reference": "89aca17bc275eeb2418eecf8301b372f1e772b22"
+                "reference": "e4001344506393b63e9373446e38eb8db228ef63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/89aca17bc275eeb2418eecf8301b372f1e772b22",
-                "reference": "89aca17bc275eeb2418eecf8301b372f1e772b22",
+                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/e4001344506393b63e9373446e38eb8db228ef63",
+                "reference": "e4001344506393b63e9373446e38eb8db228ef63",
                 "shasum": ""
             },
             "require": {
@@ -1317,6 +1318,10 @@
             "require-dev": {
                 "doctrine/coding-standard": "^6.0",
                 "phpbench/phpbench": "^0.16.9",
+                "phpstan/phpstan": "^0.11.8",
+                "phpstan/phpstan-deprecation-rules": "^0.11.2",
+                "phpstan/phpstan-phpunit": "^0.11.2",
+                "phpstan/phpstan-strict-rules": "^0.11.1",
                 "phpunit/phpunit": "^7.5"
             },
             "type": "library",
@@ -1348,7 +1353,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2019-06-12T07:28:43+00:00"
+            "time": "2019-06-23T14:00:15+00:00"
         },
         {
             "name": "p3k/http",
@@ -1356,12 +1361,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aaronpk/p3k-http.git",
-                "reference": "1826647c4902a18dea5ec532f21509ba4d51210b"
+                "reference": "a43977636d7a930080009eddda06994037c88fd7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aaronpk/p3k-http/zipball/1826647c4902a18dea5ec532f21509ba4d51210b",
-                "reference": "1826647c4902a18dea5ec532f21509ba4d51210b",
+                "url": "https://api.github.com/repos/aaronpk/p3k-http/zipball/a43977636d7a930080009eddda06994037c88fd7",
+                "reference": "a43977636d7a930080009eddda06994037c88fd7",
                 "shasum": ""
             },
             "require": {
@@ -1386,7 +1391,7 @@
             ],
             "description": "A simple wrapper API around the PHP curl functions",
             "homepage": "https://github.com/aaronpk/p3k-http",
-            "time": "2018-03-04T15:21:58+00:00"
+            "time": "2019-06-15T20:49:26+00:00"
         },
         {
             "name": "php-http/httplug",
@@ -2200,12 +2205,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/valitron.git",
-                "reference": "c3b4dac8586291990e6398961852e972600ac7b5"
+                "reference": "d3a0a7af116470117fa2385060d3f001f9d1aa42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/valitron/zipball/c3b4dac8586291990e6398961852e972600ac7b5",
-                "reference": "c3b4dac8586291990e6398961852e972600ac7b5",
+                "url": "https://api.github.com/repos/vlucas/valitron/zipball/d3a0a7af116470117fa2385060d3f001f9d1aa42",
+                "reference": "d3a0a7af116470117fa2385060d3f001f9d1aa42",
                 "shasum": ""
             },
             "require": {
@@ -2241,7 +2246,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2019-03-21T20:12:22+00:00"
+            "time": "2019-07-01T19:13:46+00:00"
         },
         {
             "name": "willdurand/negotiation",
@@ -2414,12 +2419,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phploc.git",
-                "reference": "867013eaa54a09febc341c99961d39e8f5a6ea4c"
+                "reference": "7e65a5e3f4ce057dfae2931a9f33f74bb7f9972b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phploc/zipball/867013eaa54a09febc341c99961d39e8f5a6ea4c",
-                "reference": "867013eaa54a09febc341c99961d39e8f5a6ea4c",
+                "url": "https://api.github.com/repos/sebastianbergmann/phploc/zipball/7e65a5e3f4ce057dfae2931a9f33f74bb7f9972b",
+                "reference": "7e65a5e3f4ce057dfae2931a9f33f74bb7f9972b",
                 "shasum": ""
             },
             "require": {
@@ -2455,7 +2460,7 @@
             ],
             "description": "A tool for quickly measuring the size of a PHP project.",
             "homepage": "https://github.com/sebastianbergmann/phploc",
-            "time": "2019-05-24T06:33:21+00:00"
+            "time": "2019-07-02T07:45:08+00:00"
         },
         {
             "name": "sebastian/finder-facade",
@@ -2545,12 +2550,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "10ac15c6d6d59c421d56099e4593f4a1a483d1f9"
+                "reference": "0a8153b7ec0b549a386d040278a0b6d6f18b5760"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/10ac15c6d6d59c421d56099e4593f4a1a483d1f9",
-                "reference": "10ac15c6d6d59c421d56099e4593f4a1a483d1f9",
+                "url": "https://api.github.com/repos/symfony/console/zipball/0a8153b7ec0b549a386d040278a0b6d6f18b5760",
+                "reference": "0a8153b7ec0b549a386d040278a0b6d6f18b5760",
                 "shasum": ""
             },
             "require": {
@@ -2572,7 +2577,7 @@
                 "symfony/config": "^3.4|^4.0|^5.0",
                 "symfony/dependency-injection": "^3.4|^4.0|^5.0",
                 "symfony/event-dispatcher": "^4.3",
-                "symfony/lock": "^3.4|^4.0|^5.0",
+                "symfony/lock": "^4.4|^5.0",
                 "symfony/process": "^3.4|^4.0|^5.0",
                 "symfony/var-dumper": "^4.3|^5.0"
             },
@@ -2612,7 +2617,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2019-06-05T13:27:25+00:00"
+            "time": "2019-07-10T18:47:17+00:00"
         },
         {
             "name": "symfony/finder",
@@ -2620,12 +2625,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "1b5ec12340b26745bdbc582d7c9ec141e21ed91b"
+                "reference": "9353a97aea0a58a2cbeb16deb12efbc17a354bdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/1b5ec12340b26745bdbc582d7c9ec141e21ed91b",
-                "reference": "1b5ec12340b26745bdbc582d7c9ec141e21ed91b",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/9353a97aea0a58a2cbeb16deb12efbc17a354bdf",
+                "reference": "9353a97aea0a58a2cbeb16deb12efbc17a354bdf",
                 "shasum": ""
             },
             "require": {
@@ -2661,7 +2666,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2019-05-26T20:48:03+00:00"
+            "time": "2019-06-28T13:17:39+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -2728,12 +2733,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "d1fb4abcc0c47be136208ad9d68bf59f1ee17abd"
+                "reference": "639cc79605c22d3404d4082dd3af0fec66e0e975"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/d1fb4abcc0c47be136208ad9d68bf59f1ee17abd",
-                "reference": "d1fb4abcc0c47be136208ad9d68bf59f1ee17abd",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/639cc79605c22d3404d4082dd3af0fec66e0e975",
+                "reference": "639cc79605c22d3404d4082dd3af0fec66e0e975",
                 "shasum": ""
             },
             "require": {
@@ -2778,7 +2783,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-06-29T06:17:32+00:00"
         },
         {
             "name": "symfony/service-contracts",
@@ -2786,19 +2791,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "b6524711e023836ac194caa241514d35e57c0297"
+                "reference": "f391a00de78ec7ec8cf5cdcdae59ec7b883edb8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/b6524711e023836ac194caa241514d35e57c0297",
-                "reference": "b6524711e023836ac194caa241514d35e57c0297",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/f391a00de78ec7ec8cf5cdcdae59ec7b883edb8d",
+                "reference": "f391a00de78ec7ec8cf5cdcdae59ec7b883edb8d",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3"
+                "php": "^7.1.3",
+                "psr/container": "^1.0"
             },
             "suggest": {
-                "psr/container": "",
                 "symfony/service-implementation": ""
             },
             "type": "library",
@@ -2836,7 +2841,7 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2019-06-05T07:31:36+00:00"
+            "time": "2019-06-13T11:15:36+00:00"
         },
         {
             "name": "theseer/fdomdocument",
