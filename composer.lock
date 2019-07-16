@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a9e86550ca380af509785efdb3b1ba55",
+    "content-hash": "bc96dfed2a752ca019ebd83143df0cd3",
     "packages": [
         {
             "name": "agentejo/mongo-lite",
@@ -387,6 +387,52 @@
             "description": "populate an object by recursively loading files",
             "homepage": "http://github.com/chevronphp/objectloader",
             "time": "2014-08-31T04:03:27+00:00"
+        },
+        {
+            "name": "erusev/parsedown",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown.git",
+                "reference": "bfaa76d370ecfae6fac85b30c15b90cc23cce895"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/bfaa76d370ecfae6fac85b30c15b90cc23cce895",
+                "reference": "bfaa76d370ecfae6fac85b30c15b90cc23cce895",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Parsedown": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "Parser for Markdown.",
+            "homepage": "http://parsedown.org",
+            "keywords": [
+                "markdown",
+                "parser"
+            ],
+            "time": "2019-04-07T15:36:22+00:00"
         },
         {
             "name": "evenement/evenement",
@@ -2903,6 +2949,7 @@
         "bephp/router": 20,
         "rkr/view": 20,
         "indieweb/date-formatter": 20,
+        "erusev/parsedown": 20,
         "nategood/httpful": 20,
         "willdurand/negotiation": 20,
         "php-http/httplug": 20,
