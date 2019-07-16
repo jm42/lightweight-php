@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc96dfed2a752ca019ebd83143df0cd3",
+    "content-hash": "12d3c9166c7f69d802338e096d3e775f",
     "packages": [
         {
             "name": "agentejo/mongo-lite",
@@ -579,65 +579,6 @@
             "time": "2019-02-21T13:53:56+00:00"
         },
         {
-            "name": "http-interop/http-server-middleware",
-            "version": "1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/http-interop/http-server-middleware.git",
-                "reference": "1ed99649e5f0d785c16d53cc021d7187ec350f28"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/http-interop/http-server-middleware/zipball/1ed99649e5f0d785c16d53cc021d7187ec350f28",
-                "reference": "1ed99649e5f0d785c16d53cc021d7187ec350f28",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.0",
-                "psr/http-message": "^1.0",
-                "psr/http-server-middleware": "^1.0"
-            },
-            "replace": {
-                "http-interop/http-middleware": ">=0.5"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Interop\\Http\\Server\\": "src/"
-                },
-                "files": [
-                    "src/alias.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
-                }
-            ],
-            "description": "Common interface for HTTP server-side middleware",
-            "keywords": [
-                "http",
-                "middleware",
-                "psr",
-                "psr-15",
-                "psr-7",
-                "request",
-                "response"
-            ],
-            "abandoned": "psr/http-server-middleware",
-            "time": "2018-01-23T14:34:55+00:00"
-        },
-        {
             "name": "indieweb/date-formatter",
             "version": "dev-master",
             "source": {
@@ -1167,88 +1108,6 @@
                 "string"
             ],
             "time": "2016-10-04T07:36:30+00:00"
-        },
-        {
-            "name": "mindplay/middleman",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mindplay-dk/middleman.git",
-                "reference": "badc349c25e4e69aa4c875e1d983961294049d3b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mindplay-dk/middleman/zipball/badc349c25e4e69aa4c875e1d983961294049d3b",
-                "reference": "badc349c25e4e69aa4c875e1d983961294049d3b",
-                "shasum": ""
-            },
-            "require": {
-                "http-interop/http-server-middleware": "^1.1.1",
-                "mindplay/readable": "^1",
-                "php": ">=7.0",
-                "psr/container": "^1.0",
-                "psr/http-message": "^1.0",
-                "psr/http-server-handler": "^1.0",
-                "psr/http-server-middleware": "^1.0"
-            },
-            "require-dev": {
-                "container-interop/container-interop": "^1.2",
-                "mindplay/testies": "^0.2.0",
-                "mockery/mockery": "^0.9.4",
-                "phpunit/php-code-coverage": "^2.2"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "mindplay\\middleman\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Rasmus Schultz",
-                    "email": "rasmus@mindplay.dk"
-                }
-            ],
-            "description": "PSR-7 middleware dispatcher. Let's stop trying to make this complicated.",
-            "time": "2018-05-10T18:22:49+00:00"
-        },
-        {
-            "name": "mindplay/readable",
-            "version": "1.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mindplay-dk/readable.git",
-                "reference": "0d5905202c86a4671ad901cad3ac4fdd5b8fc0c0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mindplay-dk/readable/zipball/0d5905202c86a4671ad901cad3ac4fdd5b8fc0c0",
-                "reference": "0d5905202c86a4671ad901cad3ac4fdd5b8fc0c0",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4"
-            },
-            "require-dev": {
-                "mindplay/testies": "dev-master",
-                "phpunit/php-code-coverage": ">=2, <4"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Formats PHP values as human-readable strings",
-            "time": "2018-10-09T08:21:40+00:00"
         },
         {
             "name": "mindplay/walkway",
@@ -2961,7 +2820,6 @@
         "relay/relay": 20,
         "zendframework/zend-stratigility": 20,
         "siriusphp/middleware": 20,
-        "mindplay/middleman": 20,
         "apix/log": 20,
         "vlucas/valitron": 20,
         "ircmaxell/filterus": 20,
