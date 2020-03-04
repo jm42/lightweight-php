@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c5388fff751be074f774d17793c70adc",
+    "content-hash": "779dcada3b86708e468220be18e9fc85",
     "packages": [
         {
             "name": "agentejo/mongo-lite",
@@ -485,58 +485,6 @@
                 "event-emitter"
             ],
             "time": "2019-10-08T16:16:20+00:00"
-        },
-        {
-            "name": "fig/http-message-util",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/http-message-util.git",
-                "reference": "3242caa9da7221a304b8f84eb9eaddae0a7cf422"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message-util/zipball/3242caa9da7221a304b8f84eb9eaddae0a7cf422",
-                "reference": "3242caa9da7221a304b8f84eb9eaddae0a7cf422",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.3 || ^7.0"
-            },
-            "suggest": {
-                "psr/http-message": "The package containing the PSR-7 interfaces"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Fig\\Http\\Message\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
-                }
-            ],
-            "description": "Utility classes and constants for use with PSR-7 (psr/http-message)",
-            "keywords": [
-                "http",
-                "http-message",
-                "psr",
-                "psr-7",
-                "request",
-                "response"
-            ],
-            "time": "2020-02-05T20:36:27+00:00"
         },
         {
             "name": "guide42/plan",
@@ -2174,119 +2122,6 @@
                 "negotiation"
             ],
             "time": "2019-04-20T08:59:25+00:00"
-        },
-        {
-            "name": "zendframework/zend-escaper",
-            "version": "dev-develop",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zendframework/zend-escaper.git",
-                "reference": "14166bbd4ef24a0099e2f9e411c574866a4b9fa1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-escaper/zipball/14166bbd4ef24a0099e2f9e411c574866a4b9fa1",
-                "reference": "14166bbd4ef24a0099e2f9e411c574866a4b9fa1",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.6 || ^7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.2",
-                "zendframework/zend-coding-standard": "~1.0.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.6.x-dev",
-                    "dev-develop": "2.7.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Zend\\Escaper\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "Securely and safely escape HTML, HTML attributes, JavaScript, CSS, and URLs",
-            "keywords": [
-                "ZendFramework",
-                "escaper",
-                "zf"
-            ],
-            "abandoned": "laminas/laminas-escaper",
-            "time": "2019-09-05T20:05:53+00:00"
-        },
-        {
-            "name": "zendframework/zend-stratigility",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zendframework/zend-stratigility.git",
-                "reference": "9d544e7696712d8571ef6893a083cfc1fa0b4233"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-stratigility/zipball/9d544e7696712d8571ef6893a083cfc1fa0b4233",
-                "reference": "9d544e7696712d8571ef6893a083cfc1fa0b4233",
-                "shasum": ""
-            },
-            "require": {
-                "fig/http-message-util": "^1.1",
-                "php": "^7.1",
-                "psr/http-message": "^1.0",
-                "psr/http-server-middleware": "^1.0",
-                "zendframework/zend-escaper": "^2.3"
-            },
-            "conflict": {
-                "zendframework/zend-diactoros": "<1.7.1"
-            },
-            "require-dev": {
-                "malukenho/docheader": "^0.1.6",
-                "phpunit/phpunit": "^7.0.1",
-                "zendframework/zend-coding-standard": "~1.0.0",
-                "zendframework/zend-diactoros": "^1.7.1"
-            },
-            "suggest": {
-                "psr/http-message-implementation": "Please install a psr/http-message-implementation to consume Stratigility; e.g., zendframework/zend-diactoros"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.2.x-dev",
-                    "dev-develop": "3.3.x-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/functions/double-pass-middleware.php",
-                    "src/functions/host.php",
-                    "src/functions/middleware.php",
-                    "src/functions/path.php"
-                ],
-                "psr-4": {
-                    "Zend\\Stratigility\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "PSR-7 middleware foundation for building and dispatching middleware pipelines",
-            "keywords": [
-                "ZendFramework",
-                "http",
-                "middleware",
-                "psr-15",
-                "psr-7",
-                "zf"
-            ],
-            "abandoned": "laminas/laminas-stratigility",
-            "time": "2020-01-20T20:19:52+00:00"
         }
     ],
     "packages-dev": [
@@ -2994,7 +2829,6 @@
         "p3k/http": 20,
         "ircmaxell/tari-php": 20,
         "relay/relay": 20,
-        "zendframework/zend-stratigility": 20,
         "siriusphp/middleware": 20,
         "apix/log": 20,
         "vlucas/valitron": 20,

@@ -66,7 +66,6 @@ List of lightweight PHP libraries.
 
 * [Tari-PHP](https://github.com/ircmaxell/Tari-PHP) - A middleware proposal for PHP
 * [Relay](https://github.com/relayphp/Relay.Relay) - A PSR-7 middleware dispatcher
-* [zend-stratigility](https://github.com/zendframework/zend-stratigility) - Middleware for PHP built on top of PSR-7
 * [Sirius](https://github.com/siriusphp/middleware) - Lightweight middleware implementation
 
 ## Log
